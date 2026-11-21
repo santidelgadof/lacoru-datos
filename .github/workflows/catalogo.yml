@@ -1,0 +1,296 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# Regenera el catálogo de MAREA (sitios, paradas, calles, portales…) una vez al día.
+#
+# Así un restaurante nuevo, una parada nueva o una calle nueva llegan solos a la
+# app, sin que nadie tenga que regenerar nada en su ordenador. Los sitios salen de
+# OpenStreetMap: un local aparece cuando alguien lo añade allí.
+#
+# Cómo funciona (ver docs/publicar-sin-servidor.md):
+#   1. Una base PostGIS efímera dentro del propio job (se borra al acabar).
+#   2. Se llena con las mismas piezas que usa el servidor: OpenStreetMap, registro
+#      de cargadores, iTranvías (UNA petición), BiciCoruña, cotas y fotos (solo lo
+#      que no se conocía ya). Después, Overture Maps completa teléfonos y webs que
+#      faltan en OSM (sin cuenta; si falla, se sigue sin él).
+#      Con eso, el REAT de la Xunta y la web de cada local se monta `comer.json`
+#      (todos los bares y restaurantes, para «Comer y beber»). Y el índice del buscador
+#      (`buscador/`): todo lo que tiene nombre en el área, troceado por letras.
+#   3. Se exporta y pasa las SALVAGUARDAS: un fichero solo sustituye al anterior
+#      si nada se ha quedado vacío ni ha bajado más de un 20 %.
+#   4. El resultado va a la rama `catalogo` (un solo commit, se reescribe cada vez).
+#      La tarea «Datos del día» lo copia a la web en su siguiente ejecución.
+#
+# Un solo secreto, opcional: NAP_API_KEY (clave del Punto de Acceso Nacional de
+# Transporte, https://nap.transportes.gob.es) para el GTFS oficial del bus urbano.
+# Sin ella, el paso semanal del bus no hace nada y se conservan bus-trazados.json y
+# bus-horarios.json anteriores. La clave nunca se imprime ni se guarda en ficheros.
+name: Catálogo
+
+on:
+  schedule:
+    # 03:17 UTC: de madrugada en A Coruña, lejos del minuto 0 y de la hora punta de Overpass.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      completo:
+        description: "Rehacer también paradas del interurbano y rutas a pie (normalmente solo los lunes)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Una sola ejecución a la vez. No comparte grupo con «Datos del día»: esta tarea
+# solo escribe en la rama `catalogo` y aquella solo la lee, así que no se pisan.
+concurrency:
+  group: catalogo
+  cancel-in-progress: false
+
+jobs:
+  catalogo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    services:
+      postgis:
+        image: postgis/postgis:16-3.4
+        env:
+          POSTGRES_USER: marea
+          POSTGRES_PASSWORD: catalogo   # base efímera, sin datos privados, solo accesible desde el job
+          POSTGRES_DB: marea
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -h 127.0.0.1 -U marea -d marea"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      DATABASE_URL: postgresql://marea:catalogo@localhost:5432/marea
+      REDIS_URL: redis://localhost:6379/0   # la configuración lo pide; no se usa
+      PGHOST: localhost
+      PGUSER: marea
+      PGPASSWORD: catalogo
+      PGDATABASE: marea
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: apps/api-workers/pyproject.toml
+      - name: Instalar el exportador
+        run: pip install --quiet ./packages/routing-engine "./apps/api-workers[pbf,overture]"
+
+      - name: Extracto de OpenStreetMap (Geofabrik)
+        # A Coruña y alrededores (once concellos, ver marea/domain/area.py) son demasiado para
+        # Overpass, que además se satura a menudo. Se usa el extracto diario de Galicia
+        # (~110 MB, ODbL); si falla o tiene más de 48 h, los pasos siguientes usan Overpass.
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          mkdir -p osm
+          # Geofabrik movió el extracto a una carpeta propia (nov. 2026: la ruta antigua da 404).
+          # Se prueba la nueva y, si falla, la de antes.
+          UA="MAREA-catalogo/1.0 (+https://github.com/${{ github.repository }})"
+          curl -fsS -L --retry 3 -A "$UA" -o galicia.osm.pbf https://download.geofabrik.de/europe/spain/galicia/galicia-latest.osm.pbf \
+            || curl -fsS -L --retry 3 -A "$UA" -o galicia.osm.pbf https://download.geofabrik.de/europe/spain/galicia-latest.osm.pbf
+          # `names`: todo lo que tiene nombre, para el índice del buscador.
+          python -m marea.entrypoints.export_area extract --pbf galicia.osm.pbf --boundaries datos-fijos/concellos.json \
+            --max-age-h 48 --out osm streets pois services places addresses localities names ciudad
+          rm -f galicia.osm.pbf
+
+      - name: Preparar la base efímera
+        run: |
+          command -v psql >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client; }
+          MIGRATIONS_DIR=packages/db/migrations sh packages/db/scripts/migrate.sh
+
+      - name: Recuperar el catálogo anterior
+        # Lo más reciente entre la semilla del repositorio (datos-fijos/) y la última
+        # ejecución buena (rama catalogo). Es la referencia de las salvaguardas.
+        run: |
+          mkdir -p rama anterior nuevo publicar
+          if git fetch --depth 1 "https://github.com/${{ github.repository }}.git" catalogo; then git --work-tree=rama checkout FETCH_HEAD -- .; fi
+          python -m marea.entrypoints.build_catalogue overlay --into anterior datos-fijos rama
+          cp rama/photos-checked.json anterior/ 2>/dev/null || true
+          # Memoria de «Comer y beber»: qué webs de locales ya se miraron en busca de su carta.
+          cp rama/comer-cartas.json anterior/ 2>/dev/null || true
+
+      - name: Fuentes extra del buscador (Xunta y Wikidata; se bajan los lunes)
+        # Colegios, bibliotecas, centros de día y oficinas de la Xunta (CC BY-SA 4.0) y aldeas,
+        # castros, iglesias… de Wikidata (CC0), para el índice del buscador. Deja en
+        # datos-fijos/buscador-extra/ (en este job, no en el repositorio) la copia más reciente
+        # entre la semilla y la de la rama catalogo; los lunes (o con «completo») las vuelve a
+        # bajar. Un fichero que falla, sale vacío o encoge más de un 20 % se queda como estaba.
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          COMPLETO: ${{ github.event.inputs.completo }}
+        run: |
+          mkdir -p datos-fijos/buscador-extra
+          DESCARGAR=--sin-descargar
+          if [ "$(date -u +%u)" = 1 ] || [ "$COMPLETO" = true ]; then DESCARGAR=; fi
+          python -m marea.entrypoints.export_buscador_extra --boundaries datos-fijos/concellos.json \
+            --previous rama/buscador-extra --previous datos-fijos/buscador-extra --out datos-fijos/buscador-extra \
+            $DESCARGAR --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Cargar las fuentes públicas
+        continue-on-error: true
+        # Cada fuente tiene además su propio plazo dentro del programa (Overpass 25 min…).
+        timeout-minutes: 70
+        run: python -m marea.entrypoints.build_catalogue load --previous anterior --out nuevo --photo-budget-s 600 --osm-dir osm
+
+      - name: Exportar sitios, paradas y calles
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -m marea.entrypoints.build_catalogue export --out nuevo
+
+      - name: Teléfono y web que faltan, de Overture Maps
+        # OSM manda: solo se rellena lo que OSM no trae, y se apunta el origen («src: overture»)
+        # en cada fichero. Descarga en remoto (DuckDB) solo el recuadro del área, ~25 s.
+        # Si falla, se reutiliza lo que dio la vez anterior (copia propia: Overture borra
+        # cada publicación a los ~60 días) y, si tampoco hay, el catálogo queda como sin este paso.
+        # Deja overture-informe.json y overture-cerrados.json (posibles cierres, para revisar
+        # a mano: no se borra nada) en la rama catalogo, no en la web.
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python -m marea.entrypoints.build_catalogue overture --dir nuevo --previous anterior --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Portales (calle + número), por concello
+        continue-on-error: true
+        timeout-minutes: 15
+        # Del extracto si está; si no, Overpass. Cada concello sustituye al suyo solo si está entero.
+        run: |
+          if [ -s osm/addresses.json ]; then
+            python -m marea.entrypoints.export_static --addresses-file osm/addresses.json --catastro --out nuevo
+          else
+            python -m marea.entrypoints.export_static --addresses --catastro --out nuevo
+          fi
+
+      - name: Comer y beber (OSM + REAT de la Xunta + Overture + la carta en la web de cada local)
+        # Todos los bares, restaurantes y cafeterías de la ciudad en `comer.json` (ver
+        # marea/application/comer.py). OSM es la base; el REAT (CC BY-SA, en su lista aparte)
+        # dice qué falta y Overture lo confirma. Además mira la portada de la web de cada
+        # local (una vez cada 45 días, respetando su robots.txt, 5 min por noche) y guarda
+        # SOLO el enlace a su carta. Si una fuente falla, se arrastra lo de la vez anterior;
+        # si falla todo, la salvaguarda conserva el fichero de ayer.
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python -m marea.entrypoints.export_comer --dir nuevo --previous anterior --osm-dir osm --cartas-budget-s 300 --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Parroquias y lugares (buscador)
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          if [ -s osm/localities.json ]; then
+            python -m marea.entrypoints.export_area localities --from-file osm/localities.json --boundaries datos-fijos/concellos.json --out nuevo/lugares.json
+          else
+            python -m marea.entrypoints.export_area localities --boundaries datos-fijos/concellos.json --out nuevo/lugares.json
+          fi
+
+      - name: Índice del buscador (todo lo que tiene nombre)
+        # Cada nodo, vía o relación de OSM con nombre (colegios profesionales, notarías,
+        # institutos, polígonos…), los lugares de Overture que OSM no tiene y las fuentes
+        # abiertas de datos-fijos/buscador-extra/ (Xunta, CC BY-SA 4.0: colegios, bibliotecas,
+        # centros de día, oficinas; Wikidata, CC0: aldeas, castros, iglesias, pazos…), sin
+        # repetir lo que ya está ni las aldeas de lugares.json. Va después de «Parroquias y
+        # lugares» para usar el lugares.json de esta noche.
+        # Troceado por las primeras letras: el móvil solo baja unos KB al escribir.
+        # Sale del extracto de Geofabrik; sin él, o si encoge más de un 20 %, las
+        # salvaguardas conservan el índice anterior. Si Overture falla, se arrastran sus filas.
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          LUGARES=nuevo/lugares.json
+          [ -s "$LUGARES" ] || LUGARES=anterior/lugares.json
+          python -m marea.entrypoints.export_search_index --osm osm/names.json \
+            --boundaries datos-fijos/concellos.json --previous anterior --out nuevo \
+            --extra datos-fijos/buscador-extra --places "$LUGARES"
+
+      - name: Capas de la ciudad (bancos, ascensores, aparcabicis, wifi, miradores, reciclaje, mayores, oficinas, juegos)
+        # `ciudad/*.json`, uno por capa: el móvil solo baja el de la capa que se enciende. OSM (ODbL, del
+        # extracto; sin él, una consulta a Overpass) más dos capas de la IDE del Concello (aparcabicis y
+        # espacios recreativos; condiciones de reutilización: citar la fuente) y el directorio del INSS
+        # de datos-fijos/seguridad-social.json. Si el Concello falla, se arrastran sus filas de ayer.
+        # Las salvaguardas (guard) conservan el fichero anterior si una capa encoge más de un 20 %.
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          OSM=osm/ciudad.json; [ -s "$OSM" ] || OSM=
+          python -m marea.entrypoints.export_ciudad --out nuevo --previous anterior ${OSM:+--osm "$OSM"} \
+            --ss datos-fijos/seguridad-social.json --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: ¿Toca la parte semanal?
+        id: semana
+        env:
+          COMPLETO: ${{ github.event.inputs.completo }}
+        run: |
+          if [ "$(date -u +%u)" = 1 ] || [ "$COMPLETO" = true ]; then echo "si=true" >> "$GITHUB_OUTPUT"; else echo "si=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Paradas y trazados del interurbano (los lunes)
+        # 20 consultas a la Xunta (cada una tarda ~16 s; en local, 6 min en total) y el GTFS
+        # de la Xunta (~150 MB) para saber qué líneas pasan por cada parada y por qué calles circulan.
+        if: steps.semana.outputs.si == 'true'
+        continue-on-error: true
+        timeout-minutes: 25
+        run: python -m marea.entrypoints.export_interurbano --out nuevo/interurbano.json --shapes-out nuevo/interurbano-trazados.json
+
+      - name: Horarios del interurbano (cada noche)
+        # Todas las expediciones del área de los próximos 15 días en un paquete fijo, igual para
+        # todo el mundo: el móvil busca en él y no pregunta por ningún trayecto (revisión de
+        # privacidad, A1). GTFS de la Xunta (~150 MB). Si falla, las salvaguardas conservan el anterior.
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python -m marea.entrypoints.export_interurbano_horarios --out nuevo/interurbano-horarios.json
+
+      - name: Rutas a pie (los lunes)
+        if: steps.semana.outputs.si == 'true'
+        continue-on-error: true
+        timeout-minutes: 20
+        # Si una ruta falla, export_trails conserva su versión anterior.
+        run: |
+          [ -f anterior/trails.json ] && cp anterior/trails.json nuevo/trails.json
+          transit=nuevo/transit.json; [ -f "$transit" ] || transit=anterior/transit.json
+          python -m marea.entrypoints.export_trails --transit "$transit" --out nuevo/trails.json
+
+      - name: Trazados y horarios teóricos del bus urbano (NAP / GTFS, los lunes)
+        # Solo con el secreto NAP_API_KEY (`secrets` no se puede usar en `if:`, por eso
+        # se mira dentro). Sin él, o si algo falla, las salvaguardas conservan los
+        # ficheros anteriores (no hay fichero nuevo que comparar).
+        if: steps.semana.outputs.si == 'true'
+        continue-on-error: true
+        timeout-minutes: 5
+        env:
+          NAP_API_KEY: ${{ secrets.NAP_API_KEY }}
+        run: |
+          if [ -z "$NAP_API_KEY" ]; then
+            echo "::notice::Sin el secreto NAP_API_KEY: se conservan bus-trazados.json y bus-horarios.json anteriores."
+            exit 0
+          fi
+          python -m marea.entrypoints.export_bus_shapes --out nuevo/bus-trazados.json || echo "::warning::Trazados del bus: se conserva el fichero anterior."
+          python -m marea.entrypoints.export_bus_schedule --out nuevo/bus-horarios.json || echo "::warning::Horarios del bus: se conserva el fichero anterior."
+
+      - name: Salvaguardas y resumen
+        # Solo sustituye lo que tiene un tamaño razonable; el resto se queda como estaba.
+        # El resumen (sitios nuevos y desaparecidos) sale en el log y en la página de la ejecución.
+        run: python -m marea.entrypoints.build_catalogue guard --new nuevo --previous anterior --out publicar --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Enlaces de transbordo del catálogo validado
+        run: python -m marea.entrypoints.export_bus_transfers --catalogue-dir publicar
+
+      - name: Publicar en la rama catalogo
+        # Un solo commit que se reescribe cada día: el historial de main no crece.
+        # Con las fuentes extra del buscador (buscador-extra/), para la semana siguiente:
+        # la app no las descarga («Datos del día» no las copia a la web).
+        run: |
+          if [ -n "$(ls datos-fijos/buscador-extra 2>/dev/null)" ]; then
+            mkdir -p publicar/buscador-extra && cp datos-fijos/buscador-extra/*.json publicar/buscador-extra/
+          fi
+          cd publicar
+          git init -q -b catalogo
+          git config user.name "marea-catalogo"
+          git config user.email "marea-catalogo@users.noreply.github.com"
+          git add -A
+          git commit -q -m "catálogo $(date -u +%FT%TZ)"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" catalogo

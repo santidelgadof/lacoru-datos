@@ -1,0 +1,100 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# Rehace cada semana los grafos de calles con los que el móvil calcula las rutas
+# (a pie y en bici: zonas/peatonal*.json; en coche: zonas/coche*.json).
+#
+# Salen del extracto diario de Galicia de Geofabrik (OpenStreetMap, ODbL), no de Overpass,
+# que se satura con un área tan grande. Una calle nueva, una peatonalización o un cambio de
+# sentido llegan a «Cómo llegar» como mucho una semana después de que alguien los ponga en
+# OpenStreetMap. Ver marea/entrypoints/export_graphs.py.
+#
+# Salvaguardas: cada grafo se sustituye entero o nada. Si sale vacío, por debajo de un
+# mínimo o con más de un 20 % menos que el publicado, se conserva el anterior (y la tarea
+# lo dice en su resumen). Las cotas de los cruces se reutilizan; solo se piden las nuevas.
+#
+# Publica encima de la rama `datos` en la cola de «Datos del día» (no se pisan), que a
+# partir de ahí conserva estos ficheros: gana siempre el más reciente (`generated_at`).
+# No necesita ningún secreto. Tarda unos 5 minutos.
+name: Grafos de calles
+
+on:
+  schedule:
+    # Martes, 04:53 UTC: lejos del catálogo (03:17) y de los retrasos (02:41).
+    - cron: "53 4 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# bash con -eo pipefail: un fallo antes de un `| tee` también para la tarea.
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: apps/api-workers/pyproject.toml
+      - name: Instalar el exportador
+        run: pip install --quiet ./packages/routing-engine "./apps/api-workers[pbf]"
+      - name: Grafos publicados (para comparar y reutilizar las cotas)
+        run: |
+          mkdir -p publicado
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          git --work-tree=publicado checkout FETCH_HEAD -- zonas || echo "::notice::La rama datos aún no tiene zonas/."
+      - name: Extracto de OpenStreetMap (Geofabrik)
+        timeout-minutes: 15
+        run: |
+          UA="LaCoru-grafos/1.0 (+https://github.com/${{ github.repository }})"
+          curl -fsS -L --retry 3 -A "$UA" -o galicia.osm.pbf https://download.geofabrik.de/europe/spain/galicia/galicia-latest.osm.pbf \
+            || curl -fsS -L --retry 3 -A "$UA" -o galicia.osm.pbf https://download.geofabrik.de/europe/spain/galicia-latest.osm.pbf
+      - name: Grafos nuevos y salvaguardas
+        timeout-minutes: 20
+        run: |
+          mkdir -p nuevo
+          python -m marea.entrypoints.export_graphs --pbf galicia.osm.pbf --boundaries datos-fijos/concellos.json \
+            --previous publicado --previous datos-fijos --out nuevo --max-age-h 72 --summary "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grafos
+          path: nuevo
+          if-no-files-found: ignore
+          retention-days: 7
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # La cola de «Datos del día»: las dos escriben la rama `datos` y no deben pisarse.
+    concurrency:
+      group: datos
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        continue-on-error: true   # sin artefacto = nada pasó las salvaguardas
+        with:
+          name: grafos
+          path: nuevo
+      - name: Publicar en la rama datos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p nuevo
+          sh infra/repo-datos/publicar-en-datos.sh nuevo "grafos de calles $(date -u +%F)"

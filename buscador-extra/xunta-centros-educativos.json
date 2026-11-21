@@ -1,0 +1,1275 @@
+{
+ "source": "Xunta de Galicia — abertos.xunta.gal (datos abiertos) · Centros educativos de Galicia (provincia de A Coruña)",
+ "license": "CC BY-SA 4.0 (licencia indicada en los metadatos del catálogo abertos.xunta.gal; comprobar la ficha de cada conjunto)",
+ "url": "https://abertos.xunta.gal/catalogo/ensino-formacion/-/dataset/0257/centros-educativos-galicia",
+ "date": "2026-11-20",
+ "items": [
+  {
+   "name": "CEIP Plurilingüe San Marcos",
+   "kind": "CEIP",
+   "lat": 43.229183,
+   "lon": -8.28658,
+   "address": "Campo da Feira s/n, 15318 Abegondo"
+  },
+  {
+   "name": "CEIP Ponte dos Brozos",
+   "kind": "CEIP",
+   "lat": 43.306938,
+   "lon": -8.510333,
+   "address": "Avenida Arsenio Iglesias, 34 (Sabon), 15142 Arteixo"
+  },
+  {
+   "name": "EMUSPR Presto Vivace",
+   "kind": "EMUSPR",
+   "lat": 43.35442,
+   "lon": -8.40064,
+   "address": "Rúa Posse, 37, 1º, 15009 A Coruña"
+  },
+  {
+   "name": "CEIP San Xosé Obreiro",
+   "kind": "CEIP",
+   "lat": 43.345356,
+   "lon": -8.447119,
+   "address": "Travesa de Meiras, s/n (Meicende), 15140 Arteixo"
+  },
+  {
+   "name": "CFEA de Guísamo",
+   "kind": "CFEA",
+   "lat": 43.30938,
+   "lon": -8.278413,
+   "address": "Lugar de Bos 14, 15640 Bergondo"
+  },
+  {
+   "name": "CPI de Cruz do Sar",
+   "kind": "CPI",
+   "lat": 43.319736,
+   "lon": -8.22662,
+   "address": "Rúa A Senra 33, 15165 Bergondo"
+  },
+  {
+   "name": "CPR Plurilingüe Nuestra Señora del Carmen",
+   "kind": "CPR",
+   "lat": 43.270885,
+   "lon": -8.204856,
+   "address": "Avenida de Castela 146, 15300 Betanzos"
+  },
+  {
+   "name": "CEIP Francisco Vales Villamarín",
+   "kind": "CEIP",
+   "lat": 43.281532,
+   "lon": -8.218994,
+   "address": "Rúa Carregal 4, 15300 Betanzos"
+  },
+  {
+   "name": "IES Francisco Aguiar",
+   "kind": "IES",
+   "lat": 43.28249,
+   "lon": -8.217094,
+   "address": "Avenida Da Coruña 15, 15300 Betanzos"
+  },
+  {
+   "name": "IES As Mariñas",
+   "kind": "IES",
+   "lat": 43.283478,
+   "lon": -8.215625,
+   "address": "Avenida da Coruña s/n, 15300 Betanzos"
+  },
+  {
+   "name": "CEIP Plurilingüe Wenceslao Fernández Flórez",
+   "kind": "CEIP",
+   "lat": 43.291714,
+   "lon": -8.345978,
+   "address": "Rúa Wenceslao Fernández Flórez 16, 15660 Cambre"
+  },
+  {
+   "name": "CEIP de Tabeaio",
+   "kind": "CEIP",
+   "lat": 43.249687,
+   "lon": -8.357785,
+   "address": "Lugar Esperón s/n, 15182 Carral"
+  },
+  {
+   "name": "CPR Plurilingüe Calasancias",
+   "kind": "CPR",
+   "lat": 43.371624,
+   "lon": -8.429469,
+   "address": "Estrada dos Fortes 11, 15011 A Coruña"
+  },
+  {
+   "name": "CPR Calasanz - PP Escolapios",
+   "kind": "CPR",
+   "lat": 43.372772,
+   "lon": -8.429389,
+   "address": "Estrada dos Fortes 10, 15011 A Coruña"
+  },
+  {
+   "name": "CPR Cid",
+   "kind": "CPR",
+   "lat": 43.364555,
+   "lon": -8.418521,
+   "address": "Ronda de Nelle 143, 15010 A Coruña"
+  },
+  {
+   "name": "CPR Cervantes",
+   "kind": "CPR",
+   "lat": 43.376221,
+   "lon": -8.400159,
+   "address": "Rúa Ramon do Cueto 23, 15002 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Compañía de María",
+   "kind": "CPR",
+   "lat": 43.366879,
+   "lon": -8.413956,
+   "address": "Rúa Calvo Sotelo 2, 15011 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Cristo Rey",
+   "kind": "CPR",
+   "lat": 43.336304,
+   "lon": -8.400436,
+   "address": "Lugar Elviña 149, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Eiris",
+   "kind": "CPR",
+   "lat": 43.340679,
+   "lon": -8.395126,
+   "address": "Rúa Castaño de Eirís 1, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Hijas de Jesús",
+   "kind": "CPR",
+   "lat": 43.330364,
+   "lon": -8.404175,
+   "address": "Avenida NUEVA YORK 5, 15008 A Coruña"
+  },
+  {
+   "name": "IES Rosalía Mera",
+   "kind": "IES",
+   "lat": 43.372448,
+   "lon": -8.421697,
+   "address": "Rúa Archer M. Huntington 24, 15011 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Karbo",
+   "kind": "CPR",
+   "lat": 43.352139,
+   "lon": -8.413227,
+   "address": "Rúa Ramon Cabanillas, 2 - 1º, 15007 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Liceo La Paz",
+   "kind": "CPR",
+   "lat": 43.341568,
+   "lon": -8.402298,
+   "address": "Avenida Sebastián Matínez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Nebrija Torre de Hércules",
+   "kind": "CPR",
+   "lat": 43.364761,
+   "lon": -8.413798,
+   "address": "Praza Ángel Ron Fraga (Médico) 9, 15004 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Padres Franciscanos",
+   "kind": "CPR",
+   "lat": 43.363911,
+   "lon": -8.413782,
+   "address": "Avenida Calvo Sotelo 41, 15004 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Peñarredonda",
+   "kind": "CPR",
+   "lat": 43.331562,
+   "lon": -8.400874,
+   "address": "Rúa Ginebra 3, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Sagrado Corazón",
+   "kind": "CPR",
+   "lat": 43.328648,
+   "lon": -8.404995,
+   "address": "Rúa Mª Ana Mogas Fontcuberta 9, 15008 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Salesiano San Juan Bosco",
+   "kind": "CPR",
+   "lat": 43.373482,
+   "lon": -8.402607,
+   "address": "Rúa Hospital 14, 15002 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Santa María del Mar",
+   "kind": "CPR",
+   "lat": 43.335567,
+   "lon": -8.388893,
+   "address": "Avenida do Pasaxe 69, 15006 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Santo Domingo",
+   "kind": "CPR",
+   "lat": 43.370193,
+   "lon": -8.391329,
+   "address": "Praza de Santo Domingo 1A, 15001 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Anxo da Garda",
+   "kind": "CEIP",
+   "lat": 43.351505,
+   "lon": -8.391661,
+   "address": "Rúa Monte das Moas, 8-10, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Esclavas Sagrado Corazón de Jesús",
+   "kind": "CPR",
+   "lat": 43.369991,
+   "lon": -8.415335,
+   "address": "Rúa Paseo de Ronda 57, 15011 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe La Grande Obra de Atocha",
+   "kind": "CPR",
+   "lat": 43.37347,
+   "lon": -8.396196,
+   "address": "Rúa BALTASAR PARDAL VIDAL 1, 15001 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Fogar de Santa Margarida",
+   "kind": "CPR",
+   "lat": 43.366219,
+   "lon": -8.413932,
+   "address": "Rúa VALLE INCLAN 3, 15011 A Coruña"
+  },
+  {
+   "name": "CEEPR Nosa Señora De Lourdes - Aspronaga",
+   "kind": "CEEPR",
+   "lat": 43.366154,
+   "lon": -8.416363,
+   "address": "Rúa Perez Lugin 10, 15011 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Concepción Arenal",
+   "kind": "CEIP",
+   "lat": 43.355515,
+   "lon": -8.405142,
+   "address": "Rúa Marques de Amboage 2, 15006 A Coruña"
+  },
+  {
+   "name": "CEIP Curros Enríquez",
+   "kind": "CEIP",
+   "lat": 43.376465,
+   "lon": -8.398844,
+   "address": "Rúa Campo de Marte s/n, 15002 A Coruña"
+  },
+  {
+   "name": "CEIP Eusebio da Guarda",
+   "kind": "CEIP",
+   "lat": 43.368622,
+   "lon": -8.407212,
+   "address": "Praza de Pontevedra 21, 15003 A Coruña"
+  },
+  {
+   "name": "CEIP Cidade Vella",
+   "kind": "CEIP",
+   "lat": 43.371315,
+   "lon": -8.393195,
+   "address": "Rúa Ferrerias 1, 15001 A Coruña"
+  },
+  {
+   "name": "IES Ramón Otero Pedrayo",
+   "kind": "IES",
+   "lat": 43.347878,
+   "lon": -8.403661,
+   "address": "Avenida Monelos 10 A, 15008 A Coruña"
+  },
+  {
+   "name": "CEIP Raquel Camacho",
+   "kind": "CEIP",
+   "lat": 43.363392,
+   "lon": -8.4244,
+   "address": "Rúa ANTONIO PEDREIRA RIOS 13-15, 15010 A Coruña"
+  },
+  {
+   "name": "CEIP Torre de Hércules",
+   "kind": "CEIP",
+   "lat": 43.379719,
+   "lon": -8.405593,
+   "address": "Praza San Xose Monte Alto s/n, 15002 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe de Prácticas",
+   "kind": "CEIP",
+   "lat": 43.369541,
+   "lon": -8.421216,
+   "address": "Paseo de Ronda 47, 15011 A Coruña"
+  },
+  {
+   "name": "IES Salvador de Madariaga",
+   "kind": "IES",
+   "lat": 43.370003,
+   "lon": -8.420801,
+   "address": "Rúa Paseo de Ronda 49, 15011 A Coruña"
+  },
+  {
+   "name": "IES Plurilingüe Eusebio da Guarda",
+   "kind": "IES",
+   "lat": 43.368309,
+   "lon": -8.408111,
+   "address": "Praza de Pontevedra 20, 15003 A Coruña"
+  },
+  {
+   "name": "IES Agra do Orzán",
+   "kind": "IES",
+   "lat": 43.362694,
+   "lon": -8.425084,
+   "address": "Rúa Alcalde Liaño Flores s/n, 15010 A Coruña"
+  },
+  {
+   "name": "IES Monelos",
+   "kind": "IES",
+   "lat": 43.349415,
+   "lon": -8.400689,
+   "address": "Rúa Montes 62, 15009 A Coruña"
+  },
+  {
+   "name": "IES Ramón Menéndez Pidal",
+   "kind": "IES",
+   "lat": 43.373623,
+   "lon": -8.399839,
+   "address": "Rúa Instituto Zalaeta, 15002 A Coruña"
+  },
+  {
+   "name": "IES Urbano Lugrís",
+   "kind": "IES",
+   "lat": 43.350506,
+   "lon": -8.418542,
+   "address": "Avenida de Arteixo, 15007 A Coruña"
+  },
+  {
+   "name": "CPR Afundación A Coruña",
+   "kind": "CPR",
+   "lat": 43.358734,
+   "lon": -8.411273,
+   "address": "Rúa Juana Capdevielle 2, 15008 A Coruña"
+  },
+  {
+   "name": "IES Rafael Puga Ramón",
+   "kind": "IES",
+   "lat": 43.349487,
+   "lon": -8.411054,
+   "address": "Rúa Leopoldo Alas Clarín 4, 15008 A Coruña"
+  },
+  {
+   "name": "CEE Nosa Señora do Rosario",
+   "kind": "CEE",
+   "lat": 43.347874,
+   "lon": -8.403603,
+   "address": "Rúa Ronda Camilo Jose Cela 2, 15008 A Coruña"
+  },
+  {
+   "name": "CEIP Rosalía de Castro",
+   "kind": "CEIP",
+   "lat": 43.358459,
+   "lon": -8.413183,
+   "address": "Rúa Rio Avia s/n, 15007 A Coruña"
+  },
+  {
+   "name": "CEE María Mariño",
+   "kind": "CEE",
+   "lat": 43.343929,
+   "lon": -8.384081,
+   "address": "Rúa As Xubias 15, 15006 A Coruña"
+  },
+  {
+   "name": "EASD Pablo Picasso",
+   "kind": "EASD",
+   "lat": 43.374954,
+   "lon": -8.394211,
+   "address": "Os Pelamios 2, 15001 A Coruña"
+  },
+  {
+   "name": "CEIP María Pita",
+   "kind": "CEIP",
+   "lat": 43.347214,
+   "lon": -8.404047,
+   "address": "Ronda de Camilo Jose Cela, 2 A (Elviña), 15008 A Coruña"
+  },
+  {
+   "name": "CEIP Ramón de la Sagra",
+   "kind": "CEIP",
+   "lat": 43.3461,
+   "lon": -8.404605,
+   "address": "Ronda de Camilo Jose Cela 4, 15008 A Coruña"
+  },
+  {
+   "name": "IES Plurilingüe Elviña",
+   "kind": "IES",
+   "lat": 43.345146,
+   "lon": -8.410672,
+   "address": "Rúa San José de Calasanz 6, 15008 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe San Pedro de Visma",
+   "kind": "CEIP",
+   "lat": 43.366093,
+   "lon": -8.427844,
+   "address": "Rúa Lagares 12, 15011 A Coruña"
+  },
+  {
+   "name": "CIFP Universidade Laboral",
+   "kind": "CIFP",
+   "lat": 43.317894,
+   "lon": -8.376646,
+   "address": "Rúa Salvador Allende, 15670 Culleredo"
+  },
+  {
+   "name": "CEIP Plurilingüe de Tarrío",
+   "kind": "CEIP",
+   "lat": 43.289112,
+   "lon": -8.376939,
+   "address": "As Paxariñas, 72 (Tarrio), 15189 Culleredo"
+  },
+  {
+   "name": "CPR Plurilingüe A Ponte Pasaxe",
+   "kind": "CPR",
+   "lat": 43.328259,
+   "lon": -8.382051,
+   "address": "Estrada de Fonteculler 72, 15174 Culleredo"
+  },
+  {
+   "name": "CEIP de Caión",
+   "kind": "CEIP",
+   "lat": 43.320366,
+   "lon": -8.606031,
+   "address": "Rúa Insua s/n, 15145 A Laracha"
+  },
+  {
+   "name": "CEIP Ramón Otero Pedrayo",
+   "kind": "CEIP",
+   "lat": 43.246719,
+   "lon": -8.593647,
+   "address": "Rúa Buenos Aires s/n, 15145 A Laracha"
+  },
+  {
+   "name": "CPR Plurilingüe Hijas de Cristo Rey",
+   "kind": "CPR",
+   "lat": 43.326698,
+   "lon": -8.327036,
+   "address": "Avenida M. Hernandez 24, 15176 Oleiros"
+  },
+  {
+   "name": "CEIP Plurilingüe da Rabadeira",
+   "kind": "CEIP",
+   "lat": 43.331085,
+   "lon": -8.324424,
+   "address": "Rúa do Ensino 3, 15173 Oleiros"
+  },
+  {
+   "name": "CEIP Pedro Barrié de la Maza",
+   "kind": "CEIP",
+   "lat": 43.354424,
+   "lon": -8.276508,
+   "address": "Rúa Miguel Pereiro Tacón s/n, 15168 Sada"
+  },
+  {
+   "name": "CEIP Sada y sus Contornos",
+   "kind": "CEIP",
+   "lat": 43.356087,
+   "lon": -8.252975,
+   "address": "Avenida Sada y sus Contornos s/n, 15160 Sada"
+  },
+  {
+   "name": "CEIP Plurilingüe María Barbeito e Cervino",
+   "kind": "CEIP",
+   "lat": 43.359566,
+   "lon": -8.42521,
+   "address": "Alcal.Salorio Suarez 28, 15010 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Alborada",
+   "kind": "CEIP",
+   "lat": 43.344715,
+   "lon": -8.411252,
+   "address": "Rúa San José de Calasanz 5 A, 15008 A Coruña"
+  },
+  {
+   "name": "EEI de San Bartolomeu",
+   "kind": "EEI",
+   "lat": 43.298077,
+   "lon": -8.317513,
+   "address": "Lugar San Xoán 4, 15668 Cambre"
+  },
+  {
+   "name": "CPR Agarimo",
+   "kind": "CPR",
+   "lat": 43.31036,
+   "lon": -8.487008,
+   "address": "Rúa Padre Villa 30, 15141 Arteixo"
+  },
+  {
+   "name": "CPR Plurilingüe Montespiño",
+   "kind": "CPR",
+   "lat": 43.317039,
+   "lon": -8.412417,
+   "address": "Rúa Montespiño 10, 15174 Culleredo"
+  },
+  {
+   "name": "CEIP Plurilingüe Labaca",
+   "kind": "CEIP",
+   "lat": 43.360394,
+   "lon": -8.406693,
+   "address": "Rúa Juan Florez, 116, 15005 A Coruña"
+  },
+  {
+   "name": "EEI de Rorís",
+   "kind": "EEI",
+   "lat": 43.286743,
+   "lon": -8.546583,
+   "address": "Armentón (San Pedro), 15142 Arteixo"
+  },
+  {
+   "name": "EEI de Larín de Arriba",
+   "kind": "EEI",
+   "lat": 43.262825,
+   "lon": -8.540749,
+   "address": "Lugar Rexedoiros-Larín, 15144 Arteixo"
+  },
+  {
+   "name": "EEI de Barrionovo",
+   "kind": "EEI",
+   "lat": 43.330139,
+   "lon": -8.465242,
+   "address": "Avenida de Pastoriza s/n, 15142 Arteixo"
+  },
+  {
+   "name": "CEIP Plurilingüe Víctor López Seoane",
+   "kind": "CEIP",
+   "lat": 43.380459,
+   "lon": -8.403779,
+   "address": "Vía Artabra, s/n (Monte Alto), 15002 A Coruña"
+  },
+  {
+   "name": "CEIP Sal Lence",
+   "kind": "CEIP",
+   "lat": 43.351402,
+   "lon": -8.388421,
+   "address": "Avenida de Oza 224, 15006 A Coruña"
+  },
+  {
+   "name": "CEIP Emilia Pardo Bazán",
+   "kind": "CEIP",
+   "lat": 43.375645,
+   "lon": -8.427211,
+   "address": "Trav. Os Rosais s/n, 15011 A Coruña"
+  },
+  {
+   "name": "CEIP de Zalaeta",
+   "kind": "CEIP",
+   "lat": 43.375038,
+   "lon": -8.401505,
+   "address": "Rúa Curros Enriquez, s/n (Zalaeta), 15002 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Salgado Torres",
+   "kind": "CEIP",
+   "lat": 43.347496,
+   "lon": -8.410528,
+   "address": "Avenida Pablo Picasso 2, 15008 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Sofía Casanova",
+   "kind": "CEIP",
+   "lat": 43.314823,
+   "lon": -8.381417,
+   "address": "Rutis (Santa María), 15174 Culleredo"
+  },
+  {
+   "name": "CEEPR Aspace",
+   "kind": "CEEPR",
+   "lat": 43.341095,
+   "lon": -8.292475,
+   "address": "Lugar CASTELIÑO 24, 15160 Sada"
+  },
+  {
+   "name": "CPR Cruz Roja Española",
+   "kind": "CPR",
+   "lat": 43.346951,
+   "lon": -8.414769,
+   "address": "Rúa Ferrocarril s/n, 15008 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Montegrande",
+   "kind": "CPR",
+   "lat": 43.307201,
+   "lon": -8.430639,
+   "address": "Avenida NUEVA YORK 178, 15008 A Coruña"
+  },
+  {
+   "name": "CPR Obradoiro",
+   "kind": "CPR",
+   "lat": 43.318974,
+   "lon": -8.425461,
+   "address": "Rúa Obradoiro 49, 15190 A Coruña"
+  },
+  {
+   "name": "CIFP Ánxel Casal - Monte Alto",
+   "kind": "CIFP",
+   "lat": 43.382893,
+   "lon": -8.408693,
+   "address": "Paseo Marítimo 47, 15002 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe de Galán",
+   "kind": "CEIP",
+   "lat": 43.329189,
+   "lon": -8.481767,
+   "address": "Rúa Miguel de Cervantes 21, 15141 Arteixo"
+  },
+  {
+   "name": "CEIP Portofaro",
+   "kind": "CEIP",
+   "lat": 43.312832,
+   "lon": -8.356813,
+   "address": "Rúa dos Templarios, (O Temple) 1, 15679 Cambre"
+  },
+  {
+   "name": "CEIP Gonzalo Torrente Ballester",
+   "kind": "CEIP",
+   "lat": 43.287182,
+   "lon": -8.36221,
+   "address": "Rúa Souto s/n, 15181 Cambre"
+  },
+  {
+   "name": "CEIP Luís Seoane",
+   "kind": "CEIP",
+   "lat": 43.369965,
+   "lon": -8.334755,
+   "address": "Avenida Morro de Canide 1, 15177 Oleiros"
+  },
+  {
+   "name": "EOI da Coruña",
+   "kind": "EOI",
+   "lat": 43.370686,
+   "lon": -8.423161,
+   "address": "Rúa da Educación s/n, 15011 A Coruña"
+  },
+  {
+   "name": "IES Manuel Murguía",
+   "kind": "IES",
+   "lat": 43.309734,
+   "lon": -8.509539,
+   "address": "Avenida Arsenio Iglesias s/n, 15142 Arteixo"
+  },
+  {
+   "name": "IES de Sabón",
+   "kind": "IES",
+   "lat": 43.31208,
+   "lon": -8.510397,
+   "address": "Avenida Arsenio Iglesias 47, 15142 Arteixo"
+  },
+  {
+   "name": "CEIP Plurilingüe Manuel Murguía",
+   "kind": "CEIP",
+   "lat": 43.321869,
+   "lon": -8.43057,
+   "address": "Elviña (San Vicenzo), 15192 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe José Cornide Saavedra",
+   "kind": "CEIP",
+   "lat": 43.349628,
+   "lon": -8.417498,
+   "address": "Avenida da Sardiñeira 42, 15008 A Coruña"
+  },
+  {
+   "name": "CIFP Someso",
+   "kind": "CIFP",
+   "lat": 43.338642,
+   "lon": -8.412233,
+   "address": "Rúa Someso 6, 15008 A Coruña"
+  },
+  {
+   "name": "CPR Plurilingüe Rias Altas",
+   "kind": "CPR",
+   "lat": 43.31477,
+   "lon": -8.41078,
+   "address": "Estrada da Zapateira s/n, 15174 Culleredo"
+  },
+  {
+   "name": "CEIP Plurilingüe Wenceslao Fernández Flórez",
+   "kind": "CEIP",
+   "lat": 43.351662,
+   "lon": -8.409513,
+   "address": "Avenida Ferrocarril 17-19, 15007 A Coruña"
+  },
+  {
+   "name": "CEIP San Francisco Javier",
+   "kind": "CEIP",
+   "lat": 43.352051,
+   "lon": -8.402438,
+   "address": "Ronda de Outeiro 72, 15009 A Coruña"
+  },
+  {
+   "name": "CEIP Sagrada Familia",
+   "kind": "CEIP",
+   "lat": 43.357193,
+   "lon": -8.418489,
+   "address": "Ronda de Outeiro 211, 15007 A Coruña"
+  },
+  {
+   "name": "CEIP Ramón María del Valle-Inclán",
+   "kind": "CEIP",
+   "lat": 43.335499,
+   "lon": -8.363434,
+   "address": "Avenida R.Mª Valle-Inclan, 15172 Oleiros"
+  },
+  {
+   "name": "CEIP Alfredo Brañas",
+   "kind": "CEIP",
+   "lat": 43.250202,
+   "lon": -8.556235,
+   "address": "Rúa Porta Santa 19, 15145 A Laracha"
+  },
+  {
+   "name": "CEIP Emilio González López",
+   "kind": "CEIP",
+   "lat": 43.274956,
+   "lon": -8.319403,
+   "address": "Rúa Lamelas, 21 (Lema), 15659 Cambre"
+  },
+  {
+   "name": "IES Monte das Moas",
+   "kind": "IES",
+   "lat": 43.350418,
+   "lon": -8.394198,
+   "address": "Rúa José María Hernansaez 23, 15009 A Coruña"
+  },
+  {
+   "name": "EPAPU Eduardo Pondal",
+   "kind": "EPAPU",
+   "lat": 43.370552,
+   "lon": -8.423923,
+   "address": "Rúa da Educación 3 2º andar, 15011 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Isidro Parga Pondal",
+   "kind": "CEIP",
+   "lat": 43.347198,
+   "lon": -8.342604,
+   "address": "Camiño do Saber, s/n (Porto de Santa Cruz), 15179 Oleiros"
+  },
+  {
+   "name": "CPR Anxela",
+   "kind": "CPR",
+   "lat": 43.362835,
+   "lon": -8.418067,
+   "address": "Rúa Francisco Añon 7, 15010 A Coruña"
+  },
+  {
+   "name": "IES Isaac Díaz Pardo",
+   "kind": "IES",
+   "lat": 43.346786,
+   "lon": -8.255314,
+   "address": "A Laguna 19, 15160 Sada"
+  },
+  {
+   "name": "IES Plurilingüe Xosé Neira Vilas",
+   "kind": "IES",
+   "lat": 43.336914,
+   "lon": -8.372735,
+   "address": "Rúa Xose Neira Vilas 3, 15172 Oleiros"
+  },
+  {
+   "name": "IES Plurilingüe Rafael Dieste",
+   "kind": "IES",
+   "lat": 43.3689,
+   "lon": -8.424078,
+   "address": "Ronda de Outeiro 334, 15011 A Coruña"
+  },
+  {
+   "name": "CMUS Superior da Coruña",
+   "kind": "CMUS",
+   "lat": 43.368923,
+   "lon": -8.423391,
+   "address": "Rúa Manuel Murguía s/n, 15011 A Coruña"
+  },
+  {
+   "name": "CMUS Elemental de Betanzos",
+   "kind": "CMUS",
+   "lat": 43.282352,
+   "lon": -8.211901,
+   "address": "Praza de Galicia, 15300 Betanzos"
+  },
+  {
+   "name": "IES David Buján",
+   "kind": "IES",
+   "lat": 43.286709,
+   "lon": -8.354805,
+   "address": "Camiño dos Cacharros 1, 15181 Cambre"
+  },
+  {
+   "name": "IES Plurilingüe Adormideras",
+   "kind": "IES",
+   "lat": 43.383171,
+   "lon": -8.396291,
+   "address": "Rúa Juan Sebastián Elcano 28, 15002 A Coruña"
+  },
+  {
+   "name": "CMUS Profesional de Culleredo",
+   "kind": "CMUS",
+   "lat": 43.316315,
+   "lon": -8.36507,
+   "address": "Avd.de la Coruña s/n, 15670 Culleredo"
+  },
+  {
+   "name": "CEMU Profesional Obradoiro",
+   "kind": "CEMU",
+   "lat": 43.318947,
+   "lon": -8.425463,
+   "address": "Rúa Feans, 152 - (Apartado 1189), 15190 A Coruña"
+  },
+  {
+   "name": "CDAN Profesional da Coruña",
+   "kind": "CDAN",
+   "lat": 43.370968,
+   "lon": -8.397063,
+   "address": "Rúa Franxa, 14 - Pazo de Martelo, 15001 A Coruña"
+  },
+  {
+   "name": "IES de Viós",
+   "kind": "IES",
+   "lat": 43.202614,
+   "lon": -8.285016,
+   "address": "Lugar A Poceira 8, 15318 Abegondo"
+  },
+  {
+   "name": "IES María Casares",
+   "kind": "IES",
+   "lat": 43.339947,
+   "lon": -8.351476,
+   "address": "Avenida CHE GUEVARA 140, 15179 Oleiros"
+  },
+  {
+   "name": "CEIP Juan Fernández Latorre",
+   "kind": "CEIP",
+   "lat": 43.348801,
+   "lon": -8.398034,
+   "address": "Rúa Casanova de Eiris 26, 15009 A Coruña"
+  },
+  {
+   "name": "CEIP Isaac Díaz Pardo",
+   "kind": "CEIP",
+   "lat": 43.312576,
+   "lon": -8.371925,
+   "address": "Avenida Ribados, s/n (Carcabelos), 15670 Culleredo"
+  },
+  {
+   "name": "IES Agra de Leborís",
+   "kind": "IES",
+   "lat": 43.246609,
+   "lon": -8.584152,
+   "address": "Rúa Rosalia de Castro s/n, 15145 A Laracha"
+  },
+  {
+   "name": "CEIP Plurilingüe Ría do Burgo",
+   "kind": "CEIP",
+   "lat": 43.320606,
+   "lon": -8.378588,
+   "address": "Rúa MARÍA CAGIAO 8, 15174 Culleredo"
+  },
+  {
+   "name": "CEEPR Aspanaes",
+   "kind": "CEEPR",
+   "lat": 43.330467,
+   "lon": -8.406593,
+   "address": "Rúa O CATECISMO 7, 15008 A Coruña"
+  },
+  {
+   "name": "IES A Sardiñeira",
+   "kind": "IES",
+   "lat": 43.349911,
+   "lon": -8.41622,
+   "address": "Avenida da Sardiñeira 41, 15008 A Coruña"
+  },
+  {
+   "name": "CIFP Imaxe e Son",
+   "kind": "CIFP",
+   "lat": 43.338238,
+   "lon": -8.413854,
+   "address": "Rúa Someso 6, 15008 A Coruña"
+  },
+  {
+   "name": "IES Afonso X O Sabio",
+   "kind": "IES",
+   "lat": 43.301369,
+   "lon": -8.356079,
+   "address": "Rúa Río Sil 9, 15660 Cambre"
+  },
+  {
+   "name": "CIFP Paseo das Pontes",
+   "kind": "CIFP",
+   "lat": 43.362698,
+   "lon": -8.415876,
+   "address": "Rúa San Pedro de Mezonzo 4, 15004 A Coruña"
+  },
+  {
+   "name": "IES Eduardo Blanco Amor",
+   "kind": "IES",
+   "lat": 43.318295,
+   "lon": -8.379449,
+   "address": "Lugar CORDEDA s/n, 15174 Culleredo"
+  },
+  {
+   "name": "IES Miraflores",
+   "kind": "IES",
+   "lat": 43.330814,
+   "lon": -8.320094,
+   "address": "Avenida de Miguel Hernandez 4, 15173 Oleiros"
+  },
+  {
+   "name": "ESMU Municipal da Coruña",
+   "kind": "ESMU",
+   "lat": 43.376404,
+   "lon": -8.39826,
+   "address": "Rúa La Torre 67, 15002 A Coruña"
+  },
+  {
+   "name": "CPR Castelao",
+   "kind": "CPR",
+   "lat": 43.359314,
+   "lon": -8.408463,
+   "address": "Rúa Sinforiano Lopez 43, 15005 A Coruña"
+  },
+  {
+   "name": "ESMU Municipal A Fábrica",
+   "kind": "ESMU",
+   "lat": 43.316334,
+   "lon": -8.365198,
+   "address": "Rúa do Inglés, 11 00, 15172 Culleredo"
+  },
+  {
+   "name": "IES de Pastoriza",
+   "kind": "IES",
+   "lat": 43.333691,
+   "lon": -8.463442,
+   "address": "Rúa do Lagarto, esq. Furoca s/n, 15140 Arteixo"
+  },
+  {
+   "name": "CPR Plurilingüe Andaina",
+   "kind": "CPR",
+   "lat": 43.321484,
+   "lon": -8.402848,
+   "address": "Rúa Aguaceiros 21, 15174 Culleredo"
+  },
+  {
+   "name": "ESDA Municipal A Fábrica",
+   "kind": "ESDA",
+   "lat": 43.335457,
+   "lon": -8.365149,
+   "address": "Rúa do Inglés, 11, 15172 Oleiros"
+  },
+  {
+   "name": "CPR Vagalume",
+   "kind": "CPR",
+   "lat": 43.318665,
+   "lon": -8.488683,
+   "address": "Rúa Oseiro, 13, 15142 Arteixo"
+  },
+  {
+   "name": "CEDA Liceo la Paz",
+   "kind": "CEDA",
+   "lat": 43.341507,
+   "lon": -8.402049,
+   "address": "Rúa Sebastián Martónez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CMUS Profesional da Coruña",
+   "kind": "CMUS",
+   "lat": 43.370594,
+   "lon": -8.422008,
+   "address": "Praza DO CONSERVATORIO s/n, 15011 A Coruña"
+  },
+  {
+   "name": "EEI de Vilarrodís-Oseiro",
+   "kind": "EEI",
+   "lat": 43.31625,
+   "lon": -8.477259,
+   "address": "Rúa CARLOS MASIDE 16, 15141 Arteixo"
+  },
+  {
+   "name": "CEIP Plurilingüe Graxal",
+   "kind": "CEIP",
+   "lat": 43.31974,
+   "lon": -8.355354,
+   "address": "Rúa Francisco Rodríguez 6, 15679 Cambre"
+  },
+  {
+   "name": "CPR Aula Nosa",
+   "kind": "CPR",
+   "lat": 43.362259,
+   "lon": -8.425544,
+   "address": "MOSTEIRO DE CAAVEIRO 1 baixo, 15010 A Coruña"
+  },
+  {
+   "name": "CRA de Culleredo",
+   "kind": "CRA",
+   "lat": 43.308346,
+   "lon": -8.367703,
+   "address": "Rúa Bo Home, 15180 Culleredo"
+  },
+  {
+   "name": "CADF Real Club Deportivo da Coruña",
+   "kind": "CADF",
+   "lat": 43.250671,
+   "lon": -8.283775,
+   "address": "Rúa AGRA DE MARCÉS s/n, 15318 Abegondo"
+  },
+  {
+   "name": "CAD Liceo la Paz",
+   "kind": "CAD",
+   "lat": 43.341766,
+   "lon": -8.401858,
+   "address": "Rúa Sebastián Martínez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CRA de Bergondo",
+   "kind": "CRA",
+   "lat": 43.319901,
+   "lon": -8.233797,
+   "address": "Estrada A Coruña - Ferrol 12, 15165 Bergondo"
+  },
+  {
+   "name": "ESMU Municipal de Sada",
+   "kind": "ESMU",
+   "lat": 43.355564,
+   "lon": -8.252002,
+   "address": "Paseo Marítimo s/n, 15160 Sada"
+  },
+  {
+   "name": "EDANPR Carmen",
+   "kind": "EDANPR",
+   "lat": 43.377041,
+   "lon": -8.406272,
+   "address": "Rúa Santa Teresa 2-4 baixo, 15002 A Coruña"
+  },
+  {
+   "name": "IES O Mosteirón",
+   "kind": "IES",
+   "lat": 43.349602,
+   "lon": -8.292017,
+   "address": "Rúa Esperela S/N, 15168 Sada"
+  },
+  {
+   "name": "CEIP Plurilingüe O Mosteirón",
+   "kind": "CEIP",
+   "lat": 43.349953,
+   "lon": -8.291009,
+   "address": "Rúa Esperela s/n, 15168 Sada"
+  },
+  {
+   "name": "CEMU Profesional Liceo la Paz",
+   "kind": "CEMU",
+   "lat": 43.341312,
+   "lon": -8.40298,
+   "address": "Avenida Sebastián Martínez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CEIP de Arteixo",
+   "kind": "CEIP",
+   "lat": 43.308693,
+   "lon": -8.508568,
+   "address": "Avenida ARSENIO IGLESIAS 33 B, 15142 Arteixo"
+  },
+  {
+   "name": "CADF Real Federación Galega de Fútbol",
+   "kind": "CADF",
+   "lat": 43.363136,
+   "lon": -8.407623,
+   "address": "Rúa MENÉNDEZ Y PELAYO 18 2, 15005 A Coruña"
+  },
+  {
+   "name": "ESMU Municipal de Abegondo",
+   "kind": "ESMU",
+   "lat": 43.242104,
+   "lon": -8.277425,
+   "address": "Rúa San Marcos s/n, 15318 Abegondo"
+  },
+  {
+   "name": "CPR Estudios Superiores en Administración e Finanzas",
+   "kind": "CPR",
+   "lat": 43.32407,
+   "lon": -8.353478,
+   "address": "Rúa Salvador de Madariaga 50, 15179 Oleiros"
+  },
+  {
+   "name": "CE.ART Liceo la Paz",
+   "kind": "CE.ART",
+   "lat": 43.341568,
+   "lon": -8.402281,
+   "address": "Rúa Sebastian Martínez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Niño Jesús",
+   "kind": "CPR",
+   "lat": 43.258862,
+   "lon": -8.244673,
+   "address": "Lugar Guiliade 116, 15319 Betanzos"
+  },
+  {
+   "name": "EMUSPR Sementeira de Cambre",
+   "kind": "EMUSPR",
+   "lat": 43.288109,
+   "lon": -8.363755,
+   "address": "Rúa O Souto 8 Baixo, 15181 Cambre"
+  },
+  {
+   "name": "CPR Chíos Formación",
+   "kind": "CPR",
+   "lat": 43.355282,
+   "lon": -8.395503,
+   "address": "Avenida do Exército 2, 15006 A Coruña"
+  },
+  {
+   "name": "CEIP Juana de Vega",
+   "kind": "CEIP",
+   "lat": 43.312626,
+   "lon": -8.334911,
+   "address": "Rúa Concelleiro Alfredo Novoa 1, 15176 Oleiros"
+  },
+  {
+   "name": "IES Rego de Trabe",
+   "kind": "IES",
+   "lat": 43.312843,
+   "lon": -8.376145,
+   "address": "Avenida de Rutis, 15174 Culleredo"
+  },
+  {
+   "name": "EMUSPR Compañía de María",
+   "kind": "EMUSPR",
+   "lat": 43.365078,
+   "lon": -8.414035,
+   "address": "Rúa Calvo Sotelo 2, 15004 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Vicente Otero Valcárcel",
+   "kind": "CEIP",
+   "lat": 43.225018,
+   "lon": -8.354833,
+   "address": "Rúa Alcalde Juan Seijas s/n, 15175 Carral"
+  },
+  {
+   "name": "CEMU Profesional Eirís",
+   "kind": "CEMU",
+   "lat": 43.340626,
+   "lon": -8.394606,
+   "address": "Rúa Castaño de Eirís 1, 15009 A Coruña"
+  },
+  {
+   "name": "CPREX Coruña British School",
+   "kind": "CPREX",
+   "lat": 43.323864,
+   "lon": -8.406529,
+   "address": "Rúa Torneiros s/n, 15199 A Coruña"
+  },
+  {
+   "name": "CAD Top Rescue",
+   "kind": "CAD",
+   "lat": 43.352467,
+   "lon": -8.430065,
+   "address": "Rúa Gambrinus 151 Módulo 0 Nave 3, 15008 A Coruña"
+  },
+  {
+   "name": "CAD Federación Galega de Judo",
+   "kind": "CAD",
+   "lat": 43.3414,
+   "lon": -8.401841,
+   "address": "Rúa Sebastian Martínez Risco 12, 15009 A Coruña"
+  },
+  {
+   "name": "CEDA Danza 10 Studio",
+   "kind": "CEDA",
+   "lat": 43.351849,
+   "lon": -8.420665,
+   "address": "Rúa Gambrinus 95, 15008 A Coruña"
+  },
+  {
+   "name": "CEMU Profesional Presto Vivace",
+   "kind": "CEMU",
+   "lat": 43.354404,
+   "lon": -8.40076,
+   "address": "Rúa Benito Blanco Rajoy 8 baixo, esquerda, 15009 A Coruña"
+  },
+  {
+   "name": "CPREX British Royal School",
+   "kind": "CPREX",
+   "lat": 43.320709,
+   "lon": -8.406058,
+   "address": "Rúa de Laxe 122-124, 15174 Culleredo"
+  },
+  {
+   "name": "CEIP Plurilingüe Vila de Rutis",
+   "kind": "CEIP",
+   "lat": 43.312283,
+   "lon": -8.376285,
+   "address": "Avenida de Rutis s/n, 15174 Culleredo"
+  },
+  {
+   "name": "CPREX Pangea Active School",
+   "kind": "CPREX",
+   "lat": 43.305519,
+   "lon": -8.420203,
+   "address": "Camiño da Colina 18, 15690 A Coruña"
+  },
+  {
+   "name": "CEDA Profesional Druida",
+   "kind": "CEDA",
+   "lat": 43.366428,
+   "lon": -8.413181,
+   "address": "Rúa Fernando Macías 26 Baixo, 15004 A Coruña"
+  },
+  {
+   "name": "CEIP Plurilingüe Novo Mesoiro",
+   "kind": "CEIP",
+   "lat": 43.324471,
+   "lon": -8.439917,
+   "address": "Rúa Fragas do Eume s/n, 15190 A Coruña"
+  },
+  {
+   "name": "CAD Atletismo Galego",
+   "kind": "CAD",
+   "lat": 43.340479,
+   "lon": -8.357595,
+   "address": "Avenida Che Guevara 121, 15179 Oleiros"
+  },
+  {
+   "name": "CPR EF Feáns",
+   "kind": "CPR",
+   "lat": 43.319353,
+   "lon": -8.427419,
+   "address": "Rúa Obradoiro 47, 15190 A Coruña"
+  },
+  {
+   "name": "CPR EF Educación Sanitaria",
+   "kind": "CPR",
+   "lat": 43.362666,
+   "lon": -8.410216,
+   "address": "Avenida Arteixo 17-19 baixo, 15004 A Coruña"
+  },
+  {
+   "name": "CPR Cesforem Formación",
+   "kind": "CPR",
+   "lat": 43.349125,
+   "lon": -8.403367,
+   "address": "Avenida Monelos 45 Baixo, 15009 A Coruña"
+  },
+  {
+   "name": "CPR Ilerna",
+   "kind": "CPR",
+   "lat": 43.353085,
+   "lon": -8.432482,
+   "address": "Avenida Finisterre 315-317, 15008 A Coruña"
+  }
+ ]
+}

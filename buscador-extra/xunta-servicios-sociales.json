@@ -1,0 +1,1723 @@
+{
+ "source": "Xunta de Galicia — abertos.xunta.gal (datos abiertos) · Centros de servicios sociales (infancia, mayores, discapacidad, inclusión, comunidad, mujeres)",
+ "license": "CC BY-SA 4.0 (licencia indicada en los metadatos del catálogo abertos.xunta.gal; comprobar la ficha de cada conjunto)",
+ "url": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0297/centros-para-persoas-con-discapacidade",
+ "date": "2026-11-20",
+ "items": [
+  {
+   "name": "ESCOLA INFANTIL FOGAR SANTA MARGARIDA",
+   "kind": "centro de infancia",
+   "lat": 43.36635,
+   "lon": -8.413831,
+   "address": "VALLE INCLAN, 1-3º, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL ESCUELAS POPULARES GRATUITAS",
+   "kind": "centro de infancia",
+   "lat": 43.371126,
+   "lon": -8.392284,
+   "address": "RUA HERRERIAS, 17-21, 15001 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DIDASCALIO NIÑO JESUS",
+   "kind": "centro de infancia",
+   "lat": 43.260021,
+   "lon": -8.243083,
+   "address": "GUILIADE, 116, 15319 Betanzos"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL FLORA RAMOS DE SADA",
+   "kind": "centro de infancia",
+   "lat": 43.344515,
+   "lon": -8.25825,
+   "address": "ALDEA SAMOEDO, 7, 15160 Sada"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL PASIÑOS ABEGONDO",
+   "kind": "centro de infancia",
+   "lat": 43.244964,
+   "lon": -8.276004,
+   "address": "R/ FERRERIA, S/N MABEGONDO, 15318 Abegondo"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL DE BETANZOS SANTIAGO DE LA FUENTE",
+   "kind": "centro de infancia",
+   "lat": 43.282499,
+   "lon": -8.212236,
+   "address": "RUA CABILDOS Nº 4, 15300 Betanzos"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL DE BERGONDO",
+   "kind": "centro de infancia",
+   "lat": 43.3079,
+   "lon": -8.275619,
+   "address": "CARRETERA DA CORUÑA, 12, 15165 Bergondo"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL DE ARTEIXO",
+   "kind": "centro de infancia",
+   "lat": 43.312099,
+   "lon": -8.510413,
+   "address": "AVENIDA ARSENIO IGLESIAS, 15142 Arteixo"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL CARRICANTA",
+   "kind": "centro de infancia",
+   "lat": 43.350913,
+   "lon": -8.392889,
+   "address": "RUA JOSE HERNANZ-SAEZ, 11, 15009 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL OS CATIVOS DA CORUÑA",
+   "kind": "centro de infancia",
+   "lat": 43.328371,
+   "lon": -8.385272,
+   "address": "RUA RIO DE QUINTÁS, S/N (PALAVEA), 15009 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL ARELA",
+   "kind": "centro de infancia",
+   "lat": 43.35037,
+   "lon": -8.40844,
+   "address": "AVENIDA DE OLEIROS, S/N, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL LUIS SEOANE",
+   "kind": "centro de infancia",
+   "lat": 43.37913,
+   "lon": -8.40457,
+   "address": "VIGIA, S/N, 15002 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL LOS ROSALES",
+   "kind": "centro de infancia",
+   "lat": 43.374812,
+   "lon": -8.428574,
+   "address": "ALFONSO RODRIGUEZ CASTELAO, S/N, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL A CARACOLA",
+   "kind": "centro de infancia",
+   "lat": 43.327035,
+   "lon": -8.43132,
+   "address": "RUA ILLAS CIES, S/N, 15190 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL SIVIR-2",
+   "kind": "centro de infancia",
+   "lat": 43.30897,
+   "lon": -8.51974,
+   "address": "R/ PORTELA, 2, 15142 Arteixo"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE HACIENDA",
+   "kind": "centro de infancia",
+   "lat": 43.36936,
+   "lon": -8.405979,
+   "address": "R/ COMANDANTE FONTANES 10, 15003 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DANA",
+   "kind": "centro de infancia",
+   "lat": 43.35922,
+   "lon": -8.406645,
+   "address": "RUA POZO, 11-BAIXO, 15005 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS MATOGRANDE",
+   "kind": "centro de infancia",
+   "lat": 43.341737,
+   "lon": -8.403382,
+   "address": "CALLE MARIA PUGA CERDIDO Nº10-MATOGRANDE, 15009 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS CAMBRE",
+   "kind": "centro de infancia",
+   "lat": 43.318798,
+   "lon": -8.357762,
+   "address": "R/ CONSTITUCIÓN, 11-13 P. MARITIMO - O GRAXAL, 15670 Cambre"
+  },
+  {
+   "name": "ESCOLA INFANTIL A FRAGA ENCANTADA 2",
+   "kind": "centro de infancia",
+   "lat": 43.26774,
+   "lon": -8.36583,
+   "address": "RUA DA CASTELLANA Nº 87, 15660 Cambre"
+  },
+  {
+   "name": "ESCOLA INFANTIL DA UNIVERSIDADE DA CORUÑA",
+   "kind": "centro de infancia",
+   "lat": 43.32748,
+   "lon": -8.41014,
+   "address": "CAMPUS DE ELVIÑA, S/N, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL VAGALUME-2",
+   "kind": "centro de infancia",
+   "lat": 43.320151,
+   "lon": -8.48799,
+   "address": "TRAVESIA DE OSEIRO, 25, 15141 Arteixo"
+  },
+  {
+   "name": "ESCOLA INFANTIL REBERTE",
+   "kind": "centro de infancia",
+   "lat": 43.331383,
+   "lon": -8.359615,
+   "address": "AVENIDA ROSALIA DE CASTRO, 35 MONTROVE, 15179 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL O COLO DO VENTO",
+   "kind": "centro de infancia",
+   "lat": 43.310014,
+   "lon": -8.383887,
+   "address": "R/ XOAN MONTES, 3 BAIXO, 15174 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS DE CULLEREDO",
+   "kind": "centro de infancia",
+   "lat": 43.322226,
+   "lon": -8.38315,
+   "address": "JUAN REY MARTINEZ, 2, 15189 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL 0-3 OS PEQUERRECHOS DE RONDA NELLE",
+   "kind": "centro de infancia",
+   "lat": 43.36534,
+   "lon": -8.419571,
+   "address": "GIL VICENTE, 5 - BAIXO, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL KID´S GARDEN DA CORUÑA",
+   "kind": "centro de infancia",
+   "lat": 43.313199,
+   "lon": -8.421229,
+   "address": "OPORTO, 1, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE CAMBRE - A BARCALA",
+   "kind": "centro de infancia",
+   "lat": 43.302305,
+   "lon": -8.35639,
+   "address": "RÚA RIO SIL - URBANIZACION A BARCALA, 15660 Cambre"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE CULLEREDO- A TARTARUGA",
+   "kind": "centro de infancia",
+   "lat": 43.326901,
+   "lon": -8.38409,
+   "address": "AS BRAÑAS BLOQUE 4, BAIXO, 15174 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE A LARACHA",
+   "kind": "centro de infancia",
+   "lat": 43.249532,
+   "lon": -8.584485,
+   "address": "RIO ANLLONS, 11, 15145 A Laracha"
+  },
+  {
+   "name": "ESCOLA INFANTIL A PARDELA",
+   "kind": "centro de infancia",
+   "lat": 43.33582,
+   "lon": -8.32751,
+   "address": "URB. OS REGOS- LIÁNS, 15173 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL AS GALERAS DE OLEIROS",
+   "kind": "centro de infancia",
+   "lat": 43.333269,
+   "lon": -8.35364,
+   "address": "ANTONIO J. DE SUCRE, 24 - LIANS, 15173 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL FONTE DA BALSA",
+   "kind": "centro de infancia",
+   "lat": 43.309051,
+   "lon": -8.382461,
+   "address": "R/ DOS DEREITOS HUMANOS S/N- VILABOA, 15189 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE CARRAL",
+   "kind": "centro de infancia",
+   "lat": 43.224942,
+   "lon": -8.355403,
+   "address": "ALCALDE JUAN SEIJAS, S/N, 15175 Carral"
+  },
+  {
+   "name": "ESCOLA INFANTIL O BURGO DE CULLEREDO",
+   "kind": "centro de infancia",
+   "lat": 43.316484,
+   "lon": -8.371065,
+   "address": "PINTOR JULIO FERNANDEZ ARGÜELLES,2 - O BURGO, 15670 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL 0-3 A CANTEIRA",
+   "kind": "centro de infancia",
+   "lat": 43.338423,
+   "lon": -8.371286,
+   "address": "R/CUBELOS, 24, 15172 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL ABELLIÑAS",
+   "kind": "centro de infancia",
+   "lat": 43.37188,
+   "lon": -8.327375,
+   "address": "RUA LEDICIA,1, 15173 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS DE LAS PAJARITAS",
+   "kind": "centro de infancia",
+   "lat": 43.345695,
+   "lon": -8.408084,
+   "address": "ANTONIO MACHADO, 13, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS DE MESOIRO",
+   "kind": "centro de infancia",
+   "lat": 43.325388,
+   "lon": -8.436835,
+   "address": "ILLA DE SALVORA 3 MESOIRO, 15190 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS RONDA DE OUTEIRO",
+   "kind": "centro de infancia",
+   "lat": 43.358483,
+   "lon": -8.419484,
+   "address": "RONDA DE OUTEIRO, 228-230, 15007 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS A ZAPATEIRA. RUTIS",
+   "kind": "centro de infancia",
+   "lat": 43.315218,
+   "lon": -8.394027,
+   "address": "RUA DE LAXE, 122-124 - RUTIS, 15174 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL MONTEALTO",
+   "kind": "centro de infancia",
+   "lat": 43.380567,
+   "lon": -8.405979,
+   "address": "RONDA DE MONTE ALTO S/N, 15002 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL PARQUE DE EIRIS",
+   "kind": "centro de infancia",
+   "lat": 43.347074,
+   "lon": -8.396248,
+   "address": "RUA JAVIER LOPEZ LOPEZ, N.º 12, PARQUE EIRIS, 15009 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL AFUNDACION ZALAETA DA CORUÑA",
+   "kind": "centro de infancia",
+   "lat": 43.372094,
+   "lon": -8.402288,
+   "address": "RUA DO SOL, 18, 15003 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE SADA",
+   "kind": "centro de infancia",
+   "lat": 43.355547,
+   "lon": -8.278027,
+   "address": "LUGAR DE QUINTAN-MONDEGO, 15160 Sada"
+  },
+  {
+   "name": "ESCUELA INFANTIL OS PEQUERRECHOS DE JUAN FLOREZ",
+   "kind": "centro de infancia",
+   "lat": 43.365149,
+   "lon": -8.409498,
+   "address": "RÚA MAGISTRADO MANUEL ARTIME ESQUINA PLAZA RECIFE, 15004 A Coruña"
+  },
+  {
+   "name": "ESPAZO INFANTIL JUNGLE WORLD",
+   "kind": "centro de infancia",
+   "lat": 43.364282,
+   "lon": -8.409535,
+   "address": "MAGISTRADO MANUEL ARTIME Nº 26, BAIXO, 15004 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE BETANZOS",
+   "kind": "centro de infancia",
+   "lat": 43.276315,
+   "lon": -8.218095,
+   "address": "AVDA. FRAGA IRIBARNE, S/N, 15300 Betanzos"
+  },
+  {
+   "name": "COLEXIO INFANTIL NAZARET",
+   "kind": "centro de infancia",
+   "lat": 43.367953,
+   "lon": -8.422002,
+   "address": "ARQUITECTO REY PEDREIRA, 2-4, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL PIBES",
+   "kind": "centro de infancia",
+   "lat": 43.312532,
+   "lon": -8.443401,
+   "address": "VICENTE VAZQUEZ QUEIPO, 18 URBANIZACIÓN BREOGÁN, 15190 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE MERA",
+   "kind": "centro de infancia",
+   "lat": 43.378431,
+   "lon": -8.337293,
+   "address": "PASEO DA LAGOA S/N, 15178 Oleiros"
+  },
+  {
+   "name": "ESCOLA INFANTIL SOLETE",
+   "kind": "centro de infancia",
+   "lat": 43.372878,
+   "lon": -8.400292,
+   "address": "PRAZA ZALAETA, 7 BAIXO, 15002 A Coruña"
+  },
+  {
+   "name": "TRASTES CENTROS DE EDUCACION INFANTIL A GRELA A CORUÑA",
+   "kind": "centro de infancia",
+   "lat": 43.35307,
+   "lon": -8.410635,
+   "address": "AVENIDA DE LA SARDIÑEIRA Nº 53 BAJO, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL PIRATAS DE LA RIA",
+   "kind": "centro de infancia",
+   "lat": 43.327472,
+   "lon": -8.38186,
+   "address": "AVENIDA FONTECULLER Nº 66 BAIXO, 15189 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL A CASA DOS NENOS DE LARACHA",
+   "kind": "centro de infancia",
+   "lat": 43.247141,
+   "lon": -8.583713,
+   "address": "AVENIDA MANUEL FRAGA IRIBARNE Nº 2, 15145 A Laracha"
+  },
+  {
+   "name": "TRASTES LOS ROSALES CENTROS DE EDUCACION INFANTIL",
+   "kind": "centro de infancia",
+   "lat": 43.37461,
+   "lon": -8.435097,
+   "address": "ALCALDE SUAREZ FERRIN 7 BAIXO - LOS ROSALES, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL TRICICLO",
+   "kind": "centro de infancia",
+   "lat": 43.316279,
+   "lon": -8.383641,
+   "address": "A CHANCEIRA S/N, RUTIS-VILABOA, 15174 Culleredo"
+  },
+  {
+   "name": "ESCOLA INFANTIL COROS",
+   "kind": "centro de infancia",
+   "lat": 43.366015,
+   "lon": -8.409133,
+   "address": "RUA MEDICO RODRIGUEZ, 5 LOCAL 1, 15004 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE ARTEIXO-PASTORIZA",
+   "kind": "centro de infancia",
+   "lat": 43.332608,
+   "lon": -8.464558,
+   "address": "RUA DO LAGARTO S/N (PASTORIZA), 15140 Arteixo"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS DE CUATRO CAMINOS",
+   "kind": "centro de infancia",
+   "lat": 43.358204,
+   "lon": -8.40854,
+   "address": "R/ RONDA DE NELLE Nº 13, 15007 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL Mª DEL CARMEN CERVIGON",
+   "kind": "centro de infancia",
+   "lat": 43.37266,
+   "lon": -8.42572,
+   "address": "RONDA DE OUTEIRO (ESQ. CARRETERA DE LOS FUERTES), 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL AGRA DO ORZAN",
+   "kind": "centro de infancia",
+   "lat": 43.362924,
+   "lon": -8.423971,
+   "address": "TRAV ANTONIO PEDREIRA RIOS, ESQ. LIAÑO FLORES S/N, 15010 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL AS MARIÑAS",
+   "kind": "centro de infancia",
+   "lat": 43.375614,
+   "lon": -8.395271,
+   "address": "ORILLAMAR, 37, 15001 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL ELVIÑA",
+   "kind": "centro de infancia",
+   "lat": 43.345498,
+   "lon": -8.412545,
+   "address": "PABLO PICASSO 7-POLIGONO DE ELVIÑA, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL O VENTORRILLO",
+   "kind": "centro de infancia",
+   "lat": 43.358922,
+   "lon": -8.423304,
+   "address": "MOSTEIRO DE CAAVEIRO, 44, 15010 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL SANTA MARIA DE OZA",
+   "kind": "centro de infancia",
+   "lat": 43.345561,
+   "lon": -8.403039,
+   "address": "XAZMINS, 14, 15008 A Coruña"
+  },
+  {
+   "name": "ESCUELA INFANTIL PARRULOS CUATRO CAMINOS",
+   "kind": "centro de infancia",
+   "lat": 43.356109,
+   "lon": -8.405242,
+   "address": "RUA ALCALDE PUGA Y PARGA 4 Y CASTRO CHANÉ, 6, 15006 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL DE CAMBRE O TEMPLE",
+   "kind": "centro de infancia",
+   "lat": 43.316085,
+   "lon": -8.355366,
+   "address": "RUA FRANSCISCO AÑON S/N, O TEMPLE, 15679 Cambre"
+  },
+  {
+   "name": "ESCOLA INFANTIL A CORUÑA - A SARDIÑEIRA",
+   "kind": "centro de infancia",
+   "lat": 43.34824,
+   "lon": -8.420844,
+   "address": "AVENIDA A SARDIÑEIRA,40, 15008 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL PARRULOS VENTORRILLO",
+   "kind": "centro de infancia",
+   "lat": 43.36099,
+   "lon": -8.42358,
+   "address": "MONASTERIO DE CAAVEIRO, 50-52, 15010 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL ARTEIXO - RIO TAMBRE",
+   "kind": "centro de infancia",
+   "lat": 43.302171,
+   "lon": -8.508973,
+   "address": "RIO TAMBRE, S/N, 15140 Arteixo"
+  },
+  {
+   "name": "ESCOLA INFANTIL A FRAGA ENCANTADA",
+   "kind": "centro de infancia",
+   "lat": 43.293716,
+   "lon": -8.341799,
+   "address": "PINTOR LUCIO MUÑOZ 3 BAIXO, 15660 Cambre"
+  },
+  {
+   "name": "ESCOLA INFANTIL PIRATAS DE LA RIA A CORVEIRA",
+   "kind": "centro de infancia",
+   "lat": 43.323519,
+   "lon": -8.382545,
+   "address": "AMPARO LOPEZ JEAN,10-B, 15174 Culleredo"
+  },
+  {
+   "name": "TRASTES CENTROS DE EDUCACIÓN INFANTIL - EIRIS",
+   "kind": "centro de infancia",
+   "lat": 43.343507,
+   "lon": -8.392058,
+   "address": "C/ DE FERRER, 18 BAJO, 15009 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL PEQUEMONSTERS",
+   "kind": "centro de infancia",
+   "lat": 43.29687,
+   "lon": -8.27645,
+   "address": "O VILAR nro. 9 - CARRETERA N-VI, 15640 Bergondo"
+  },
+  {
+   "name": "ESCOLA INFANTIL RIAS ALTAS",
+   "kind": "centro de infancia",
+   "lat": 43.316748,
+   "lon": -8.413124,
+   "address": "ESTRADA ZAPATEIRA, S/N, 15008 Culleredo"
+  },
+  {
+   "name": "ESCOLA INTIL OS PEQUERRECHOS OS ROSALES",
+   "kind": "centro de infancia",
+   "lat": 43.37534,
+   "lon": -8.43138,
+   "address": "CALLE SIMON BOLIVAR, 1, BJO, DCHA, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS CIUDAD JARDIN",
+   "kind": "centro de infancia",
+   "lat": 43.36684,
+   "lon": -8.411604,
+   "address": "Rúa Valle Inclán nº38, Cidade Xardín, 15011 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL MUNICIPAL MONTE ALTO",
+   "kind": "centro de infancia",
+   "lat": 43.378374,
+   "lon": -8.403685,
+   "address": "Avda. Hercules, 73, 15002 A Coruña"
+  },
+  {
+   "name": "ESCOLA INFANTIL OS PEQUERRECHOS DE VIOÑO",
+   "kind": "centro de infancia",
+   "lat": 43.354673,
+   "lon": -8.415227,
+   "address": "RUA REVOLUCION FRANCESA Nº5 BAIXO, 15007 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DE MAIORES CONCEPCION ARENAL",
+   "kind": "centro para personas mayores",
+   "lat": 43.341451,
+   "lon": -8.401886,
+   "address": "SEBASTIAN MARTINEZ RISCO S/N, 15009 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA GARCIA HERMANOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.280437,
+   "lon": -8.210314,
+   "address": "EL COTO, 15, 15300 Betanzos"
+  },
+  {
+   "name": "RESIDENCIA SANTA TERESA JORNET",
+   "kind": "centro para personas mayores",
+   "lat": 43.338326,
+   "lon": -8.393646,
+   "address": "R/STA. TERESA JORNET, 4 - EIRIS, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA LA MILAGROSA",
+   "kind": "centro para personas mayores",
+   "lat": 43.348291,
+   "lon": -8.411965,
+   "address": "AVDA DE CADIZ NUM 5, 15008 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA LA MILAGROSA",
+   "kind": "centro para personas mayores",
+   "lat": 43.348291,
+   "lon": -8.411965,
+   "address": "AVDA DE CADIZ, 5, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DÍA AFACO",
+   "kind": "centro para personas mayores",
+   "lat": 43.35774,
+   "lon": -8.39482,
+   "address": "PARQUE SAN DIEGO , S/N, 15006 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES EL PINAR",
+   "kind": "centro para personas mayores",
+   "lat": 43.256856,
+   "lon": -8.419762,
+   "address": "PEIRO DE ARRIBA, 66 C - CELAS DE PEREIRO, 15189 Culleredo"
+  },
+  {
+   "name": "CENTRO DE DÍA FRAMA",
+   "kind": "centro para personas mayores",
+   "lat": 43.376263,
+   "lon": -8.40493,
+   "address": "MATADERO,62. BAIXO, 15002 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA REMANSO-CLAUDINA SOMOZA",
+   "kind": "centro para personas mayores",
+   "lat": 43.372932,
+   "lon": -8.427628,
+   "address": "CARRETERA DE LOS FUERTES, 12, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES SARAIVA CORUÑA",
+   "kind": "centro para personas mayores",
+   "lat": 43.369553,
+   "lon": -8.390408,
+   "address": "RUA MAESTRANZA, 24 BAIXO, 15001 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA CASER A ZAPATEIRA",
+   "kind": "centro para personas mayores",
+   "lat": 43.302695,
+   "lon": -8.411794,
+   "address": "RUA MARIA CORREDOIRA S/N - A ZAPATEIRA, 15008 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA BALLESOL OLEIROS",
+   "kind": "centro para personas mayores",
+   "lat": 43.323949,
+   "lon": -8.366011,
+   "address": "RUA CORMORAN 3, LIANS OXEIRO, 15179 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA A0 MAIORES",
+   "kind": "centro para personas mayores",
+   "lat": 43.354098,
+   "lon": -8.411027,
+   "address": "RÚA SAN LUÍS, 44, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DÍA OS MUIÑOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.316904,
+   "lon": -8.367398,
+   "address": "AVDA ACEA DA MA, Nº21 BAIXO, 15670 Culleredo"
+  },
+  {
+   "name": "CENTRO DE DIA CASTELAO",
+   "kind": "centro para personas mayores",
+   "lat": 43.280926,
+   "lon": -8.207053,
+   "address": "R/MANDEO 35, BAIXO, 15300 Betanzos"
+  },
+  {
+   "name": "RESIDENCIA EL PILAR",
+   "kind": "centro para personas mayores",
+   "lat": 43.319,
+   "lon": -8.27493,
+   "address": "LUGAR AS LEIRAS. LABRADIO DE PETELOS, 15165 Bergondo"
+  },
+  {
+   "name": "FOGAR RESIDENCIAL O FOGAR DE GANDARIO",
+   "kind": "centro para personas mayores",
+   "lat": 43.3333,
+   "lon": -8.2333,
+   "address": "LUGAR DO SILVOSO, 8 - OUCES, 15167 Bergondo"
+  },
+  {
+   "name": "RESIDENCIA DE MAIORES TORRENTE BALLESTER",
+   "kind": "centro para personas mayores",
+   "lat": 43.381043,
+   "lon": -8.398613,
+   "address": "RÚA MANUEL GARCÍA CANZOBRE, Nº 2, 15002 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DE MAIORES DE OLEIROS",
+   "kind": "centro para personas mayores",
+   "lat": 43.338335,
+   "lon": -8.318968,
+   "address": "CAMIÑO DO RÍO NÚM.60, 15173 Oleiros"
+  },
+  {
+   "name": "CENTRO MUNICIPAL DA 3ª IDADE",
+   "kind": "centro para personas mayores",
+   "lat": 43.226445,
+   "lon": -8.288493,
+   "address": "SAN MARCOS S/N, 15318 Abegondo"
+  },
+  {
+   "name": "RESIDENCIA LA OBRA DE LA SEÑORA",
+   "kind": "centro para personas mayores",
+   "lat": 43.375057,
+   "lon": -8.427152,
+   "address": "TRAVESIA DE LOS ROSALES, Nº 11, 15011 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DOMUSVI CORUÑA",
+   "kind": "centro para personas mayores",
+   "lat": 43.331467,
+   "lon": -8.36071,
+   "address": "AVDA ROSALIA DE CASTRO, 10, 15179 Oleiros"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES SANITAS RESIDENCIAL",
+   "kind": "centro para personas mayores",
+   "lat": 43.379316,
+   "lon": -8.400062,
+   "address": "RUA SANTO TOMAS 9-11B, 15002 A Coruña"
+  },
+  {
+   "name": "FOGAR RESIDENCIAL BELLOLAR",
+   "kind": "centro para personas mayores",
+   "lat": 43.329458,
+   "lon": -8.389296,
+   "address": "RÚA SANTA GEMA, 31, 15006 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA FRAMA LA MERCED",
+   "kind": "centro para personas mayores",
+   "lat": 43.353127,
+   "lon": -8.397742,
+   "address": "R/ LA MERCED, Nº 1, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA DE CULLEREDO",
+   "kind": "centro para personas mayores",
+   "lat": 43.31793,
+   "lon": -8.36547,
+   "address": "RUA PINTOR JULIO FERNANDEZ ARGÜELLES, S/N, 15670 Culleredo"
+  },
+  {
+   "name": "CENTRO DE DIA DE ALZHEIMER AFACO BARRIO DE LAS FLORES",
+   "kind": "centro para personas mayores",
+   "lat": 43.343857,
+   "lon": -8.402788,
+   "address": "PETUNIAS, 33 - BAJO, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE MAIORES AFUNDACION A CORUÑA",
+   "kind": "centro para personas mayores",
+   "lat": 43.374744,
+   "lon": -8.397087,
+   "address": "RÚA ALTA 7, 15003 A Coruña"
+  },
+  {
+   "name": "CENTRO DE MAIORES AFUNDACION BETANZOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.279851,
+   "lon": -8.210755,
+   "address": "CANTÓN DE SAN ROQUE 3, 15300 Betanzos"
+  },
+  {
+   "name": "FOGAR RESIDENCIAL AVOS FELICES",
+   "kind": "centro para personas mayores",
+   "lat": 43.251798,
+   "lon": -8.620341,
+   "address": "ENTRECASAS, AREN, CABOVILAÑO, 15146 A Laracha"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE CORUÑA MONTE ALTO",
+   "kind": "centro para personas mayores",
+   "lat": 43.381324,
+   "lon": -8.403715,
+   "address": "RONDA DE MONTEALTO, 15002 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE LARACHA",
+   "kind": "centro para personas mayores",
+   "lat": 43.24922,
+   "lon": -8.591223,
+   "address": "MARIA MARIÑO, 17, 15145 A Laracha"
+  },
+  {
+   "name": "VIVIENDA COMUNITARIA SANT YAGO 1",
+   "kind": "centro para personas mayores",
+   "lat": 43.345631,
+   "lon": -8.3873,
+   "address": "AVDA. DEL PASAJE, 91-BAIXO, 15006 A Coruña"
+  },
+  {
+   "name": "VIVIENDA COMUNITARIA SANT YAGO 2",
+   "kind": "centro para personas mayores",
+   "lat": 43.345631,
+   "lon": -8.3873,
+   "address": "AVDA DEL PASAJE, 91-PLANTA 1ª, 15006 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE OLEIROS AS GALERAS",
+   "kind": "centro para personas mayores",
+   "lat": 43.342245,
+   "lon": -8.348097,
+   "address": "RUA SIMON BOLIVAR CON RUA ROMARDEIRO -BASTIAGUEIRO, 15173 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE CORUÑA EIRIS",
+   "kind": "centro para personas mayores",
+   "lat": 43.347074,
+   "lon": -8.396248,
+   "address": "RUA OLEODUCTO PARCELA 40 PARQUE EIRIS, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA DE ALZHEIMER AFACO SALVADOR DE MADARIAGA",
+   "kind": "centro para personas mayores",
+   "lat": 43.343446,
+   "lon": -8.405928,
+   "address": "SALVADOR DE MADARIAGA, núm.87, 15008 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA MAIORES ADCOR",
+   "kind": "centro para personas mayores",
+   "lat": 43.373705,
+   "lon": -8.438122,
+   "address": "ESTRADA DOS FORTES, 14, 15011 A Coruña"
+  },
+  {
+   "name": "FOGAR RESIDENCIAL DE LARACHA",
+   "kind": "centro para personas mayores",
+   "lat": 43.24922,
+   "lon": -8.591223,
+   "address": "MARIA MARIÑO, 17, 15145 A Laracha"
+  },
+  {
+   "name": "RESIDENCIA DOMUSVI LA CIUDAD",
+   "kind": "centro para personas mayores",
+   "lat": 43.369993,
+   "lon": -8.391752,
+   "address": "SANTO DOMINGO, 11-15, 15001 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE SADA",
+   "kind": "centro para personas mayores",
+   "lat": 43.35536,
+   "lon": -8.280087,
+   "address": "LUGAR DE QUINTAN, 20 C-MONDEGO, 15168 Sada"
+  },
+  {
+   "name": "VIVENDA COMUNITARIA PARA PERSOAS MAIORES BRIBES",
+   "kind": "centro para personas mayores",
+   "lat": 43.274682,
+   "lon": -8.304619,
+   "address": "RIBEIRIÑA, 6-B, BRIBES, 15659 Cambre"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES NOVO BOANDANZA",
+   "kind": "centro para personas mayores",
+   "lat": 43.362411,
+   "lon": -8.423703,
+   "address": "RUA MONASTERIO DE BERGONDO, 15-17, 15010 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DE PERSOAS MAIORES PADRE RUBINOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.365609,
+   "lon": -8.424497,
+   "address": "RONDA DE OUTEIRO 325, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES PADRE RUBINOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.365609,
+   "lon": -8.424497,
+   "address": "RONDA DE OUTEIRO Nº 325, 15011 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES BRIBES",
+   "kind": "centro para personas mayores",
+   "lat": 43.274682,
+   "lon": -8.304619,
+   "address": "RIBEIRIÑA, 6B - BRIBES, 15659 Cambre"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES DOMUSVI MATOGRANDE",
+   "kind": "centro para personas mayores",
+   "lat": 43.339961,
+   "lon": -8.403525,
+   "address": "FEDERICO GARCIA Nº 2, POLIGONO DE MATOGRANDE, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES RECREATE-A PRAZA",
+   "kind": "centro para personas mayores",
+   "lat": 43.357575,
+   "lon": -8.419851,
+   "address": "RUA ALFONSO XIII, LOCAL Nº 19, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES MIMOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.325866,
+   "lon": -8.383724,
+   "address": "AVENIDA PORTAZGO Nº 8- SEMISOTO 5, 15174 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES AVOS FELICES",
+   "kind": "centro para personas mayores",
+   "lat": 43.25033,
+   "lon": -8.620924,
+   "address": "ENTRECASAS S/N- LUGAR DE AREN-CABOVILAÑO, 15145 A Laracha"
+  },
+  {
+   "name": "VIVENDA COMUNITARIA VALLE DE RUMBO TERCERA EDAD",
+   "kind": "centro para personas mayores",
+   "lat": 43.275984,
+   "lon": -8.408856,
+   "address": "RUMBO Nº 39, 15189 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES DE ARTEIXO",
+   "kind": "centro para personas mayores",
+   "lat": 43.302124,
+   "lon": -8.508951,
+   "address": "RUA RIO TAMBRE S/N, 15142 Arteixo"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES DE ARTEIXO",
+   "kind": "centro para personas mayores",
+   "lat": 43.302054,
+   "lon": -8.50893,
+   "address": "RUA RIO TAMBRE S/N, 15142 Arteixo"
+  },
+  {
+   "name": "RESIDENCIA MAYORES PORTAZGO",
+   "kind": "centro para personas mayores",
+   "lat": 43.328364,
+   "lon": -8.387375,
+   "address": "RIO QUINTAS, 31, 15009 A Coruña"
+  },
+  {
+   "name": "FOGAR RESIDENCIAL PARQUE ZAPATEIRA",
+   "kind": "centro para personas mayores",
+   "lat": 43.314845,
+   "lon": -8.421034,
+   "address": "AVENIDA NOVA YORK Nº 5C - A ZAPATEIRA, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES LONGEVID",
+   "kind": "centro para personas mayores",
+   "lat": 43.368813,
+   "lon": -8.419848,
+   "address": "RUA MANUEL MURGUIA S/N - CASA DEL AGUA, 15011 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DE MAIORES SAN JOSE RAIOLA",
+   "kind": "centro para personas mayores",
+   "lat": 43.258818,
+   "lon": -8.23855,
+   "address": "GUILIADE Nº 116, 15319 Betanzos"
+  },
+  {
+   "name": "VIVENDA COMUNITARIA DO MAR COSTA DOCE",
+   "kind": "centro para personas mayores",
+   "lat": 43.381772,
+   "lon": -8.285753,
+   "address": "URBANIZACION PRAIA SAN PEDRO DE VEIGUE Nº 44 D, 15169 Sada"
+  },
+  {
+   "name": "CARAMIÑA CENTRO DE DIA PARA PERSOAS MAIORES",
+   "kind": "centro para personas mayores",
+   "lat": 43.316785,
+   "lon": -8.487874,
+   "address": "RUA DO SEIXEDO, 29 BAIXO, 15141 Arteixo"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES BICOS",
+   "kind": "centro para personas mayores",
+   "lat": 43.325866,
+   "lon": -8.383724,
+   "address": "AVENIDA PORTAZGO 8-SEMISOTO 1, 15174 Culleredo"
+  },
+  {
+   "name": "VIVIENDA COMUNITARIA SAGRADA FAMILIA",
+   "kind": "centro para personas mayores",
+   "lat": 43.356626,
+   "lon": -8.413948,
+   "address": "CALLE BELEN, 19, B, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES SAN JOSE",
+   "kind": "centro para personas mayores",
+   "lat": 43.36063,
+   "lon": -8.25095,
+   "address": "AVENIDA PUERTO, 31-BAJO, 15160 Sada"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES COIDAMOS DE TI O BURGO",
+   "kind": "centro para personas mayores",
+   "lat": 43.321307,
+   "lon": -8.37181,
+   "address": "AVDA XOAN CARLOS I, 22, BAJO, 2F - O BURGO, 15670 Culleredo"
+  },
+  {
+   "name": "VIVIENDA COMUNITARIA MAYORES PORTAZGO",
+   "kind": "centro para personas mayores",
+   "lat": 43.328364,
+   "lon": -8.387375,
+   "address": "CALLE LUGAR DE RIO QUINTAS, 29, 15009 A Coruña"
+  },
+  {
+   "name": "APARTAMENTOS TUTELADOS MAYORES PORTAZGO",
+   "kind": "centro para personas mayores",
+   "lat": 43.328364,
+   "lon": -8.387375,
+   "address": "LUGAR DE RIO QUINTAS, Nº 29, 15009 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES RAIOLA MEIRAS",
+   "kind": "centro para personas mayores",
+   "lat": 43.359244,
+   "lon": -8.296991,
+   "address": "LUGAR DE PIÑEIRO, 35B - MEIRAS, 15168 Sada"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES HERA",
+   "kind": "centro para personas mayores",
+   "lat": 43.36692,
+   "lon": -8.431913,
+   "address": "ESTRADA VISMA A MAZAIDO, 7-BAIXO SAN PEDRO DE VISMA, 15011 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA DE MAYORES ALUARADA",
+   "kind": "centro para personas mayores",
+   "lat": 43.361764,
+   "lon": -8.29287,
+   "address": "AMEIXEIRAL,46 - MEIRÁS, 15160 Sada"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES RAIOLA OLEIROS",
+   "kind": "centro para personas mayores",
+   "lat": 43.340153,
+   "lon": -8.368524,
+   "address": "RUA MIRADOIRO Nº 1A - PERILLO - BASTIAGUEIRO, 15172 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA MAYORES PASEO MARITIMO",
+   "kind": "centro para personas mayores",
+   "lat": 43.37162,
+   "lon": -8.419063,
+   "address": "AVDA. SAN ROQUE DE AFUERA Nº 1 - BAIXO A, 15007 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSONAS MAYORES EMERA OLEIROS",
+   "kind": "centro para personas mayores",
+   "lat": 43.341174,
+   "lon": -8.346431,
+   "address": "AVDA. ERNESTO CHÉ GUEVARA, 162, 15179 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA PARA PERSOAS MAIORES A TUA BEIRA",
+   "kind": "centro para personas mayores",
+   "lat": 43.358544,
+   "lon": -8.412142,
+   "address": "AVDA DE ARTEIXO, 67, BAJO, 15007 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA MAYORES IÑAS OLEIROS",
+   "kind": "centro para personas mayores",
+   "lat": 43.324899,
+   "lon": -8.313928,
+   "address": "RUA FONTE DO OURO, 28, BAIXO, 15007 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA CAAM-CUIDAAMOR",
+   "kind": "centro para personas mayores",
+   "lat": 43.34824,
+   "lon": -8.25008,
+   "address": "CALLE DE LA PLAYA, 26, BAJO, 15160 Sada"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES EIRIS",
+   "kind": "centro para personas mayores",
+   "lat": 43.341502,
+   "lon": -8.393757,
+   "address": "CALLE CASTAÑO DE EIRIS, 1 - EIRIS, 15009 A Coruña"
+  },
+  {
+   "name": "VIVENDA COMUNITARIA FOGAR DE SABELA",
+   "kind": "centro para personas mayores",
+   "lat": 43.21262,
+   "lon": -8.3736,
+   "address": "ESPERANTE Nº11, SAN PEDRO DE QUEMBRE, 15183 Carral"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES BOUCO A CORUÑA",
+   "kind": "centro para personas mayores",
+   "lat": 43.296686,
+   "lon": -8.36716,
+   "address": "RUA DE LAXE 120 (A ZAPATEIRA) RUTIS, 15174 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS MAIORES RAIOLA O BURGO",
+   "kind": "centro para personas mayores",
+   "lat": 43.306822,
+   "lon": -8.367864,
+   "address": "RUA RAFAEL DIESTE Nº 7, ALMEIRAS, 15180 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA DE GRAVEMENTE AFECTADOS ASPACE",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.344399,
+   "lon": -8.294038,
+   "address": "CASTELIÑO Nº 24 - OSEDO, 15160 Sada"
+  },
+  {
+   "name": "CENTRO DE DÍA ASISTENCIAL ASPACE",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.344399,
+   "lon": -8.294038,
+   "address": "CASTELIÑO Nº 24 - OSEDO, 15160 Sada"
+  },
+  {
+   "name": "RESIDENCIA DE GRAVEMENTE AFECTADOS ASPACE II",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.344399,
+   "lon": -8.294038,
+   "address": "CASTELIÑO, 24, OSEDO, 15160 Sada"
+  },
+  {
+   "name": "CENTRO DE DIA ASPANAES CASTELO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.31149,
+   "lon": -8.380479,
+   "address": "CASTELO, 33, 15189 Culleredo"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL LAMASTELLE",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.327519,
+   "lon": -8.351219,
+   "address": "AVDA. ROSALIA DE CASTRO, 12, 15173 Oleiros"
+  },
+  {
+   "name": "RESIDENCIA DE GRAVEMENTE AFECTADOS RICARDO BARO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.33932,
+   "lon": -8.34153,
+   "address": "AVDA ISAAC DIAZ PARDO, 15, 15179 Oleiros"
+  },
+  {
+   "name": "RESIDENCIA DE ADULTOS LA CASA DE LAMASTELLE",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.327519,
+   "lon": -8.351219,
+   "address": "AVDA. ISAAC DIAZ PARDO, 13, 15179 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA DE LAMASTELLE",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.327519,
+   "lon": -8.351219,
+   "address": "AVDA ROSALIA DE CASTRO, 12, 15173 Oleiros"
+  },
+  {
+   "name": "VIVENDA ANTONIO PAZ 1",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.36025,
+   "lon": -8.410091,
+   "address": "RUA PLA Y CANCELA, 35 2º, 15005 A Coruña"
+  },
+  {
+   "name": "VIVENDA ANTONIO PAZ 2",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.360262,
+   "lon": -8.410128,
+   "address": "RUA PLA Y CANCELA, 35 3ª, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL ARTEFIOS",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.375201,
+   "lon": -8.436608,
+   "address": "R/SIMON BOLIVAR, 23- BAIXO, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL ASPADISOL",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.321969,
+   "lon": -8.327589,
+   "address": "RÚA DAS FIANDEIRAS 12, SAN PEDRO DE NOS, 15176 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA MONTE ALTO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.378023,
+   "lon": -8.400374,
+   "address": "RÚA VEREDA DEL POLVORÍN 2, 4º, 15002 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL DE ENRIQUE DEQUIDT",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.36224,
+   "lon": -8.40972,
+   "address": "ENRIQUE DEQUIDT HEVIA 16, 15005 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL DE LOS ROSALES",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.37572,
+   "lon": -8.435678,
+   "address": "SIMON BOLIVAR, 17, BAIXO, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA DE PROMOCION DE LA AUTONOMIA PERSONAL DE BERGONDO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.330961,
+   "lon": -8.219254,
+   "address": "CAMIÑO PRAIA DO REGUEIRO-FIOBRE, 15165 Bergondo"
+  },
+  {
+   "name": "CENTRO RESIDENCIAL DE PROMOCION DE LA AUTONOMIA PERSONAL DE BERGONDO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.330961,
+   "lon": -8.219254,
+   "address": "CAMIÑO PRAIA DO REGUEIRO, FIOBRE, 15165 Bergondo"
+  },
+  {
+   "name": "CENTRO DE ATENCION A PERSOAS CON DISCAPACIDADE DA CORUÑA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.34544,
+   "lon": -8.38518,
+   "address": "RÚA AS XUBIAS 15, 15006 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL A ESCADA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.317765,
+   "lon": -8.36635,
+   "address": "MANUEL AZAÑA, 2, 15670 Culleredo"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL PASCUAL VEIGA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.358941,
+   "lon": -8.408959,
+   "address": "VILLA DE LAGE NUM.23-1º, 15005 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA ADACECO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.34538,
+   "lon": -8.386219,
+   "address": "AS XUBIAS, 15, 15006 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA DE ATENCION A PERSOAS CON DISCAPACIDADE DA CORUÑA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.34544,
+   "lon": -8.38518,
+   "address": "RUA AS XUBIAS, 15, EDIFICIO D, 15006 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA PARA PERSOAS CON DISCAPACIDADE FUNDACION ADCOR",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.37337,
+   "lon": -8.438101,
+   "address": "ESTRADA DOS FORTES, 14 - POLIGONO DOS ROSALES, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL PARA PERSOAS CON DISCAPACIDADE DA CORUÑA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.34544,
+   "lon": -8.38518,
+   "address": "RUA AS XUBIAS, 15º, EDIFICIO F, 15000 A Coruña"
+  },
+  {
+   "name": "VIVENDA TUTELADA DOWN CORUÑA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.344,
+   "lon": -8.400292,
+   "address": "RUA CAMELIA, Nº 13-5º ESQUERDA, 15008 A Coruña"
+  },
+  {
+   "name": "RESIDENCIA MARTIN POU",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.33045,
+   "lon": -8.341183,
+   "address": "RUA ROSALIA DE CASTRO Nº 12, 15173 Oleiros"
+  },
+  {
+   "name": "CENTRO DE DIA ADACECO CULLEREDO",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.321915,
+   "lon": -8.382139,
+   "address": "RUA IRMANS SUAREZ FERRIN Nº 3, 15660 Culleredo"
+  },
+  {
+   "name": "RESIDENCIA DE DISCAPACITADOS ADULTOS MENTALIA CORUÑA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.371054,
+   "lon": -8.394032,
+   "address": "RUA NUESTRA SEÑORA DEL ROSARIO, Nº 24, 15001 A Coruña"
+  },
+  {
+   "name": "PISO TUTELADO MANUEL ROEL",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.2764,
+   "lon": -8.21431,
+   "address": "RUA MANUEL ROEL Nº 2-2º A, 15300 Betanzos"
+  },
+  {
+   "name": "RESIDENCIA DE ADULTOS PAI MENNI",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.27087,
+   "lon": -8.217285,
+   "address": "CARRETERA DE SANTIAGO S/N, 15300 Betanzos"
+  },
+  {
+   "name": "RESIDENCIA GRAVEMENTE AFECTADOS PAI MENNI",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.27087,
+   "lon": -8.217285,
+   "address": "CARRETERA DE SANTIAGO, S/N, 15300 Betanzos"
+  },
+  {
+   "name": "CENTRO OCUPACIONAL PAI MENNI",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.27087,
+   "lon": -8.217285,
+   "address": "CARRETERA DE SANTIAGO, S/N, 15300 Betanzos"
+  },
+  {
+   "name": "CENTRO DE DIA PAI MENNI",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.270828,
+   "lon": -8.21692,
+   "address": "CARRETERA DE SANTIAGO, S/N, 15300 Betanzos"
+  },
+  {
+   "name": "VIVENDA TUTELADA PAI MENNI",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.270828,
+   "lon": -8.21692,
+   "address": "CARRETERA DE SANTIAGO, S/N, 15300 Betanzos"
+  },
+  {
+   "name": "VIVENDA TUTELADA GARCIA NAVEIRA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.278169,
+   "lon": -8.212076,
+   "address": "AVDA. JESUS GARCIA NAVEIRA, 10-12 4º IZDA, 15300 Betanzos"
+  },
+  {
+   "name": "VIVENDA TUTELADA GARCIA NAVEIRA DEREITA",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.278169,
+   "lon": -8.212076,
+   "address": "AVENIDA JESUS GARCIA NAVEIRA, Nº 10-14-4º DRCHA, 15300 Betanzos"
+  },
+  {
+   "name": "VIVENDA TUTELADA SIMON BOLIVAR",
+   "kind": "centro para personas con discapacidad",
+   "lat": 43.375584,
+   "lon": -8.436,
+   "address": "CALLE SIMON BOLIVAR, 21, 1 A-B, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA BASICA HOGAR SOR EUSEBIA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35926,
+   "lon": -8.44828,
+   "address": "LUGAR DE MAZAIDO-BENS, 38, 15010 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA BASICA CASCO CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.374477,
+   "lon": -8.437222,
+   "address": "SIMON BOLIVAR, 29 1ªA E 1ºB, 15011 A Coruña"
+  },
+  {
+   "name": "CASA DE ACOLLIDA BASICA DE MULLERES SIN TECHO SANTA LUCIA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35926,
+   "lon": -8.44828,
+   "address": "CARRETERA DE VISMA A MAZAIDO 129, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA BASICA SAN JOSE DE LA OBRA DE LA SEÑORA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.375057,
+   "lon": -8.427152,
+   "address": "TRAVESIA ROSALES 11, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA BASICA EL BUEN PASTOR",
+   "kind": "centro para la inclusión social",
+   "lat": 43.375057,
+   "lon": -8.427152,
+   "address": "TRAVESIA DE LOS ROSALES Nº 11, 15011 A Coruña"
+  },
+  {
+   "name": "COCINA ECONOMICA DE A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.370597,
+   "lon": -8.403468,
+   "address": "CORDELERIA 10, 15003 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ATENCION SOCIAL CONTINUADA CASCO",
+   "kind": "centro para la inclusión social",
+   "lat": 43.361087,
+   "lon": -8.413521,
+   "address": "C/ PADRE SARMIENTO 24 BAIXO, 15005 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOGIDA BASICA CASCO II",
+   "kind": "centro para la inclusión social",
+   "lat": 43.324796,
+   "lon": -8.442404,
+   "address": "C/ RIBEIRA SACRA 19, 2ºA e B, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ATENCION SOCIAL CONTINUADA PADRE RUBINOS",
+   "kind": "centro para la inclusión social",
+   "lat": 43.372527,
+   "lon": -8.425722,
+   "address": "RONDA DE OUTEIRO 325 (ESQUINA CARRETERA DE LOS FUE, 15011 A Coruña"
+  },
+  {
+   "name": "COMEDOR SOCIAL PADRE RUBINOS",
+   "kind": "centro para la inclusión social",
+   "lat": 43.372527,
+   "lon": -8.425722,
+   "address": "RONDA DE OUTEIRO 325 (ESQUINA CARRETERA DE LOS FUE, 15011 A Coruña"
+  },
+  {
+   "name": "ALBERGUE PADRE RUBINOS",
+   "kind": "centro para la inclusión social",
+   "lat": 43.372527,
+   "lon": -8.425722,
+   "address": "RONDA DE OUTEIRO 325 (ESQUINA CARRETERA DE LOS FUE, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOGIDA BASICA E INCLUSION PADRE RUBINOS",
+   "kind": "centro para la inclusión social",
+   "lat": 43.372087,
+   "lon": -8.42611,
+   "address": "RONDA. DE OUTEIRO, Nº 325, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA DE INCLUSION ECOS DO SUR",
+   "kind": "centro para la inclusión social",
+   "lat": 43.362763,
+   "lon": -8.413646,
+   "address": "AVDA FINISTERRE 109, 15004 A Coruña"
+  },
+  {
+   "name": "CENTRO DE DIA MESTURA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.321097,
+   "lon": -8.383721,
+   "address": "AVENIDA DE VILABOA 158, BAIXO, 15174 Culleredo"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA MO1 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35778,
+   "lon": -8.40671,
+   "address": "PLAZA JOSE TOUBES PEGO 1-1ºA, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA RED ACOGE-ECOS DO SUR I",
+   "kind": "centro para la inclusión social",
+   "lat": 43.34485,
+   "lon": -8.40721,
+   "address": "AVDA SALVADOR DE MADARIAGA 68, 8ºF, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA PADRE RUBINOS",
+   "kind": "centro para la inclusión social",
+   "lat": 43.37093,
+   "lon": -8.42649,
+   "address": "RONDA OUTEIRO, 325, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO ACOLLIDA TRANSICIÓN A VIDA AUTÓNOMA RED ACOGE-ECOS DO SUR II",
+   "kind": "centro para la inclusión social",
+   "lat": 43.36662,
+   "lon": -8.4075,
+   "address": "RÚA TERESA HERRERA 1, 7º, D, 15004 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA PO1 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35267,
+   "lon": -8.40459,
+   "address": "AVDA CHILE 7 2º, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA P10 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.3477,
+   "lon": -8.40094,
+   "address": "C/ VICENTE ALEIXANDRE 10, 4ºF, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA P06 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.36523,
+   "lon": -8.42098,
+   "address": "C/ CANCELIÑA 2, 5ºC, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA P08 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.34629,
+   "lon": -8.4003,
+   "address": "AVDA MONELOS 141, 2ºB, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA PO9 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.34561,
+   "lon": -8.40412,
+   "address": "RÚA ORQUÍDEAS 2, 2ºA, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIÓN Á VIDA AUTÓNOMA PO5 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35292,
+   "lon": -8.3989,
+   "address": "RONDA DE OUTEIRO 42, 3ºB, 15010 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION VIDA AUTONOMA SOR EUSEBIA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35697,
+   "lon": -8.39966,
+   "address": "RÚA NOVOA SANTOS 10- 12, 2º ESQUERDA, 15010 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA RED ACOGE-ECOS DO SUR III",
+   "kind": "centro para la inclusión social",
+   "lat": 43.36002,
+   "lon": -8.41343,
+   "address": "RÚA RÍO DEZA, 1, 15005 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA ACCEM P04 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.3543,
+   "lon": -8.41,
+   "address": "CALLE RAMON MENENDEZ PIDAL, 7, 5, D, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICIION A VIDA AUTONOMA ACCEM M03 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.357771,
+   "lon": -8.406679,
+   "address": "PLAZA JOSE TOUBES PEGO 1, 3º, 15001 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA ACCEM M04 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.35774,
+   "lon": -8.406744,
+   "address": "PLAZA JOSE TOUBES PEGO 1, 4º, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA ACCEM P02 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.324713,
+   "lon": -8.44223,
+   "address": "RÚA RIBEIRA SACRA 19, 3ºA, 15190 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ATENCION SOCIAL CONTINUADA DE A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.373839,
+   "lon": -8.421312,
+   "address": "AVDA LABAÑOU, 10, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA BOANOITE",
+   "kind": "centro para la inclusión social",
+   "lat": 43.374131,
+   "lon": -8.420408,
+   "address": "RÚA VÍCTOR FERNÁNDEZ, SN, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA P03 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.32467,
+   "lon": -8.442208,
+   "address": "RÚA RIBEIRA SACRA 19, 3º, B, 15190 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA E TRANSICION A VIDA AUTONOMA P11 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.346235,
+   "lon": -8.407392,
+   "address": "RÚA RAFAEL ALBERTI, 29, 7º A, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA AMIGO 1",
+   "kind": "centro para la inclusión social",
+   "lat": 43.351454,
+   "lon": -8.403044,
+   "address": "RONDA OUTEIRO 95, 3º ESQUERDA, 15011 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA AMIGÓ 2",
+   "kind": "centro para la inclusión social",
+   "lat": 43.351396,
+   "lon": -8.404626,
+   "address": "RÚA MONTEVIDEO 6-8, ESCALEIRA 2, 1º DEREITA, 15009 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTÓNOMA AMIGÓ 3",
+   "kind": "centro para la inclusión social",
+   "lat": 43.355554,
+   "lon": -8.408796,
+   "address": "RÚA GREGORIO TOVAR 30, 1º DEREITA, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA P07 A CORUÑA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.3639,
+   "lon": -8.4209,
+   "address": "CALLE BARCELONA, 8, 5º D, 15010 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMAACCEM P12 A CORUNA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.32394,
+   "lon": -8.442124,
+   "address": "RÚA FRAGAS DO EUME 20, 8º B, 15190 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANS. A VIDA AUTONOMA ACCEM P15 A CORUNA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.357634,
+   "lon": -8.406478,
+   "address": "PRAZA JOSE TOUBES PEGO Nº 1- 2º, A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA E DE TRANSICION A VIDA AUTONOMA RED ACOGE-ECOS DO SUR IV",
+   "kind": "centro para la inclusión social",
+   "lat": 43.356414,
+   "lon": -8.401082,
+   "address": "RÚA RAMÓN Y CAJAL 25, 4º, DCHA, 15006 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA ACCEM P14 A CORUNA",
+   "kind": "centro para la inclusión social",
+   "lat": 43.349757,
+   "lon": -8.403722,
+   "address": "AVDA MONELOS 19-21, 2ºB, 15007 A Coruña"
+  },
+  {
+   "name": "CENTRO DE ACOLLIDA DE TRANSICION A VIDA AUTONOMA PROVIVIENDA VIGO XVII",
+   "kind": "centro para la inclusión social",
+   "lat": 43.36523,
+   "lon": -8.42098,
+   "address": "TRAVESIA DE VIGO 133, 1º, C, 36206 A Coruña"
+  },
+  {
+   "name": "CENTRO SOCIOCOMUNITARIO DE BENESTAR TORRENTE BALLESTER",
+   "kind": "centro social para la comunidad",
+   "lat": 43.363753,
+   "lon": -8.410807,
+   "address": "RUA NAO VICTORIA Nº 2, 15002 A Coruña"
+  },
+  {
+   "name": "CENTRO SOCIOCOMUNITARIO DE BENESTAR DA CORUÑA",
+   "kind": "centro social para la comunidad",
+   "lat": 43.34391,
+   "lon": -8.403786,
+   "address": "PENSAMENTO S/N bloque 42, 15008 A Coruña"
+  },
+  {
+   "name": "CENTRO DE SERVIZOS SOCIAIS",
+   "kind": "centro social para la comunidad",
+   "lat": 43.34852,
+   "lon": -8.25364,
+   "address": "R/ LA LAGUNA 44 PORTAL BAIXO D, 15160 Sada"
+  },
+  {
+   "name": "CIM de Arteixo",
+   "kind": "centro de información a las mujeres",
+   "lat": 43.30421,
+   "lon": -8.507177,
+   "address": "Avenida do Balneario, 10 - baixo, 15142 Arteixo"
+  },
+  {
+   "name": "CIM de Coruña, A",
+   "kind": "centro de información a las mujeres",
+   "lat": 43.345774,
+   "lon": -8.400648,
+   "address": "Rúa Hortensias, s/n ? Barrio das Flores, 15008 A Coruña"
+  },
+  {
+   "name": "CIM de Culleredo",
+   "kind": "centro de información a las mujeres",
+   "lat": 43.315714,
+   "lon": -8.370688,
+   "address": "Costa da Lonxa, nº 7 baixo - O Burgo, 15670 Culleredo"
+  },
+  {
+   "name": "CIM de Laracha, A",
+   "kind": "centro de información a las mujeres",
+   "lat": 43.249857,
+   "lon": -8.616011,
+   "address": "Edificio de uso administrativo - Avendida de Finisterre, 60, 15145 A Laracha"
+  }
+ ]
+}

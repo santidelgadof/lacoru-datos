@@ -1,0 +1,213 @@
+{
+  "source": "Concellos del área metropolitana de A Coruña y Turismo de Sada (páginas oficiales verificadas)",
+  "license": "Información pública municipal de fechas y lugares de ferias y mercadillos",
+  "verified_at": "2026-11-19",
+  "items": [
+    {
+      "id": "mercadillo-os-mallos-sardineira",
+      "nombre": "Mercadillo de Os Mallos (A Sardiñeira)",
+      "name": {
+        "es": "Mercadillo de Os Mallos (A Sardiñeira)",
+        "gl": "Mercadillo dos Mallos (A Sardiñeira)",
+        "en": "Os Mallos Street Market (A Sardiñeira)"
+      },
+      "concello": "A Coruña",
+      "lugar": {
+        "nombre": "Contorna do Centro Cívico dos Mallos / A Sardiñeira",
+        "lat": 43.3547,
+        "lon": -8.4142
+      },
+      "periodicidad": "Todos los martes y sábados",
+      "schedule_label": {
+        "es": "Martes y sábados",
+        "gl": "Martes e sábados",
+        "en": "Tuesdays and Saturdays"
+      },
+      "horario": "09:00–14:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "weekly",
+        "weekdays": [2, 6]
+      },
+      "fuente": "https://www.coruna.gal/web/es/actualidad/noticias/noticia/o-concello-habilitara-a-explanada-lindeira-ao-edificio-aliko-para-o-mercadillo-dos-mallos-durante-as/suceso/1453878885520?argIdioma=es"
+    },
+    {
+      "id": "mercado-ecoloxico-campo-da-lena",
+      "nombre": "Mercado Ecolóxico e de Produtos de Proximidade",
+      "name": {
+        "es": "Mercado Ecológico y de Proximidad (Campo da Leña)",
+        "gl": "Mercado Ecolóxico e de Proximidade (Campo da Leña)",
+        "en": "Organic & Local Produce Market (Campo da Leña)"
+      },
+      "concello": "A Coruña",
+      "lugar": {
+        "nombre": "Praza de España (Campo da Leña), A Coruña",
+        "lat": 43.3746,
+        "lon": -8.3991
+      },
+      "periodicidad": "Primer y tercer domingo de cada mes",
+      "schedule_label": {
+        "es": "1.er y 3.er domingo de mes",
+        "gl": "1.º e 3.º domingo de mes",
+        "en": "1st and 3rd Sunday of the month"
+      },
+      "horario": "10:00–15:00",
+      "tipo": "artesanía",
+      "regla": {
+        "type": "nth_weekday",
+        "weekday": 0,
+        "nth": [1, 3]
+      },
+      "fuente": "https://www.coruna.gal/comercio/es/promocion-del-comercio-local?argIdioma=es"
+    },
+    {
+      "id": "feiron-arteixo",
+      "nombre": "Feirón dos Sábados de Arteixo",
+      "name": {
+        "es": "Feirón de los Sábados de Arteixo",
+        "gl": "Feirón dos Sábados de Arteixo",
+        "en": "Arteixo Saturday Market"
+      },
+      "concello": "Arteixo",
+      "lugar": {
+        "nombre": "Avenida e Paseo do Balneario / Praza do Balneario, Arteixo",
+        "lat": 43.3046,
+        "lon": -8.5081
+      },
+      "periodicidad": "Todos los sábados",
+      "schedule_label": {
+        "es": "Todos los sábados",
+        "gl": "Todos os sábados",
+        "en": "Every Saturday"
+      },
+      "horario": "08:00–15:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "weekly",
+        "weekdays": [6]
+      },
+      "fuente": "https://arteixo.org/o-feiron-dos-sabados-recupera-a-sua-ubicacion-inicial-anterior-as-obras-do-balneario/"
+    },
+    {
+      "id": "feiron-sada",
+      "nombre": "Feirón de Sada",
+      "name": {
+        "es": "Feirón de Sada",
+        "gl": "Feirón de Sada",
+        "en": "Sada Saturday Afternoon Market"
+      },
+      "concello": "Sada",
+      "lugar": {
+        "nombre": "Rúa Linares Rivas e zona das Brañas, Sada",
+        "lat": 43.3502,
+        "lon": -8.2546
+      },
+      "periodicidad": "Todos los sábados por la tarde",
+      "schedule_label": {
+        "es": "Todos los sábados por la tarde",
+        "gl": "Todos os sábados pola tarde",
+        "en": "Every Saturday afternoon"
+      },
+      "horario": "15:00–20:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "weekly",
+        "weekdays": [6]
+      },
+      "fuente": "https://turismodesada.gal/donde-comprar/"
+    },
+    {
+      "id": "feira-betanzos",
+      "nombre": "Feira tradicional de Betanzos",
+      "name": {
+        "es": "Feira tradicional de Betanzos",
+        "gl": "Feira tradicional de Betanzos",
+        "en": "Betanzos Traditional Fair"
+      },
+      "concello": "Betanzos",
+      "lugar": {
+        "nombre": "Praza Irmáns García Naveira, Cantón de Claudino Pita e Rúa do Castro, Betanzos",
+        "lat": 43.2804,
+        "lon": -8.2107
+      },
+      "periodicidad": "Días 1 y 16 de cada mes (la del 1 de diciembre pasa al 30 de noviembre)",
+      "schedule_label": {
+        "es": "Días 1 y 16 de cada mes",
+        "gl": "Días 1 e 16 de cada mes",
+        "en": "1st and 16th of every month"
+      },
+      "horario": "09:00–14:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "month_days",
+        "days": [1, 16],
+        "exceptions": {
+          "12-01": "11-30"
+        }
+      },
+      "fuente": "https://concello.betanzos.es/es/comercio/"
+    },
+    {
+      "id": "feira-cambre",
+      "nombre": "Feira de Cambre",
+      "name": {
+        "es": "Feira de Cambre",
+        "gl": "Feira de Cambre",
+        "en": "Cambre Traditional Fair"
+      },
+      "concello": "Cambre",
+      "lugar": {
+        "nombre": "Campo da Feira, Cambre",
+        "lat": 43.2925,
+        "lon": -8.3442
+      },
+      "periodicidad": "Día 2 y tercer domingo de cada mes",
+      "schedule_label": {
+        "es": "Día 2 y 3.er domingo de cada mes",
+        "gl": "Día 2 e 3.º domingo de cada mes",
+        "en": "2nd day and 3rd Sunday of every month"
+      },
+      "horario": "09:00–14:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "composite",
+        "rules": [
+          { "type": "month_days", "days": [2] },
+          { "type": "nth_weekday", "weekday": 0, "nth": [3] }
+        ]
+      },
+      "fuente": "https://cambre.es/feiras/"
+    },
+    {
+      "id": "feira-carral",
+      "nombre": "Feira de Carral",
+      "name": {
+        "es": "Feira de Carral",
+        "gl": "Feira de Carral",
+        "en": "Carral Traditional Fair"
+      },
+      "concello": "Carral",
+      "lugar": {
+        "nombre": "Campo da Feira, Carral",
+        "lat": 43.2294,
+        "lon": -8.3558
+      },
+      "periodicidad": "Días 4, 13 y último domingo de cada mes",
+      "schedule_label": {
+        "es": "Días 4, 13 y último domingo de cada mes",
+        "gl": "Días 4, 13 e último domingo de cada mes",
+        "en": "4th, 13th and last Sunday of every month"
+      },
+      "horario": "09:00–14:00",
+      "tipo": "mercadillo general",
+      "regla": {
+        "type": "composite",
+        "rules": [
+          { "type": "month_days", "days": [4, 13] },
+          { "type": "last_weekday", "weekday": 0 }
+        ]
+      },
+      "fuente": "https://carral.es/ferias/"
+    }
+  ]
+}

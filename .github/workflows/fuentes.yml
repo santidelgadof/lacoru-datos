@@ -1,0 +1,40 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# «Fuentes que cambian»: avisa cuando cambia un documento oficial que LaCoru transcribió a mano.
+#
+# Cada semana baja los documentos de infra/vigilante/fuentes.json (la ordenanza de la ORA con
+# su Anexo II de calles, la Ordenanza de Movilidad y, como aviso opcional para el Paseo 3D,
+# los edificios del Catastro) y compara su huella (sha256) con la última conocida. Si cambia,
+# abre un issue (etiqueta `fuente-cambiada`) con qué ha cambiado y qué hacer. NO rehace nada a
+# ciegas: las calles de la ORA, por ejemplo, las revisa una persona. Si un documento deja de
+# poderse bajar, lo avisa aparte y lo cierra solo cuando vuelve. Ver infra/vigilante/fuentes.py.
+name: Fuentes que cambian
+
+on:
+  schedule:
+    # Miércoles, 06:29 UTC.
+    - cron: "29 6 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: fuentes
+  cancel-in-progress: false
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - name: Comparar las huellas y avisar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 infra/vigilante/fuentes.py

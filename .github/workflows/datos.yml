@@ -1,0 +1,92 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# Regenera los datos del día de MAREA y los publica como ficheros estáticos.
+#
+# No hace falta ningún servidor: cada ejecución llama una vez a las fuentes
+# públicas (tiempo, mareas, noticias, agenda, trenes, gasolineras, cámaras…) y
+# deja el resultado en la rama `datos`, que GitHub Pages sirve como web.
+#
+# El catálogo (paradas, calles, sitios) lo regenera cada madrugada la tarea
+# «Catálogo» (.github/workflows/catalogo.yml) en la rama `catalogo`; la carpeta
+# `datos-fijos/` del repositorio es solo la semilla (ver docs/publicar-sin-servidor.md).
+name: Datos del día
+
+on:
+  schedule:
+    # Programada cada 10 minutos, evitando el minuto 0 (hora punta de GitHub, donde se retrasa).
+    # OJO: GitHub casi no la lanza (5 veces en 36 h el 22-nov). La relanza la pasarela
+    # (infra/cloudflare/live-proxy/src/dispatch.js) cuando pulse.json pasa de 15 min: en la
+    # práctica los datos del día se rehacen cada ~30 min.
+    # En un repositorio PRIVADO conviene bajar la frecuencia (minutos gratuitos limitados).
+    - cron: "4,14,24,34,44,54 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: apps/api-workers/pyproject.toml
+      - name: Instalar el exportador
+        run: |
+          pip install --quiet ./packages/routing-engine ./apps/api-workers
+      - name: Recuperar los datos anteriores
+        # Si una fuente falla hoy, se conserva su último fichero bueno.
+        run: |
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          mkdir -p salida
+          git --work-tree=salida checkout FETCH_HEAD -- .
+      - name: Añadir el catálogo
+        # De cada fichero, la versión más reciente (por generated_at) entre la que ya
+        # estaba publicada, la semilla del repositorio (datos-fijos/) y la que regenera
+        # cada madrugada la tarea «Catálogo» (rama catalogo). Va antes de exportar: los
+        # avisos se sitúan sobre callejero.json.
+        run: |
+          mkdir -p catalogo
+          if git fetch --depth 1 "https://github.com/${{ github.repository }}.git" catalogo; then git --work-tree=catalogo checkout FETCH_HEAD -- .; fi
+          python -m marea.entrypoints.build_catalogue overlay --into salida salida datos-fijos catalogo
+      - name: Exportar los datos del día
+        run: python -m marea.entrypoints.export_static --out salida --catalogue-dir salida
+      - name: Archivar el contexto público del bus
+        continue-on-error: true
+        run: python infra/aprendizaje/contexto.py salida
+      - name: Registrar estado de BiciCoruña y validar las predicciones
+        continue-on-error: true
+        run: python infra/aprendizaje/bicis.py salida
+      - name: Recuperar precios comparables de carburantes
+        continue-on-error: true
+        run: python -m marea.entrypoints.export_fuel_history salida
+      - name: Comprobar las teselas del mapa
+        # Las teselas (tiles/*.pmtiles) no se regeneran aquí: se conservan de lo ya
+        # publicado (paso «Recuperar los datos anteriores»). Las del mapa realista se
+        # suben a mano con infra/tiles/realista/publicar.sh (ver docs/publicar-sin-servidor.md).
+        run: |
+          for f in coruna provincia norte oeste sur este volumenes relieve; do
+            [ -s "salida/tiles/$f.pmtiles" ] || echo "::warning::Falta tiles/$f.pmtiles en la rama datos (sin volumenes o relieve, el mapa realista se apaga solo y lo dice)."
+          done
+      - name: Publicar en la rama datos
+        run: |
+          cd salida
+          git init -q -b datos
+          git config user.name "marea-datos"
+          git config user.email "marea-datos@users.noreply.github.com"
+          touch .nojekyll
+          git add -A
+          git commit -q -m "datos $(date -u +%FT%TZ)"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" datos

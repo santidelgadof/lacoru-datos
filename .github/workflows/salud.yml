@@ -1,0 +1,53 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# «Salud»: un vigilante que solo avisa si algo de LaCoru se rompe.
+#
+# Una vez al día comprueba (infra/vigilante/salud.py):
+#   - que cada fichero publicado en la rama `datos` tiene la frescura que le toca (tabla
+#     FRESCURA: pulse.json menos de 1 h, el catálogo menos de 3 días, los grafos menos de
+#     16, las teselas menos de 45…) y que el horario teórico del bus sigue vigente;
+#   - que la pasarela (Worker marea-live) y la web responden;
+#   - que ninguna tarea lleva 3 ejecuciones fallidas seguidas (2 en las semanales y
+#     mensuales) y que GitHub no ha desactivado ninguna por inactividad (si pasa, la
+#     vuelve a activar sola).
+# Si algo va mal, abre o actualiza UN issue (etiqueta `salud`) con qué falla, desde cuándo y
+# qué hacer; GitHub manda un correo a la persona dueña del repositorio. Cuando todo vuelve a
+# ir bien, lo cierra solo. Sin servicios de pago. Si el repositorio tiene el secreto
+# CF_D1_TOKEN, además avisa un mes antes de que caduque (o si Cloudflare lo desactiva).
+name: Salud
+
+on:
+  schedule:
+    # 07:13 UTC (08:13 o 09:13 en Madrid): después de todas las tareas de la noche.
+    - cron: "13 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write      # abrir, comentar y cerrar el aviso
+  actions: write     # leer las ejecuciones y reactivar una tarea desactivada por inactividad
+
+concurrency:
+  group: salud
+  cancel-in-progress: false
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      LIVE_URL: https://marea-live.marea-coruna.workers.dev
+      WEB_URL: https://lacoru.pages.dev/
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - name: Comprobar y avisar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Opcionales: si están, comprueba que el token de «Retrasos del bus» sigue activo.
+          CF_D1_TOKEN: ${{ secrets.CF_D1_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: python3 infra/vigilante/salud.py

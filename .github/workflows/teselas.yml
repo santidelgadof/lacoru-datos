@@ -1,0 +1,206 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# Rehace las teselas del mapa sin que nadie tenga que hacer nada:
+#
+# - Mapa base (`tiles/coruna.pmtiles`, ~18 MB, y desde el 23/11/2026 el resto de la provincia:
+#   `provincia`, `norte`, `oeste`, `sur` y `este.pmtiles`, ~80 MB más, ver infra/tiles/partes.json):
+#   cada mes, recortados del último build diario de Protomaps (OpenStreetMap, ODbL) con
+#   `pmtiles extract` (infra/tiles/build-tiles.sh). Solo baja por HTTP las teselas de cada
+#   rectángulo, no el planeta. ~2 minutos (medido en el Mac: 1 min 30 s los seis).
+# - Mapa realista (`tiles/volumenes.pmtiles` y `tiles/relieve.pmtiles`): cada trimestre,
+#   desde el Catastro, el MDT05 del IGN, la ortofoto PNOA y OSM (infra/tiles/realista/).
+#   ~20-30 minutos (compila tippecanoe y baja ~1 GB).
+#
+# Junto a ellos publica `tiles/tiles.json` con la versión de cada fichero: la app la lee y
+# la pone en la URL (`?v=`), así que un mapa nuevo llega a los móviles SIN recompilar la web
+# (apps/web/src/lib/tilesVersion.ts).
+#
+# Se programa dos veces al mes; cada parte solo actúa si lo publicado es viejo (mapa base:
+# más de 20 días; realista: más de 80), así que la segunda es solo un reintento. Salvaguardas:
+# un fichero que no es PMTiles, que no llega al mínimo o que pesa más de un 20 % menos que el
+# publicado no se sube (se conserva el anterior, y el resumen lo dice). Si Protomaps cambia de
+# esquema (deja de haber builds 4.x), no se toca nada y la tarea falla: «Salud» avisa.
+# No necesita ningún secreto.
+name: Teselas del mapa
+
+on:
+  schedule:
+    # Días 3 y 10 de cada mes, 05:37 UTC.
+    - cron: "37 5 3,10 * *"
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Rehacer ya el mapa base y el realista aunque los publicados sean recientes"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# bash con -eo pipefail: un fallo antes de un `| tee` también para la tarea.
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  decidir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      build: ${{ steps.elegir.outputs.build }}
+      base: ${{ steps.elegir.outputs.base }}
+      realista: ${{ steps.elegir.outputs.realista }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - name: Lo publicado
+        run: |
+          mkdir -p publicado
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          git --work-tree=publicado checkout FETCH_HEAD -- tiles || echo "::notice::La rama datos aún no tiene tiles/."
+      - name: ¿Qué toca?
+        id: elegir
+        env:
+          FORZAR: ${{ github.event.inputs.forzar }}
+        run: |
+          python3 infra/tiles/mensual.py elegir --publicado publicado/tiles $([ "$FORZAR" = true ] && echo --forzar) | tee -a "$GITHUB_OUTPUT"
+
+  base:
+    needs: decidir
+    if: needs.decidir.outputs.base == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - name: Lo publicado
+        run: |
+          mkdir -p publicado
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          git --work-tree=publicado checkout FETCH_HEAD -- tiles || true
+      - name: Recortar el build ${{ needs.decidir.outputs.build }} de Protomaps
+        run: sh infra/tiles/build-tiles.sh "${{ needs.decidir.outputs.build }}"
+      - name: Salvaguardas (cada fichero por su cuenta)
+        # coruna.pmtiles (A Coruña y su área) tiene que pasar; los demás de la provincia
+        # (partes.json) se publican solo los que pasan (el que no, se conserva el anterior).
+        run: |
+          python3 infra/tiles/mensual.py aceptar --nuevo infra/tiles/coruna.pmtiles --anterior publicado/tiles/coruna.pmtiles \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+          mkdir -p nuevo
+          sudo mv infra/tiles/coruna.pmtiles nuevo/coruna.pmtiles
+          for f in provincia norte oeste sur este; do
+            if python3 infra/tiles/mensual.py aceptar --nuevo "infra/tiles/$f.pmtiles" --anterior "publicado/tiles/$f.pmtiles" | tee -a "$GITHUB_STEP_SUMMARY"; then
+              sudo mv "infra/tiles/$f.pmtiles" "nuevo/$f.pmtiles"
+            fi
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: teselas-base
+          path: nuevo
+          retention-days: 7
+
+  realista:
+    needs: decidir
+    if: needs.decidir.outputs.realista == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - name: Lo publicado
+        run: |
+          mkdir -p publicado
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          git --work-tree=publicado checkout FETCH_HEAD -- tiles || true
+      - name: Herramientas (GDAL y tippecanoe)
+        run: docker build -q -t marea-geo infra/tiles/realista
+      - name: Descargar Catastro, MDT05 y OpenStreetMap
+        timeout-minutes: 30
+        env:
+          TRABAJO: ${{ runner.temp }}/realista
+          OSM_FECHA: latest
+        run: sh infra/tiles/realista/descargar.sh
+      - name: Construir volúmenes y relieve
+        timeout-minutes: 60
+        env:
+          TRABAJO: ${{ runner.temp }}/realista
+          SALIDA: ${{ runner.temp }}/realista-salida
+        run: |
+          mkdir -p "$SALIDA"
+          # Con sudo: en Linux los ficheros que escribe Docker son de root y construir.sh mueve uno
+          # dentro de $TRABAJO/tmp (carpeta creada por el contenedor).
+          sudo env "PATH=$PATH" "TRABAJO=$TRABAJO" "SALIDA=$SALIDA" sh infra/tiles/realista/construir.sh
+          cat infra/tiles/realista/cobertura.json >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Salvaguardas (cada fichero por su cuenta)
+        env:
+          SALIDA: ${{ runner.temp }}/realista-salida
+        run: |
+          mkdir -p nuevo
+          for f in volumenes relieve; do
+            if python3 infra/tiles/mensual.py aceptar --nuevo "$SALIDA/$f.pmtiles" --anterior "publicado/tiles/$f.pmtiles" | tee -a "$GITHUB_STEP_SUMMARY"; then
+              sudo cp "$SALIDA/$f.pmtiles" nuevo/
+            fi
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: teselas-realista
+          path: nuevo
+          if-no-files-found: ignore
+          retention-days: 7
+
+  publicar:
+    needs: [decidir, base, realista]
+    # Aunque una de las dos partes no tocara o fallara, se publica la otra.
+    if: always() && needs.decidir.result == 'success' && (needs.base.result == 'success' || needs.realista.result == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # La cola de «Datos del día»: las dos escriben la rama `datos` y no deben pisarse.
+    concurrency:
+      group: datos
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: teselas-base
+          path: nuevo/tiles
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: teselas-realista
+          path: nuevo/tiles
+      - name: tiles.json (la versión de cada fichero)
+        env:
+          BUILD: ${{ needs.decidir.outputs.build }}
+        run: |
+          mkdir -p publicado/tiles nuevo/tiles
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          git show FETCH_HEAD:tiles/tiles.json > publicado/tiles/tiles.json 2>/dev/null || rm -f publicado/tiles/tiles.json
+          HOY="$(date -u +%Y%m%d)"
+          set --
+          [ -s nuevo/tiles/coruna.pmtiles ] && set -- "$@" --v "coruna.pmtiles=$BUILD" --build "$BUILD"
+          for f in provincia norte oeste sur este; do [ -s "nuevo/tiles/$f.pmtiles" ] && set -- "$@" --v "$f.pmtiles=$BUILD"; done
+          for f in volumenes relieve; do [ -s "nuevo/tiles/$f.pmtiles" ] && set -- "$@" --v "$f.pmtiles=$HOY"; done
+          if [ "$#" -eq 0 ]; then echo "::notice::Nada pasó las salvaguardas: no se publica nada."; rm -rf nuevo; mkdir nuevo; exit 0; fi
+          python3 infra/tiles/mensual.py manifiesto --publicado publicado/tiles --salida nuevo/tiles "$@"
+      - name: Publicar en la rama datos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sh infra/repo-datos/publicar-en-datos.sh nuevo "teselas del mapa $(date -u +%F)"

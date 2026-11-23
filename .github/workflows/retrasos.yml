@@ -1,0 +1,69 @@
+# GENERADO por infra/repo-datos/generar.sh en el repositorio privado: no editar aquí.
+# Retrasos del bus urbano aprendidos de sus propias lecturas (sin datos de nadie).
+#
+# Cada madrugada lee las lecturas de iTranvías que la pasarela ya guardó en D1
+# (`bus_lecturas`, ver infra/cloudflare/live-proxy/src/historico.js), deduce cuándo pasó
+# de verdad cada bus, lo compara con lo que anunciaba Tranvías y con el horario, evalúa
+# si la corrección acierta más y publica solo las medianas en `retrasos.json` (rama
+# `datos`). Ver infra/retrasos/lib.mjs.
+#
+# Secretos (Settings → Secrets → Actions). Sin ellos la tarea no hace nada:
+#   CF_ACCOUNT_ID    id de la cuenta de Cloudflare
+#   CF_D1_TOKEN      token de API con SOLO el permiso «Account · D1 · Read»
+#   CF_D1_DATABASE   id de la base marea-noche (database_id de wrangler.toml)
+name: Retrasos del bus
+
+on:
+  schedule:
+    # 02:41 UTC (03:41 o 04:41 en Madrid): sin servicio, fuera del minuto 0.
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# La misma cola que «Datos del día»: las dos publican la rama `datos` y no deben pisarse.
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  agregar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_D1_TOKEN: ${{ secrets.CF_D1_TOKEN }}
+      CF_D1_DATABASE: ${{ secrets.CF_D1_DATABASE }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # El código está en el repositorio privado: se lee con una clave de solo lectura.
+          repository: santidelgadof/marea-coruna
+          ssh-key: ${{ secrets.CODIGO_KEY }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Pruebas de la tarea
+        run: node --test infra/retrasos/test/*.test.mjs
+      - name: Recuperar los datos publicados
+        # Recorridos (transit.json), horario (bus-horarios.json) y festivos (pulse.json).
+        run: |
+          git fetch --depth 1 "https://github.com/${{ github.repository }}.git" datos
+          mkdir -p salida
+          git --work-tree=salida checkout FETCH_HEAD -- .
+      - name: Calcular retrasos.json
+        if: ${{ env.CF_D1_TOKEN != '' }}
+        run: node infra/retrasos/agregar.mjs --datos salida --out salida/retrasos.json
+      - name: Publicar en la rama datos
+        if: ${{ env.CF_D1_TOKEN != '' }}
+        run: |
+          cd salida
+          git init -q -b datos
+          git config user.name "marea-datos"
+          git config user.email "marea-datos@users.noreply.github.com"
+          touch .nojekyll
+          git add -A
+          git commit -q -m "retrasos $(date -u +%FT%TZ)"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" datos

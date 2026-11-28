@@ -1,0 +1,134 @@
+{
+ "source": "Xunta de Galicia — abertos.xunta.gal (datos abiertos) · Oficinas de atención a la ciudadanía y registro; oficinas de empleo",
+ "license": "CC BY-SA 4.0 (licencia indicada en los metadatos del catálogo abertos.xunta.gal; comprobar la ficha de cada conjunto)",
+ "url": "https://abertos.xunta.gal/catalogo/administracion-publica/-/dataset/0279/oficinas-atencion-cidadania-rexistro",
+ "date": "2026-11-20",
+ "items": [
+  {
+   "name": "Centro de Investigacións Agrarias de Mabegondo",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.246542,
+   "lon": -8.272845,
+   "address": "Estrada Betanzos-Mesón do Vento, Km.7 - Mabegondo, s/n, Abegondo"
+  },
+  {
+   "name": "Rexistro da Delegación da Axencia Tributaria de Galicia da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.368004,
+   "lon": -8.406447,
+   "address": "Praza De Pontevedra, 22, A Coruña"
+  },
+  {
+   "name": "Rexistro da Dirección Territorial da Consellería de Sanidade da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.367727,
+   "lon": -8.404441,
+   "address": "Rúa Durán Loriga, 3, A Coruña"
+  },
+  {
+   "name": "Rexistro da Dirección Territorial de Política Social e Igualdade da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.36686,
+   "lon": -8.42059,
+   "address": "Rúa Gregorio Hernández, 2-4, A Coruña"
+  },
+  {
+   "name": "Rexistro da Dirección Territorial do Mar da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.357606,
+   "lon": -8.399724,
+   "address": "Rúa Ramón y Cajal, 2-5º - Casa do mar, S/N, A Coruña"
+  },
+  {
+   "name": "Rexistro da Oficina Agraria Comarcal de Betanzos",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.275033,
+   "lon": -8.21467,
+   "address": "Avenida Carregal, S/N, Betanzos"
+  },
+  {
+   "name": "Rexistro da Oficina Agraria Comarcal de Cambre",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.290087,
+   "lon": -8.344878,
+   "address": "Rúa Samosteiro, 5-bxo, Cambre"
+  },
+  {
+   "name": "Rexistro da Área de Emprego da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.347964,
+   "lon": -8.40557,
+   "address": "Rúa Avda. Salvador de Madariaga, 9 -1º, A Coruña"
+  },
+  {
+   "name": "Rexistro de Benestar da Coruña-Maior-Progr.",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.35753,
+   "lon": -8.403116,
+   "address": "Rúa Concepción Arenal, 7-9, S/N, A Coruña"
+  },
+  {
+   "name": "Rexistro de Deporte da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.342128,
+   "lon": -8.414294,
+   "address": "Avenida Glasgow, 11, A Coruña"
+  },
+  {
+   "name": "Rexistro de Portos de Galicia da Coruña (zona centro)",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.36653,
+   "lon": -8.402779,
+   "address": "Avenida Porto da Coruña, 5,1º, A Coruña"
+  },
+  {
+   "name": "Rexistro do Centro de Seguridade e Saúde Laboral (Issga) da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.337014,
+   "lon": -8.389967,
+   "address": "Rúa Doutor Camilo Veiras, 8, A Coruña"
+  },
+  {
+   "name": "Rexistro do Edificio Administrativo da Coruña",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.350148,
+   "lon": -8.405558,
+   "address": "Praza Luis Seoane, S/N, A Coruña"
+  },
+  {
+   "name": "Rexistro do Laboratorio de Medio Ambiente de Galicia",
+   "kind": "oficina de atención a la ciudadanía y registro (Xunta)",
+   "lat": 43.354523,
+   "lon": -8.424473,
+   "address": "Rúa Torres Quevedo, 3-5, A Coruña"
+  },
+  {
+   "name": "Oficina de Emprego de Betanzos",
+   "kind": "oficina de empleo (Xunta)",
+   "lat": 43.276985,
+   "lon": -8.208106,
+   "address": "Venezuela 39 B, 15300 Betanzos"
+  },
+  {
+   "name": "Oficina de Emprego de Coruña - Monelos",
+   "kind": "oficina de empleo (Xunta)",
+   "lat": 43.347877,
+   "lon": -8.401212,
+   "address": "Praza de Rafael Dieste, s/n, 15009 A Coruña"
+  },
+  {
+   "name": "Oficina de Emprego de Coruña-Tornos",
+   "kind": "oficina de empleo (Xunta)",
+   "lat": 43.359749,
+   "lon": -8.418275,
+   "address": "Avda. Finisterre, 227-229, 15010 A Coruña"
+  },
+  {
+   "name": "Oficina de Emprego de A Coruña-Centro",
+   "kind": "oficina de empleo (Xunta)",
+   "lat": 43.366684,
+   "lon": -8.420624,
+   "address": "R/ Gregorio Hernández, 2-4, 15071 A Coruña"
+  }
+ ]
+}

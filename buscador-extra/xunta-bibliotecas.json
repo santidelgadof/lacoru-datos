@@ -1,0 +1,498 @@
+{
+ "source": "Xunta de Galicia — abertos.xunta.gal (datos abiertos) · Rede de Bibliotecas de Galicia",
+ "license": "CC BY-SA 4.0 (licencia indicada en los metadatos del catálogo abertos.xunta.gal; comprobar la ficha de cada conjunto)",
+ "url": "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0230/rede-bibliotecas-galicia",
+ "date": "2026-11-20",
+ "items": [
+  {
+   "name": "Biblioteca Pública Municipal de Abegondo",
+   "kind": "biblioteca",
+   "lat": 43.2271,
+   "lon": -8.28912,
+   "address": "San Marcos, 1, 15318 Abegondo"
+  },
+  {
+   "name": "Axencia de Lectura da Aula da Natureza de Crendes",
+   "kind": "biblioteca",
+   "lat": 43.237556,
+   "lon": -8.336715,
+   "address": "Rúa Villar, 86, 15318 Carral"
+  },
+  {
+   "name": "Biblioteca do Centro de Investigacións Agrarias de Mabegondo",
+   "kind": "biblioteca",
+   "lat": 43.246488,
+   "lon": -8.2727,
+   "address": "Estrada Betanzos-Santiago Km. 7, 15318 Abegondo"
+  },
+  {
+   "name": "Biblioteca Central Henrique Rabuñal",
+   "kind": "biblioteca",
+   "lat": 43.3027,
+   "lon": -8.50637,
+   "address": "Centro Cívico-Cultural. Paseo Fluvial s/n, 15142 Arteixo"
+  },
+  {
+   "name": "Biblioteca de O Froxel Francisco A. Vidal",
+   "kind": "biblioteca",
+   "lat": 43.3192,
+   "lon": -8.48599,
+   "address": "Centro Cívico do Froxel. Rúa José Pérez Ballesteros, 15141 Arteixo"
+  },
+  {
+   "name": "Biblioteca de Meicende Antón Castro",
+   "kind": "biblioteca",
+   "lat": 43.3448,
+   "lon": -8.44836,
+   "address": "Centro Sociocultural. Travesía de Meicende, 132, 15140 Arteixo"
+  },
+  {
+   "name": "Biblioteca de Oseiro Dora Vázquez",
+   "kind": "biblioteca",
+   "lat": 43.32497,
+   "lon": -8.47997,
+   "address": "Praza de Manuel Murguía, s/n, 15141 Arteixo"
+  },
+  {
+   "name": "Biblioteca de Pastoriza Miguel Sande",
+   "kind": "biblioteca",
+   "lat": 43.3313,
+   "lon": -8.46367,
+   "address": "Barrionuevo, 20, 15140 Arteixo"
+  },
+  {
+   "name": "Axencia de Lectura Municipal de Bergondo",
+   "kind": "biblioteca",
+   "lat": 43.3201,
+   "lon": -8.23126,
+   "address": "Cruz do Sar, s/n (Edif. Caixa Galicia, baixo), 15165 Bergondo"
+  },
+  {
+   "name": "Biblioteca Centro de Formación e Experimentación Agroforestal de Guísamo",
+   "kind": "biblioteca",
+   "lat": 43.309722,
+   "lon": -8.278306,
+   "address": "Vía Lugar de Bos, 14, Carretera N-VI, Km 581, 15640 Bergondo"
+  },
+  {
+   "name": "Biblioteca Pública Municipal A. Castelao",
+   "kind": "biblioteca",
+   "lat": 43.2786,
+   "lon": -8.21003,
+   "address": "Rúa Emilio Romay, 1, 15300 Betanzos"
+  },
+  {
+   "name": "Biblioteca Central María Pita",
+   "kind": "biblioteca",
+   "lat": 43.291313,
+   "lon": -8.344081,
+   "address": "Castellana, 2, 15660 Cambre"
+  },
+  {
+   "name": "Biblioteca Publica Municipal Xabier P. Docampo",
+   "kind": "biblioteca",
+   "lat": 43.3057,
+   "lon": -8.35525,
+   "address": "Río Gándara, 6 - Baixo (Urb. A Barcala), 15660 Cambre"
+  },
+  {
+   "name": "Fundación Wenceslao Fernández Flórez",
+   "kind": "biblioteca",
+   "lat": 43.288152,
+   "lon": -8.305463,
+   "address": "Apeadeiro, 14, Villa Florentina, Cecebre, 15650 Cambre"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Os Templarios",
+   "kind": "biblioteca",
+   "lat": 43.314596,
+   "lon": -8.358818,
+   "address": "Rúa dos Templarios, 9-A, 15679 Cambre"
+  },
+  {
+   "name": "Biblioteca Pública Municipal de Carral",
+   "kind": "biblioteca",
+   "lat": 43.228433,
+   "lon": -8.360895,
+   "address": "Rúa de Paleo, 17, 15175 Carral"
+  },
+  {
+   "name": "Biblioteca da Alliance Française da Coruña",
+   "kind": "biblioteca",
+   "lat": 43.3701,
+   "lon": -8.39985,
+   "address": "r/ Real, 26 - 1º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Alliance Française da Coruña",
+   "kind": "biblioteca",
+   "lat": 43.3701,
+   "lon": -8.39985,
+   "address": "r/ Real, 26 - 1º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Castrillón",
+   "kind": "biblioteca",
+   "lat": 43.3479,
+   "lon": -8.39766,
+   "address": "Praza Pablo Iglesias, s/n, 15009 A Coruña"
+  },
+  {
+   "name": "Biblioteca Colexio Oficial de Aparelladores, Arquitectos Técnicos e Enxeñeiros de Edificación de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.371896,
+   "lon": -8.396265,
+   "address": "Praza del Marqués de San Martín, nº 5, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Asociación da Prensa de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.367789,
+   "lon": -8.404817,
+   "address": "Rúa Durán Loriga, 10 - 4º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Audiencia Provincial de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.354607,
+   "lon": -8.408583,
+   "address": "Rúa Capitán Juan Varela, s/n, 15007 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Delegación Provincial do Instituto Nacional de Estatística na Coruña",
+   "kind": "biblioteca",
+   "lat": 43.3758,
+   "lon": -8.40125,
+   "address": "Rúa Adelaida Muro, 12, 15002 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Deputación Provincial da Coruña",
+   "kind": "biblioteca",
+   "lat": 43.3705,
+   "lon": -8.39836,
+   "address": "Rúa Rego de Auga, 37, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Escola Oficial de Idiomas A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.370819,
+   "lon": -8.423077,
+   "address": "Rúa Pepín Rivero, s/n, 15011 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Filmoteca de Galicia",
+   "kind": "biblioteca",
+   "lat": 43.367789,
+   "lon": -8.404817,
+   "address": "Rúa Durán Loriga, 10 baixo, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Fundación Barrié",
+   "kind": "biblioteca",
+   "lat": 43.367934,
+   "lon": -8.403529,
+   "address": "Cantón Grande, n. 9, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Fundación Centro Oncolóxico de Galicia \"José Antonio Quiroga y Piñeyro\"",
+   "kind": "biblioteca",
+   "lat": 43.3362,
+   "lon": -8.3911,
+   "address": "Rúa Doctor Camilo Beiras, n. 1, 15009 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Real Academia de Mediciña e Ciruxía de Galicia",
+   "kind": "biblioteca",
+   "lat": 43.3678,
+   "lon": -8.4049,
+   "address": "Rúa Durán Loriga , 10, 2º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Real Academia Galega",
+   "kind": "biblioteca",
+   "lat": 43.369392,
+   "lon": -8.39451,
+   "address": "Tabernas, 11, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Real Academia Galega de Belas Artes",
+   "kind": "biblioteca",
+   "lat": 43.371286,
+   "lon": -8.395123,
+   "address": "Praza Pintor Álvarez de Sotomayor, 1, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca da Reunión Recreativa e Instructiva de Artesanos",
+   "kind": "biblioteca",
+   "lat": 43.370515,
+   "lon": -8.40228,
+   "address": "Rúa San Andrés, 36, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca de la Agencia Estatal de Meteorología (AEMET) - Delegación Territorial en Galicia",
+   "kind": "biblioteca",
+   "lat": 43.3661,
+   "lon": -8.42067,
+   "address": "Rúa Canceliña, 8, 15071 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Arquivo do Instituto José Cornide de Estudos Coruñeses",
+   "kind": "biblioteca",
+   "lat": 43.367768,
+   "lon": -8.404896,
+   "address": "Rúa Durán Loriga, 10, 4º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Arquivo do Reino de Galicia",
+   "kind": "biblioteca",
+   "lat": 43.368915,
+   "lon": -8.390563,
+   "address": "Xardíns de San Carlos, s/n, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Centro Oceanográfico de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.380605,
+   "lon": -8.409115,
+   "address": "Paseo Marítimo Alcalde Francisco Vázquez, 10, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Colexio Oficial de Enxeñeiros Técnicos Industriais de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.364651,
+   "lon": -8.408008,
+   "address": "Rúa Sinfónica de Galicia, 8, 15004 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Complexo Hospitalario Universitario A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.346167,
+   "lon": -8.384978,
+   "address": "Xubias de Arriba, 84, 15006 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Ilustre Colexio de Notarios de Galicia",
+   "kind": "biblioteca",
+   "lat": 43.3642,
+   "lon": -8.40741,
+   "address": "Rúa Arzobispo Lago, 12, 15004 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Ilustre Colexio de Veterinarios da Provincia da Coruña",
+   "kind": "biblioteca",
+   "lat": 43.341898,
+   "lon": -8.403673,
+   "address": "Rúa Profesora Maria Puga Cerdido, 15009 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Ilustre Colexio Provincial de Avogados de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.364042,
+   "lon": -8.406279,
+   "address": "Rúa Federico Tapia, 11, 15005 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Instituto Universitario de Xeoloxía Isidro Parga Pondal",
+   "kind": "biblioteca",
+   "lat": 43.331226,
+   "lon": -8.411826,
+   "address": "Edificio ESCI, andar -3, Campus de Elviña, 15071 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Museo Arqueolóxico e Histórico",
+   "kind": "biblioteca",
+   "lat": 43.365838,
+   "lon": -8.387772,
+   "address": "Paseo Marítimo Alcalde Francisco Vázquez , 2 B. Castelo de San Antón, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Museo de Belas Artes da Coruña",
+   "kind": "biblioteca",
+   "lat": 43.372652,
+   "lon": -8.40001,
+   "address": "Rúa Zalaeta, 2, 15002 A Coruña"
+  },
+  {
+   "name": "Biblioteca do Tribunal Superior de Xustiza de Galicia",
+   "kind": "biblioteca",
+   "lat": 43.364849,
+   "lon": -8.406701,
+   "address": "Praza de Galicia, s/n, 15004 A Coruña"
+  },
+  {
+   "name": "Biblioteca Fundación Paideia",
+   "kind": "biblioteca",
+   "lat": 43.370441,
+   "lon": -8.396285,
+   "address": "Plaza María Pita, 17, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca Histórico Militar de A Coruña",
+   "kind": "biblioteca",
+   "lat": 43.373004,
+   "lon": -8.395014,
+   "address": "Praza de Millán Astray, 14, Acuartelamiento de Atocha, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Ágora",
+   "kind": "biblioteca",
+   "lat": 43.3635,
+   "lon": -8.42648,
+   "address": "Lugar Gramela, 17, 15010 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal de Estudos Locais",
+   "kind": "biblioteca",
+   "lat": 43.3678,
+   "lon": -8.40493,
+   "address": "Rúa Durán Loriga, 10, 1º, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Fórum Metropolitano",
+   "kind": "biblioteca",
+   "lat": 43.3555,
+   "lon": -8.39888,
+   "address": "Rúa Río Monelos, 1, 15006 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Infantil e Xuvenil",
+   "kind": "biblioteca",
+   "lat": 43.3678,
+   "lon": -8.40493,
+   "address": "Rúa Durán Loriga, 10 - Baixo, 15003 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Monte Alto",
+   "kind": "biblioteca",
+   "lat": 43.3774,
+   "lon": -8.4,
+   "address": "Rúa Vereda del Polvorín, 2 - 3º, 15002 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Os Rosales",
+   "kind": "biblioteca",
+   "lat": 43.3735,
+   "lon": -8.43442,
+   "address": "Praza Elíptica, 1, 15011 A Coruña"
+  },
+  {
+   "name": "Biblioteca Municipal Sagrada Familia",
+   "kind": "biblioteca",
+   "lat": 43.358,
+   "lon": -8.41699,
+   "address": "Antonio Pereira, 1 - 3 - Baixo, 15007 A Coruña"
+  },
+  {
+   "name": "Biblioteca Pública da Coruña Miguel González Garcés",
+   "kind": "biblioteca",
+   "lat": 43.3483,
+   "lon": -8.40502,
+   "address": "Rúa Miguel González Garcés, 1, 15008 A Coruña"
+  },
+  {
+   "name": "Fundación Biblioteca da Casa Consulado",
+   "kind": "biblioteca",
+   "lat": 43.372134,
+   "lon": -8.399508,
+   "address": "Plaza Pintor Alvarez Sotomaior, n. 1, 15001 A Coruña"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Miguel González Garcés",
+   "kind": "biblioteca",
+   "lat": 43.318149,
+   "lon": -8.369895,
+   "address": "Ramón Cabanillas, 14, 15670 Culleredo"
+  },
+  {
+   "name": "Axencia de Lectura Municipal Xosé Cardeso Liñares",
+   "kind": "biblioteca",
+   "lat": 43.3119,
+   "lon": -8.38204,
+   "address": "Avenida de Vilaboa, 44 (Vila Melania), 15174 Culleredo"
+  },
+  {
+   "name": "Axencia de Lectura Municipal de Caión",
+   "kind": "biblioteca",
+   "lat": 43.320121,
+   "lon": -8.605813,
+   "address": "Muiño do vento , s/n, 15145 A Laracha"
+  },
+  {
+   "name": "Axencia de Lectura Municipal de Paiosaco",
+   "kind": "biblioteca",
+   "lat": 43.251952,
+   "lon": -8.55747,
+   "address": "Porta Santa, 10, 15145 A Laracha"
+  },
+  {
+   "name": "Biblioteca Pública Municipal de A Laracha",
+   "kind": "biblioteca",
+   "lat": 43.2467,
+   "lon": -8.58284,
+   "address": "Manuel Murguía, s/n, 15145 A Laracha"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Xograr Mendiño",
+   "kind": "biblioteca",
+   "lat": 43.3895,
+   "lon": -8.31068,
+   "address": "Rúa do Golfiño, 38, 15177 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal María José Trincado",
+   "kind": "biblioteca",
+   "lat": 43.3779,
+   "lon": -8.33371,
+   "address": "Rúa Curros Enríquez, s/n (Urb. Pía de Maianca), 15177 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Manuel María",
+   "kind": "biblioteca",
+   "lat": 43.3332,
+   "lon": -8.3188,
+   "address": "Rúa Camilo Díaz Baliño, 1, 15173 Oleiros"
+  },
+  {
+   "name": "Centro de Documentación Ambiental Domingo Quiroga",
+   "kind": "biblioteca",
+   "lat": 43.347765,
+   "lon": -8.34723,
+   "address": "Castelo de Santa Cruz, s/n, 15179 Oleiros"
+  },
+  {
+   "name": "Biblioteca Central Rialeda",
+   "kind": "biblioteca",
+   "lat": 43.331858,
+   "lon": -8.374647,
+   "address": "Avenida Rosalía de Castro, 227 A, 15172 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal María José Ruso",
+   "kind": "biblioteca",
+   "lat": 43.3581,
+   "lon": -8.31927,
+   "address": "Parque Nicolás Redondo, 15178 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Ánxel Fole de Nós",
+   "kind": "biblioteca",
+   "lat": 43.3172,
+   "lon": -8.34277,
+   "address": "Casa do Pobo de Nós. Praza da Liberdade, s/n, 15176 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal e Centro de Documentación da Muller Rosalía de Castro",
+   "kind": "biblioteca",
+   "lat": 43.3469,
+   "lon": -8.34363,
+   "address": "Rúa Emilia Pardo Bazán, 17 - Centro Cultural As Torres, 15179 Oleiros"
+  },
+  {
+   "name": "Biblioteca Pública Municipal Ramón Suárez Picallo",
+   "kind": "biblioteca",
+   "lat": 43.3557,
+   "lon": -8.25201,
+   "address": "Avenida do Porto, s/n, 15160 Sada"
+  }
+ ]
+}

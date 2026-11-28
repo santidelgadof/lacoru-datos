@@ -1,0 +1,1814 @@
+{
+  "generated_at": "2026-11-21T15:36:43.031539+00:00",
+  "source": "Xunta de Galicia, Consellería de Sanidade · SERGAS (abertos.xunta.gal, conxunto 0253), licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/deed.es)",
+  "dataset_url": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia",
+  "license": "CC BY-SA 4.0",
+  "count": 32,
+  "pac_count": 7,
+  "items": [
+    {
+      "id": "a-coruna-centro-de-saude-casa-do-mar",
+      "nombre": "Centro de Saúde Casa do Mar",
+      "concello": "A Coruña",
+      "direccion": "Avenida Ejercito 2-A",
+      "codigo_postal": "15006",
+      "telefono": "981 170 359",
+      "lat": 43.357971,
+      "lon": -8.400319,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-abente-y-lago",
+      "nombre": "Centro de Saúde Abente y Lago",
+      "concello": "A Coruña",
+      "direccion": "Paseo General Sir John Moore 002",
+      "codigo_postal": "15001",
+      "telefono": "981 202 622",
+      "lat": 43.368496,
+      "lon": -8.390351,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-adormideras",
+      "nombre": "Centro de Saúde Adormideras",
+      "concello": "A Coruña",
+      "direccion": "Calle Juan Sebastian Elcano (del) 15",
+      "codigo_postal": "15002",
+      "telefono": "981 211 133",
+      "lat": 43.38353,
+      "lon": -8.395511,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-elvina-mesoiro",
+      "nombre": "Centro de Saúde Elviña-Mesoiro",
+      "concello": "A Coruña",
+      "direccion": "Calle Alexander Von Humboldt S/N",
+      "codigo_postal": "15008",
+      "telefono": "981 247 688",
+      "lat": 43.345306,
+      "lon": -8.410046,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-federico-tapia",
+      "nombre": "Centro de Saúde Federico Tapia",
+      "concello": "A Coruña",
+      "direccion": "Calle Federico Tapia 73",
+      "codigo_postal": "15005",
+      "telefono": "981 241 023",
+      "lat": 43.360142,
+      "lon": -8.406102,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-labanou",
+      "nombre": "Centro de Saúde Labañou",
+      "concello": "A Coruña",
+      "direccion": "Calle Honduras S/N",
+      "codigo_postal": "15011",
+      "telefono": "981 268 384",
+      "lat": 43.371971,
+      "lon": -8.424979,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-matogrande",
+      "nombre": "Centro de Saúde Matogrande",
+      "concello": "A Coruña",
+      "direccion": "Calle Luis Quintas Goyanes 1",
+      "codigo_postal": "15009",
+      "telefono": "981 286 665",
+      "lat": 43.342392,
+      "lon": -8.40316,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-monte-alto-a-torre",
+      "nombre": "Centro de Saúde Monte Alto - a Torre",
+      "concello": "A Coruña",
+      "direccion": "Plaza Luis Rodriguez Lago 2",
+      "codigo_postal": "15002",
+      "telefono": "981 212 520",
+      "lat": 43.378948,
+      "lon": -8.397598,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-novo-mesoiro",
+      "nombre": "Centro de Saúde Novo Mesoiro",
+      "concello": "A Coruña",
+      "direccion": "Calle os Ancares 2",
+      "codigo_postal": "15190",
+      "telefono": "981 081 899",
+      "lat": 43.32515,
+      "lon": -8.431887,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-san-jose",
+      "nombre": "Centro de Saúde San Jose",
+      "concello": "A Coruña",
+      "direccion": "Calle Comandante Fontanes 008",
+      "codigo_postal": "15003",
+      "telefono": "981 226 335",
+      "lat": 43.369587,
+      "lon": -8.40559,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-o-castrillon",
+      "nombre": "Centro de Saúde o Castrillon",
+      "concello": "A Coruña",
+      "direccion": "Calle General Salcedo Molinuevo 3",
+      "codigo_postal": "15009",
+      "telefono": "981 132 925",
+      "lat": 43.350796,
+      "lon": -8.391887,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-o-ventorrillo",
+      "nombre": "Centro de Saúde o Ventorrillo",
+      "concello": "A Coruña",
+      "direccion": "Avenida Finisterre 316",
+      "codigo_postal": "15010",
+      "telefono": "981 142 850",
+      "lat": 43.357792,
+      "lon": -8.422953,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-os-mallos",
+      "nombre": "Centro de Saúde os Mallos",
+      "concello": "A Coruña",
+      "direccion": "Calle Napoleon Bonaparte 1",
+      "codigo_postal": "15007",
+      "telefono": "981 168 770",
+      "lat": 43.352654,
+      "lon": -8.415622,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "a-coruna-centro-de-saude-os-rosales",
+      "nombre": "Centro de Saúde os Rosales",
+      "concello": "A Coruña",
+      "direccion": "Calle Alfonso Rodriguez Castelao S/N",
+      "codigo_postal": "15011",
+      "telefono": "981 647 851",
+      "lat": 43.373249,
+      "lon": -8.428348,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "abegondo-centro-de-saude-abegondo",
+      "nombre": "Centro de Saúde Abegondo",
+      "concello": "Abegondo",
+      "direccion": "Lugar San Marcos 43",
+      "codigo_postal": "15318",
+      "telefono": "981 673 330",
+      "lat": 43.227394,
+      "lon": -8.286893,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "arteixo-centro-de-saude-arteixo",
+      "nombre": "Centro de Saúde Arteixo",
+      "concello": "Arteixo",
+      "direccion": "Travesia Arteixo 278",
+      "codigo_postal": "15142",
+      "telefono": "981 640 364",
+      "lat": 43.299995,
+      "lon": -8.508301,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "arteixo-centro-de-saude-vilarrodis",
+      "nombre": "Centro de Saúde Vilarrodis",
+      "concello": "Arteixo",
+      "direccion": "Calle Aguceira 8",
+      "codigo_postal": "15141",
+      "telefono": "981 082 200",
+      "lat": 43.316494,
+      "lon": -8.479536,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "arteixo-consultorio-meicende",
+      "nombre": "Consultorio Meicende",
+      "concello": "Arteixo",
+      "direccion": "Travesia Meicende 54",
+      "codigo_postal": "15008",
+      "telefono": "981 148 071",
+      "lat": 43.341873,
+      "lon": -8.453911,
+      "es_pac": false,
+      "tipo": "consultorio",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "bergondo-centro-de-saude-bergondo",
+      "nombre": "Centro de Saúde Bergondo",
+      "concello": "Bergondo",
+      "direccion": "Lugar San Isidro S/N",
+      "codigo_postal": "15165",
+      "telefono": "981 794 320",
+      "lat": 43.319973,
+      "lon": -8.234094,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "bergondo-consultorio-guisamo",
+      "nombre": "Consultorio Guisamo",
+      "concello": "Bergondo",
+      "direccion": "Calle Rua Nueva S/N",
+      "codigo_postal": "15640",
+      "telefono": "981 795 621",
+      "lat": 43.296394,
+      "lon": -8.268456,
+      "es_pac": false,
+      "tipo": "consultorio",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "betanzos-centro-de-saude-betanzos",
+      "nombre": "Centro de Saúde Betanzos",
+      "concello": "Betanzos",
+      "direccion": "Avenida Carregal 17",
+      "codigo_postal": "15300",
+      "telefono": "981 772 556",
+      "lat": 43.279835,
+      "lon": -8.218083,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "cambre-centro-de-saude-cambre",
+      "nombre": "Centro de Saúde Cambre",
+      "concello": "Cambre",
+      "direccion": "Calle Samosteiro 4",
+      "codigo_postal": "15660",
+      "telefono": "981 676 640",
+      "lat": 43.290489,
+      "lon": -8.344939,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "cambre-centro-de-saude-o-temple",
+      "nombre": "Centro de Saúde o Temple",
+      "concello": "Cambre",
+      "direccion": "Calle Francisco Añon 7",
+      "codigo_postal": "15679",
+      "telefono": "981 651 272",
+      "lat": 43.316238,
+      "lon": -8.356025,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "carral-centro-de-saude-carral",
+      "nombre": "Centro de Saúde Carral",
+      "concello": "Carral",
+      "direccion": "Calle Belvis de Paleo S/N",
+      "codigo_postal": "15175",
+      "telefono": "981 613 421",
+      "lat": 43.228561,
+      "lon": -8.361063,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "culleredo-centro-de-saude-culleredo",
+      "nombre": "Centro de Saúde Culleredo",
+      "concello": "Culleredo",
+      "direccion": "Calle Tierno Galvan S/N",
+      "codigo_postal": "15670",
+      "telefono": "981 666 467",
+      "lat": 43.314499,
+      "lon": -8.373186,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "culleredo-centro-de-saude-o-portadego",
+      "nombre": "Centro de Saúde o Portadego",
+      "concello": "Culleredo",
+      "direccion": "Avenida Portadego 6",
+      "codigo_postal": "15174",
+      "telefono": "981 956 510",
+      "lat": 43.325928,
+      "lon": -8.384221,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "culleredo-consultorio-tarrio",
+      "nombre": "Consultorio Tarrio",
+      "concello": "Culleredo",
+      "direccion": "Calle Concello 009",
+      "codigo_postal": "15189",
+      "telefono": "981 677 539",
+      "lat": 43.287903,
+      "lon": -8.38918,
+      "es_pac": false,
+      "tipo": "consultorio",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "oleiros-centro-de-saude-santa-cruz",
+      "nombre": "Centro de Saúde Santa Cruz",
+      "concello": "Oleiros",
+      "direccion": "Calle Rafael Dieste 002",
+      "codigo_postal": "15179",
+      "telefono": "981 626 768",
+      "lat": 43.347321,
+      "lon": -8.343866,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "oleiros-centro-de-saude-perillo",
+      "nombre": "Centro de Saúde Perillo",
+      "concello": "Oleiros",
+      "direccion": "Calle Etiopia S/N",
+      "codigo_postal": "15172",
+      "telefono": "981 638 426",
+      "lat": 43.332985,
+      "lon": -8.374114,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "oleiros-centro-de-saude-a-covada",
+      "nombre": "Centro de Saúde a Covada",
+      "concello": "Oleiros",
+      "direccion": "Calle Cruz 26",
+      "codigo_postal": "15173",
+      "telefono": "981 082 188",
+      "lat": 43.329819,
+      "lon": -8.321976,
+      "es_pac": false,
+      "tipo": "centro_saude",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "oleiros-consultorio-mera",
+      "nombre": "Consultorio Mera",
+      "concello": "Oleiros",
+      "direccion": "Calle Vinculeiros 2",
+      "codigo_postal": "15177",
+      "telefono": "981 628 544",
+      "lat": 43.37719,
+      "lon": -8.33695,
+      "es_pac": false,
+      "tipo": "consultorio",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    },
+    {
+      "id": "sada-centro-de-saude-sada",
+      "nombre": "Centro de Saúde Sada",
+      "concello": "Sada",
+      "direccion": "Avenida Parroco Villanueva S/N",
+      "codigo_postal": "15160",
+      "telefono": "981 621 893",
+      "lat": 43.353489,
+      "lon": -8.256389,
+      "es_pac": true,
+      "tipo": "pac",
+      "fuente": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0253/mapa-dos-servizos-sanitarios-galicia"
+    }
+  ],
+  "farmacias": [
+    {
+      "direccion": "Alcalde Liaño Flores, 15",
+      "concello": "A Coruña",
+      "telefono": "981 256 036",
+      "lat": 43.3628,
+      "lon": -8.424452
+    },
+    {
+      "direccion": "Alcalde Suarez Ferrin, 13 - Pol. Los Rosales",
+      "concello": "A Coruña",
+      "telefono": "981 128 681",
+      "lat": 43.373447,
+      "lon": -8.435238
+    },
+    {
+      "direccion": "Alfredo Vicenti, 44",
+      "concello": "A Coruña",
+      "telefono": "981 253 290",
+      "lat": 43.367165,
+      "lon": -8.413448
+    },
+    {
+      "direccion": "Angel Senra, 27",
+      "concello": "A Coruña",
+      "telefono": "981 231 304",
+      "lat": 43.354813,
+      "lon": -8.408927
+    },
+    {
+      "direccion": "Anton Vilar Ponte, 10",
+      "concello": "A Coruña",
+      "telefono": "981 267 292",
+      "lat": 43.360124,
+      "lon": -8.407817
+    },
+    {
+      "direccion": "Antonio Rios, 6",
+      "concello": "A Coruña",
+      "telefono": "981 286 870",
+      "lat": 43.352484,
+      "lon": -8.394888
+    },
+    {
+      "direccion": "Antonio Rios, 68",
+      "concello": "A Coruña",
+      "telefono": "981 132 345",
+      "lat": 43.349249,
+      "lon": -8.399822
+    },
+    {
+      "direccion": "Arteijo, 6",
+      "concello": "A Coruña",
+      "telefono": "981 250 848",
+      "lat": 43.36349,
+      "lon": -8.408622
+    },
+    {
+      "direccion": "Arteijo, 81",
+      "concello": "A Coruña",
+      "telefono": "981 238 062",
+      "lat": 43.357204,
+      "lon": -8.412845
+    },
+    {
+      "direccion": "Atochas, 9",
+      "concello": "A Coruña",
+      "telefono": "981 202 036",
+      "lat": 43.373406,
+      "lon": -8.394642
+    },
+    {
+      "direccion": "Avenida de Chile, 39",
+      "concello": "A Coruña",
+      "telefono": "981 237 209",
+      "lat": 43.352809,
+      "lon": -8.403583
+    },
+    {
+      "direccion": "Barcelona, 22",
+      "concello": "A Coruña",
+      "telefono": "981 256 339",
+      "lat": 43.360326,
+      "lon": -8.419939
+    },
+    {
+      "direccion": "Barcelona, 84",
+      "concello": "A Coruña",
+      "telefono": "981 255 869",
+      "lat": 43.36377,
+      "lon": -8.422395
+    },
+    {
+      "direccion": "Baños de Arteixo, 43",
+      "concello": "A Coruña",
+      "telefono": "981 910 002",
+      "lat": 43.34725,
+      "lon": -8.42521
+    },
+    {
+      "direccion": "Calvo Sotelo, 23",
+      "concello": "A Coruña",
+      "telefono": "981 262 771",
+      "lat": 43.365425,
+      "lon": -8.41382
+    },
+    {
+      "direccion": "Camariñas, 18",
+      "concello": "A Coruña",
+      "telefono": "981 203 333",
+      "lat": 43.37675,
+      "lon": -8.404146
+    },
+    {
+      "direccion": "Cardenal Cisneros, 56",
+      "concello": "A Coruña",
+      "telefono": "981 241 305",
+      "lat": 43.357822,
+      "lon": -8.416765
+    },
+    {
+      "direccion": "Casanova de Eiris, 45",
+      "concello": "A Coruña",
+      "telefono": "981 280 563",
+      "lat": 43.347975,
+      "lon": -8.396979
+    },
+    {
+      "direccion": "Concepcion Arenal, 8",
+      "concello": "A Coruña",
+      "telefono": "981 289 871",
+      "lat": 43.358009,
+      "lon": -8.40354
+    },
+    {
+      "direccion": "Concordia, 54",
+      "concello": "A Coruña",
+      "telefono": "981 286 964",
+      "lat": 43.351583,
+      "lon": -8.395904
+    },
+    {
+      "direccion": "Da Pasaxe, 31",
+      "concello": "A Coruña",
+      "telefono": "981 139 105",
+      "lat": 43.330126,
+      "lon": -8.384122
+    },
+    {
+      "direccion": "De Arteixo, 109",
+      "concello": "A Coruña",
+      "telefono": "981 232 712",
+      "lat": 43.354963,
+      "lon": -8.414027
+    },
+    {
+      "direccion": "De Arteixo, 21,",
+      "concello": "A Coruña",
+      "telefono": "981 253 943",
+      "lat": 43.362305,
+      "lon": -8.410468
+    },
+    {
+      "direccion": "De Meicende, 194,",
+      "concello": "A Coruña",
+      "telefono": "981 255 633",
+      "lat": 43.34779,
+      "lon": -8.444547
+    },
+    {
+      "direccion": "Elviña 2 Fase Bloque, 2",
+      "concello": "A Coruña",
+      "telefono": "981 243 594",
+      "lat": 43.345778,
+      "lon": -8.413737
+    },
+    {
+      "direccion": "Emilia Pardo Bazan, 12",
+      "concello": "A Coruña",
+      "telefono": "981 121 580",
+      "lat": 43.363311,
+      "lon": -8.407173
+    },
+    {
+      "direccion": "Emilio Gonzalez Lopez, 30",
+      "concello": "A Coruña",
+      "telefono": "981 129 612",
+      "lat": 43.37547,
+      "lon": -8.434786
+    },
+    {
+      "direccion": "Entrepeñas, 14",
+      "concello": "A Coruña",
+      "telefono": "981 262 175",
+      "lat": 43.36236,
+      "lon": -8.420955
+    },
+    {
+      "direccion": "España, 24",
+      "concello": "A Coruña",
+      "telefono": "981 206 119",
+      "lat": 43.373165,
+      "lon": -8.397419
+    },
+    {
+      "direccion": "Estreita de San Andres, 15",
+      "concello": "A Coruña",
+      "telefono": "981 221 849",
+      "lat": 43.371412,
+      "lon": -8.399976
+    },
+    {
+      "direccion": "Eugenio Carre Aldao, 10",
+      "concello": "A Coruña",
+      "telefono": "981 236 879",
+      "lat": 43.355494,
+      "lon": -8.410907
+    },
+    {
+      "direccion": "Fernandez Latorre, 48",
+      "concello": "A Coruña",
+      "telefono": "981 231 322",
+      "lat": 43.357877,
+      "lon": -8.403825
+    },
+    {
+      "direccion": "Fernandez Latorre, 51",
+      "concello": "A Coruña",
+      "telefono": "981 293 902",
+      "lat": 43.35557,
+      "lon": -8.404324
+    },
+    {
+      "direccion": "Fernando Macias, 12",
+      "concello": "A Coruña",
+      "telefono": "981 252 998",
+      "lat": 43.366224,
+      "lon": -8.411945
+    },
+    {
+      "direccion": "Finisterre, 135",
+      "concello": "A Coruña",
+      "telefono": "981 259 695",
+      "lat": 43.362277,
+      "lon": -8.414533
+    },
+    {
+      "direccion": "Finisterre, 234",
+      "concello": "A Coruña",
+      "telefono": "981 253 640",
+      "lat": 43.36025,
+      "lon": -8.417166
+    },
+    {
+      "direccion": "Finisterre, 58",
+      "concello": "A Coruña",
+      "telefono": "981 250 691",
+      "lat": 43.365032,
+      "lon": -8.411643
+    },
+    {
+      "direccion": "Francisco Añon, 38",
+      "concello": "A Coruña",
+      "telefono": "981 252 763",
+      "lat": 43.364252,
+      "lon": -8.418973
+    },
+    {
+      "direccion": "Francisco Catoira, 27",
+      "concello": "A Coruña",
+      "telefono": "981 231 727",
+      "lat": 43.354031,
+      "lon": -8.410438
+    },
+    {
+      "direccion": "Gambrinus, 7",
+      "concello": "A Coruña",
+      "telefono": "881 006 136",
+      "lat": 43.35245,
+      "lon": -8.422697
+    },
+    {
+      "direccion": "Gramela, 28",
+      "concello": "A Coruña",
+      "telefono": "981 255 147",
+      "lat": 43.36177,
+      "lon": -8.418392
+    },
+    {
+      "direccion": "Gran Canaria, 4",
+      "concello": "A Coruña",
+      "telefono": "981 253 389",
+      "lat": 43.37121,
+      "lon": -8.422028
+    },
+    {
+      "direccion": "Hercules, 46",
+      "concello": "A Coruña",
+      "telefono": "981 903 681",
+      "lat": 43.37723,
+      "lon": -8.401355
+    },
+    {
+      "direccion": "Hercules, 91",
+      "concello": "A Coruña",
+      "telefono": "981 201 883",
+      "lat": 43.379069,
+      "lon": -8.405472
+    },
+    {
+      "direccion": "Honduras, S/N",
+      "concello": "A Coruña",
+      "telefono": "981 261 411",
+      "lat": 43.372684,
+      "lon": -8.42385
+    },
+    {
+      "direccion": "Joaquin Galiacho, 1 - 3",
+      "concello": "A Coruña",
+      "telefono": "981 296 061",
+      "lat": 43.350785,
+      "lon": -8.403982
+    },
+    {
+      "direccion": "Jose Maria Hernan Saez, 16",
+      "concello": "A Coruña",
+      "telefono": "981 290 200",
+      "lat": 43.350728,
+      "lon": -8.393721
+    },
+    {
+      "direccion": "Juan Florez, 113 - 115",
+      "concello": "A Coruña",
+      "telefono": "981 232 701",
+      "lat": 43.359943,
+      "lon": -8.406106
+    },
+    {
+      "direccion": "Juan Florez, 39,",
+      "concello": "A Coruña",
+      "telefono": "981 252 408",
+      "lat": 43.36425,
+      "lon": -8.408103
+    },
+    {
+      "direccion": "Juan Florez, 79 - 81",
+      "concello": "A Coruña",
+      "telefono": "881 126 573",
+      "lat": 43.361806,
+      "lon": -8.40784
+    },
+    {
+      "direccion": "Juan Montes, 30",
+      "concello": "A Coruña",
+      "telefono": "981 287 192",
+      "lat": 43.353282,
+      "lon": -8.395521
+    },
+    {
+      "direccion": "Jubias de Arriba, 20",
+      "concello": "A Coruña",
+      "telefono": "981 283 218",
+      "lat": 43.344782,
+      "lon": -8.385465
+    },
+    {
+      "direccion": "Julio Rodriguez Yordi, 18",
+      "concello": "A Coruña",
+      "telefono": "981 255 844",
+      "lat": 43.369846,
+      "lon": -8.419522
+    },
+    {
+      "direccion": "La Haya, S/N",
+      "concello": "A Coruña",
+      "telefono": "981 270 112",
+      "lat": 43.312859,
+      "lon": -8.420483
+    },
+    {
+      "direccion": "Linares Rivas, 43",
+      "concello": "A Coruña",
+      "telefono": "981 230 917",
+      "lat": 43.361958,
+      "lon": -8.405308
+    },
+    {
+      "direccion": "Lonzas, 20 - El Birloque",
+      "concello": "A Coruña",
+      "telefono": "981 281 140",
+      "lat": 43.343175,
+      "lon": -8.415281
+    },
+    {
+      "direccion": "Lugo, 11",
+      "concello": "A Coruña",
+      "telefono": "981 226 990",
+      "lat": 43.366072,
+      "lon": -8.407246
+    },
+    {
+      "direccion": "Luis Quintas Goyanes, 4",
+      "concello": "A Coruña",
+      "telefono": "981 285 504",
+      "lat": 43.342667,
+      "lon": -8.406491
+    },
+    {
+      "direccion": "Mallos, 1",
+      "concello": "A Coruña",
+      "telefono": "981 233 324",
+      "lat": 43.358177,
+      "lon": -8.409929
+    },
+    {
+      "direccion": "Mallos, 99",
+      "concello": "A Coruña",
+      "telefono": "981 236 983",
+      "lat": 43.353152,
+      "lon": -8.41432
+    },
+    {
+      "direccion": "Manuel Azaña, 21",
+      "concello": "A Coruña",
+      "telefono": "981 129 300",
+      "lat": 43.374967,
+      "lon": -8.428044
+    },
+    {
+      "direccion": "Manuel Azaña, 66",
+      "concello": "A Coruña",
+      "telefono": "981 206 381",
+      "lat": 43.374605,
+      "lon": -8.432321
+    },
+    {
+      "direccion": "Manuel Murguia, 23",
+      "concello": "A Coruña",
+      "telefono": "981 263 883",
+      "lat": 43.368358,
+      "lon": -8.423601
+    },
+    {
+      "direccion": "Maria Casares, S/N",
+      "concello": "A Coruña",
+      "telefono": "981 234 514",
+      "lat": 43.347151,
+      "lon": -8.409791
+    },
+    {
+      "direccion": "Mariscal Pardo de Cela, 10",
+      "concello": "A Coruña",
+      "telefono": "981 231 714",
+      "lat": 43.356768,
+      "lon": -8.407387
+    },
+    {
+      "direccion": "Maritimo, 5",
+      "concello": "A Coruña",
+      "telefono": "981 202 727",
+      "lat": 43.379685,
+      "lon": -8.408141
+    },
+    {
+      "direccion": "Marola, 1",
+      "concello": "A Coruña",
+      "telefono": "981 203 387",
+      "lat": 43.379374,
+      "lon": -8.401505
+    },
+    {
+      "direccion": "Mendaña de Neyra, 34, Ba",
+      "concello": "A Coruña",
+      "telefono": "666 261 774",
+      "lat": 43.34038,
+      "lon": -8.41234
+    },
+    {
+      "direccion": "Merced, 90",
+      "concello": "A Coruña",
+      "telefono": "981 287 748",
+      "lat": 43.352289,
+      "lon": -8.39212
+    },
+    {
+      "direccion": "Monelos, 137 - 139",
+      "concello": "A Coruña",
+      "telefono": "981 281 012",
+      "lat": 43.346389,
+      "lon": -8.400723
+    },
+    {
+      "direccion": "Monelos, 211",
+      "concello": "A Coruña",
+      "telefono": "981 286 187",
+      "lat": 43.346488,
+      "lon": -8.400864
+    },
+    {
+      "direccion": "Monelos, 77 - 79,",
+      "concello": "A Coruña",
+      "telefono": "981 284 487",
+      "lat": 43.348362,
+      "lon": -8.402872
+    },
+    {
+      "direccion": "Monte Alto, 5 - Ba, Iz - Iz",
+      "concello": "A Coruña",
+      "telefono": "981 213 764",
+      "lat": 43.381581,
+      "lon": -8.400959
+    },
+    {
+      "direccion": "Nelle, 116",
+      "concello": "A Coruña",
+      "telefono": "981 257 100",
+      "lat": 43.362152,
+      "lon": -8.416384
+    },
+    {
+      "direccion": "Nelle, 57",
+      "concello": "A Coruña",
+      "telefono": "981 244 138",
+      "lat": 43.35976,
+      "lon": -8.413555
+    },
+    {
+      "direccion": "Nicomedes Pastor Diaz, 17",
+      "concello": "A Coruña",
+      "telefono": "981 287 264",
+      "lat": 43.356253,
+      "lon": -8.399879
+    },
+    {
+      "direccion": "Novo Mesoiro, 18",
+      "concello": "A Coruña",
+      "telefono": "981 081 161",
+      "lat": 43.32499,
+      "lon": -8.436599
+    },
+    {
+      "direccion": "Noya, 10,",
+      "concello": "A Coruña",
+      "telefono": "981 232 609",
+      "lat": 43.356177,
+      "lon": -8.409324
+    },
+    {
+      "direccion": "Nueva, 18",
+      "concello": "A Coruña",
+      "telefono": "981 224 427",
+      "lat": 43.369385,
+      "lon": -8.40282
+    },
+    {
+      "direccion": "Orense, 1",
+      "concello": "A Coruña",
+      "telefono": "981 221 511",
+      "lat": 43.36503,
+      "lon": -8.405271
+    },
+    {
+      "direccion": "Orillamar, 54",
+      "concello": "A Coruña",
+      "telefono": "981 221 631",
+      "lat": 43.375435,
+      "lon": -8.395205
+    },
+    {
+      "direccion": "Orquideas, 6",
+      "concello": "A Coruña",
+      "telefono": "981 281 181",
+      "lat": 43.346045,
+      "lon": -8.40316
+    },
+    {
+      "direccion": "Orzan, 4",
+      "concello": "A Coruña",
+      "telefono": "981 209 733",
+      "lat": 43.371925,
+      "lon": -8.402998
+    },
+    {
+      "direccion": "Outeiro, 180 - 182",
+      "concello": "A Coruña",
+      "telefono": "981 248 047",
+      "lat": 43.356357,
+      "lon": -8.415616
+    },
+    {
+      "direccion": "Outeiro, 226",
+      "concello": "A Coruña",
+      "telefono": "981 245 611",
+      "lat": 43.3584,
+      "lon": -8.419404
+    },
+    {
+      "direccion": "Outeiro, 261",
+      "concello": "A Coruña",
+      "telefono": "981 252 029",
+      "lat": 43.362495,
+      "lon": -8.422585
+    },
+    {
+      "direccion": "Outeiro, 290",
+      "concello": "A Coruña",
+      "telefono": "981 257 112",
+      "lat": 43.36441,
+      "lon": -8.423801
+    },
+    {
+      "direccion": "Outeiro, 64 - 66",
+      "concello": "A Coruña",
+      "telefono": "981 132 675",
+      "lat": 43.352043,
+      "lon": -8.400075
+    },
+    {
+      "direccion": "Oza, 140",
+      "concello": "A Coruña",
+      "telefono": "981 283 319",
+      "lat": 43.353758,
+      "lon": -8.394173
+    },
+    {
+      "direccion": "Oza, 192",
+      "concello": "A Coruña",
+      "telefono": "981 281 418",
+      "lat": 43.353151,
+      "lon": -8.391723
+    },
+    {
+      "direccion": "Oza, 235",
+      "concello": "A Coruña",
+      "telefono": "981 287 935",
+      "lat": 43.352305,
+      "lon": -8.388435
+    },
+    {
+      "direccion": "Oza, 27",
+      "concello": "A Coruña",
+      "telefono": "981 287 899",
+      "lat": 43.354597,
+      "lon": -8.397914
+    },
+    {
+      "direccion": "Panama, 9",
+      "concello": "A Coruña",
+      "telefono": "981 254 738",
+      "lat": 43.3595,
+      "lon": -8.421106
+    },
+    {
+      "direccion": "Pequeño, 29",
+      "concello": "A Coruña",
+      "telefono": "981 222 117",
+      "lat": 43.366554,
+      "lon": -8.404582
+    },
+    {
+      "direccion": "Peruleiro, 4",
+      "concello": "A Coruña",
+      "telefono": "981 251 894",
+      "lat": 43.36726,
+      "lon": -8.421023
+    },
+    {
+      "direccion": "Peruleiro, 48",
+      "concello": "A Coruña",
+      "telefono": "981 251 635",
+      "lat": 43.36627,
+      "lon": -8.424561
+    },
+    {
+      "direccion": "Pla y Cancela, 21,",
+      "concello": "A Coruña",
+      "telefono": "981 268 320",
+      "lat": 43.361015,
+      "lon": -8.40992
+    },
+    {
+      "direccion": "Pocomaco Sexta Avenida, 14",
+      "concello": "A Coruña",
+      "telefono": "981 977 355",
+      "lat": 43.331297,
+      "lon": -8.429192
+    },
+    {
+      "direccion": "Pontevedra, 13",
+      "concello": "A Coruña",
+      "telefono": "981 276 108",
+      "lat": 43.36711,
+      "lon": -8.408742
+    },
+    {
+      "direccion": "Puente, 5",
+      "concello": "A Coruña",
+      "telefono": "981 282 925",
+      "lat": 43.354083,
+      "lon": -8.400547
+    },
+    {
+      "direccion": "Puentes, 10",
+      "concello": "A Coruña",
+      "telefono": "881 912 845",
+      "lat": 43.36372,
+      "lon": -8.413723
+    },
+    {
+      "direccion": "Rafael Alberti, 17",
+      "concello": "A Coruña",
+      "telefono": "981 173 619",
+      "lat": 43.34777,
+      "lon": -8.407101
+    },
+    {
+      "direccion": "Rafael Barez, 14",
+      "concello": "A Coruña",
+      "telefono": "981 282 996",
+      "lat": 43.347177,
+      "lon": -8.399403
+    },
+    {
+      "direccion": "Ramon Menendez Pidal, 2 - 4 - e 4.",
+      "concello": "A Coruña",
+      "telefono": "981 231 564",
+      "lat": 43.354534,
+      "lon": -8.407545
+    },
+    {
+      "direccion": "Ramon del Cueto, 17",
+      "concello": "A Coruña",
+      "telefono": "981 204 623",
+      "lat": 43.375984,
+      "lon": -8.400379
+    },
+    {
+      "direccion": "Ramon y Cajal, 41",
+      "concello": "A Coruña",
+      "telefono": "981 174 042",
+      "lat": 43.355892,
+      "lon": -8.402019
+    },
+    {
+      "direccion": "Real, 3",
+      "concello": "A Coruña",
+      "telefono": "981 221 763",
+      "lat": 43.370215,
+      "lon": -8.39959
+    },
+    {
+      "direccion": "Real, 80",
+      "concello": "A Coruña",
+      "telefono": "981 221 654",
+      "lat": 43.369294,
+      "lon": -8.401418
+    },
+    {
+      "direccion": "Real, 92",
+      "concello": "A Coruña",
+      "telefono": "981 222 134",
+      "lat": 43.369256,
+      "lon": -8.401893
+    },
+    {
+      "direccion": "Regata Cutty Sark, 5",
+      "concello": "A Coruña",
+      "telefono": "981 200 582",
+      "lat": 43.382015,
+      "lon": -8.395307
+    },
+    {
+      "direccion": "Ria do Burgo, 12",
+      "concello": "A Coruña",
+      "telefono": "981 232 049",
+      "lat": 43.350633,
+      "lon": -8.408123
+    },
+    {
+      "direccion": "Ribeira Sacra, 7",
+      "concello": "A Coruña",
+      "telefono": "981 227 622",
+      "lat": 43.325071,
+      "lon": -8.440305
+    },
+    {
+      "direccion": "Riego de Agua, 16",
+      "concello": "A Coruña",
+      "telefono": "981 222 555",
+      "lat": 43.370587,
+      "lon": -8.397366
+    },
+    {
+      "direccion": "Rodrigo a de Santiago, 50",
+      "concello": "A Coruña",
+      "telefono": "981 273 316",
+      "lat": 43.360966,
+      "lon": -8.423116
+    },
+    {
+      "direccion": "Ronda de Outeiro, 110, a",
+      "concello": "A Coruña",
+      "telefono": "981 231 665",
+      "lat": 43.352887,
+      "lon": -8.408301
+    },
+    {
+      "direccion": "Ronda, 58",
+      "concello": "A Coruña",
+      "telefono": "981 262 149",
+      "lat": 43.370028,
+      "lon": -8.416029
+    },
+    {
+      "direccion": "Rubine, 35",
+      "concello": "A Coruña",
+      "telefono": "981 251 646",
+      "lat": 43.367867,
+      "lon": -8.410702
+    },
+    {
+      "direccion": "Salvador de Madariaga, 37",
+      "concello": "A Coruña",
+      "telefono": "981 299 488",
+      "lat": 43.346646,
+      "lon": -8.405139
+    },
+    {
+      "direccion": "San Amaro, 2",
+      "concello": "A Coruña",
+      "telefono": "981 201 264",
+      "lat": 43.379314,
+      "lon": -8.398381
+    },
+    {
+      "direccion": "San Andres, 161",
+      "concello": "A Coruña",
+      "telefono": "981 224 887",
+      "lat": 43.36797,
+      "lon": -8.406358
+    },
+    {
+      "direccion": "San Andres, 33",
+      "concello": "A Coruña",
+      "telefono": "981 222 930",
+      "lat": 43.371387,
+      "lon": -8.400449
+    },
+    {
+      "direccion": "San Juan, 5,",
+      "concello": "A Coruña",
+      "telefono": "981 203 048",
+      "lat": 43.373756,
+      "lon": -8.396455
+    },
+    {
+      "direccion": "San Nicolas, 17",
+      "concello": "A Coruña",
+      "telefono": "981 223 210",
+      "lat": 43.371318,
+      "lon": -8.398779
+    },
+    {
+      "direccion": "San Pedro de Visma, 45",
+      "concello": "A Coruña",
+      "telefono": "981 260 116",
+      "lat": 43.368834,
+      "lon": -8.431952
+    },
+    {
+      "direccion": "San Vicente, 64",
+      "concello": "A Coruña",
+      "telefono": "981 169 066",
+      "lat": 43.353107,
+      "lon": -8.414366
+    },
+    {
+      "direccion": "Santa Luisa de Marillac, 14,",
+      "concello": "A Coruña",
+      "telefono": "981 202 865",
+      "lat": 43.376934,
+      "lon": -8.397587
+    },
+    {
+      "direccion": "Santo Domingo, 8",
+      "concello": "A Coruña",
+      "telefono": "981 208 607",
+      "lat": 43.369824,
+      "lon": -8.392084
+    },
+    {
+      "direccion": "Santuario de Santa Gema, 3",
+      "concello": "A Coruña",
+      "telefono": "981 139 617",
+      "lat": 43.329198,
+      "lon": -8.389418
+    },
+    {
+      "direccion": "Sebastian Martinez Risco, 1",
+      "concello": "A Coruña",
+      "telefono": "981 284 582",
+      "lat": 43.340921,
+      "lon": -8.404665
+    },
+    {
+      "direccion": "Torre, 54",
+      "concello": "A Coruña",
+      "telefono": "981 203 842",
+      "lat": 43.375526,
+      "lon": -8.398146
+    },
+    {
+      "direccion": "Villa de Negreira, 42",
+      "concello": "A Coruña",
+      "telefono": "981 252 438",
+      "lat": 43.363987,
+      "lon": -8.420993
+    },
+    {
+      "direccion": "Viviendas Maria Pita, 5 - Labañou",
+      "concello": "A Coruña",
+      "telefono": "981 253 237",
+      "lat": 43.37424,
+      "lon": -8.423716
+    },
+    {
+      "direccion": "Zalaeta, 6",
+      "concello": "A Coruña",
+      "telefono": "981 207 735",
+      "lat": 43.373535,
+      "lon": -8.40062
+    },
+    {
+      "direccion": "Atrio, S/N",
+      "concello": "Abegondo",
+      "telefono": "981 669 489",
+      "lat": 43.21743,
+      "lon": -8.304748
+    },
+    {
+      "direccion": "Igrexa, 22",
+      "concello": "Abegondo",
+      "telefono": "981 669 425",
+      "lat": 43.242133,
+      "lon": -8.277934
+    },
+    {
+      "direccion": "San Marcos, 2",
+      "concello": "Abegondo",
+      "telefono": "981 673 003",
+      "lat": 43.227058,
+      "lon": -8.288653
+    },
+    {
+      "direccion": "Alcalde Manuel Platas Varela, 83",
+      "concello": "Arteixo",
+      "telefono": "981 601 107",
+      "lat": 43.316982,
+      "lon": -8.482029
+    },
+    {
+      "direccion": "Balneario, 22",
+      "concello": "Arteixo",
+      "telefono": "981 641 392",
+      "lat": 43.304081,
+      "lon": -8.507269
+    },
+    {
+      "direccion": "Balneario, 47 - 49",
+      "concello": "Arteixo",
+      "telefono": "981 600 215",
+      "lat": 43.30514,
+      "lon": -8.508768
+    },
+    {
+      "direccion": "Fisterra, 215",
+      "concello": "Arteixo",
+      "telefono": "981 640 199",
+      "lat": 43.30407,
+      "lon": -8.51234
+    },
+    {
+      "direccion": "Meicende, 113",
+      "concello": "Arteixo",
+      "telefono": "981 272 311",
+      "lat": 43.344517,
+      "lon": -8.449841
+    },
+    {
+      "direccion": "Oseiro, 2",
+      "concello": "Arteixo",
+      "telefono": "981 904 134",
+      "lat": 43.31787,
+      "lon": -8.48963
+    },
+    {
+      "direccion": "Pastoriza, 2",
+      "concello": "Arteixo",
+      "telefono": "981 607 356",
+      "lat": 43.32967,
+      "lon": -8.465112
+    },
+    {
+      "direccion": "Pastoriza, 54",
+      "concello": "Arteixo",
+      "telefono": "981 607 355",
+      "lat": 43.332917,
+      "lon": -8.46718
+    },
+    {
+      "direccion": "Ponte do Ba, 254",
+      "concello": "Arteixo",
+      "telefono": "981 600 801",
+      "lat": 43.30059,
+      "lon": -8.505396
+    },
+    {
+      "direccion": "Rio Miño, 1 - 3",
+      "concello": "Arteixo",
+      "telefono": "981 600 615",
+      "lat": 43.300804,
+      "lon": -8.510686
+    },
+    {
+      "direccion": "Travesia de Uxes, 16",
+      "concello": "Arteixo",
+      "telefono": "981 163 167",
+      "lat": 43.18041,
+      "lon": -8.265682
+    },
+    {
+      "direccion": "Brea (a), S/N",
+      "concello": "Bergondo",
+      "telefono": "981 780 402",
+      "lat": 43.29837,
+      "lon": -8.267828
+    },
+    {
+      "direccion": "Cortes, 20 - Ba",
+      "concello": "Bergondo",
+      "telefono": "981 791 867",
+      "lat": 43.308954,
+      "lon": -8.234592
+    },
+    {
+      "direccion": "Estrada de a Coruña, 3",
+      "concello": "Bergondo",
+      "telefono": "981 791 030",
+      "lat": 43.321347,
+      "lon": -8.229944
+    },
+    {
+      "direccion": "Ferradores, 7",
+      "concello": "Betanzos",
+      "telefono": "981 770 304",
+      "lat": 43.279527,
+      "lon": -8.210096
+    },
+    {
+      "direccion": "Galera, 2",
+      "concello": "Betanzos",
+      "telefono": "881 986 227",
+      "lat": 43.27965,
+      "lon": -8.21342
+    },
+    {
+      "direccion": "Jesus Garcia Naveira, 3",
+      "concello": "Betanzos",
+      "telefono": "981 770 656",
+      "lat": 43.278557,
+      "lon": -8.211085
+    },
+    {
+      "direccion": "Jesus Garcia Naveira, 55,",
+      "concello": "Betanzos",
+      "telefono": "881 986 171",
+      "lat": 43.275878,
+      "lon": -8.213325
+    },
+    {
+      "direccion": "Prateiros, 8,",
+      "concello": "Betanzos",
+      "telefono": "981 770 103",
+      "lat": 43.280673,
+      "lon": -8.209662
+    },
+    {
+      "direccion": "A Patiña, 2",
+      "concello": "Cambre",
+      "telefono": "981 613 231",
+      "lat": 43.289534,
+      "lon": -8.336287
+    },
+    {
+      "direccion": "Cambre-Temple, 21",
+      "concello": "Cambre",
+      "telefono": "881 992 191",
+      "lat": 43.294156,
+      "lon": -8.345002
+    },
+    {
+      "direccion": "Cruceiro, S/N",
+      "concello": "Cambre",
+      "telefono": "981 674 211",
+      "lat": 43.292629,
+      "lon": -8.342237
+    },
+    {
+      "direccion": "Manuel Lugris, 4",
+      "concello": "Cambre",
+      "telefono": "981 903 971",
+      "lat": 43.316478,
+      "lon": -8.353432
+    },
+    {
+      "direccion": "Parroco Manuel Cobas, 3",
+      "concello": "Cambre",
+      "telefono": "881 962 937",
+      "lat": 43.319926,
+      "lon": -8.357616
+    },
+    {
+      "direccion": "Rio Valiña, 1",
+      "concello": "Cambre",
+      "telefono": "881 041 519",
+      "lat": 43.30479,
+      "lon": -8.353431
+    },
+    {
+      "direccion": "Rua do Temple, 15",
+      "concello": "Cambre",
+      "telefono": "981 653 954",
+      "lat": 43.314355,
+      "lon": -8.357787
+    },
+    {
+      "direccion": "Tapia, 31",
+      "concello": "Cambre",
+      "telefono": "981 660 051",
+      "lat": 43.31876,
+      "lon": -8.355329
+    },
+    {
+      "direccion": "Volteiro (o), 10",
+      "concello": "Cambre",
+      "telefono": "981 676 871",
+      "lat": 43.29817,
+      "lon": -8.307814
+    },
+    {
+      "direccion": "Xira, S/N",
+      "concello": "Cambre",
+      "telefono": "981 676 575",
+      "lat": 43.29299,
+      "lon": -8.361331
+    },
+    {
+      "direccion": "Martires, 20",
+      "concello": "Carral",
+      "telefono": "981 670 004",
+      "lat": 43.228641,
+      "lon": -8.355774
+    },
+    {
+      "direccion": "Paraiso, 7",
+      "concello": "Carral",
+      "telefono": "659 019 671",
+      "lat": 43.22478,
+      "lon": -8.36373
+    },
+    {
+      "direccion": "Tarroeira, 36",
+      "concello": "Carral",
+      "telefono": "981 670 602",
+      "lat": 43.250698,
+      "lon": -8.361654
+    },
+    {
+      "direccion": "Alcalde Electo Carballo, 40",
+      "concello": "Culleredo",
+      "telefono": "881 294 507",
+      "lat": 43.322365,
+      "lon": -8.380887
+    },
+    {
+      "direccion": "Alvedro, 9",
+      "concello": "Culleredo",
+      "telefono": "881 084 574",
+      "lat": 43.292951,
+      "lon": -8.369162
+    },
+    {
+      "direccion": "Andres Pan Vieiro, 2",
+      "concello": "Culleredo",
+      "telefono": "881 896 780",
+      "lat": 43.31799,
+      "lon": -8.37041
+    },
+    {
+      "direccion": "Avenida de Vilaboa, 10",
+      "concello": "Culleredo",
+      "telefono": "881 873 830",
+      "lat": 43.308148,
+      "lon": -8.383132
+    },
+    {
+      "direccion": "Concello, 15",
+      "concello": "Culleredo",
+      "telefono": "981 677 656",
+      "lat": 43.288394,
+      "lon": -8.389929
+    },
+    {
+      "direccion": "Galicia, 1",
+      "concello": "Culleredo",
+      "telefono": "981 660 923",
+      "lat": 43.31584,
+      "lon": -8.366003
+    },
+    {
+      "direccion": "Miguel Gonzalez Garces, 2",
+      "concello": "Culleredo",
+      "telefono": "981 287 035",
+      "lat": 43.323791,
+      "lon": -8.38365
+    },
+    {
+      "direccion": "Peiro de Arriba, S/N",
+      "concello": "Culleredo",
+      "telefono": "981 668 516",
+      "lat": 43.251232,
+      "lon": -8.416918
+    },
+    {
+      "direccion": "Rafael Alberti, 12",
+      "concello": "Culleredo",
+      "telefono": "981 650 617",
+      "lat": 43.32622,
+      "lon": -8.381458
+    },
+    {
+      "direccion": "Vilaboa, 175",
+      "concello": "Culleredo",
+      "telefono": "881 916 348",
+      "lat": 43.31859,
+      "lon": -8.38429
+    },
+    {
+      "direccion": "Vilaboa, 65",
+      "concello": "Culleredo",
+      "telefono": "981 660 182",
+      "lat": 43.312546,
+      "lon": -8.382889
+    },
+    {
+      "direccion": "Visitacion de La Encina, 8",
+      "concello": "Culleredo",
+      "telefono": "881 991 457",
+      "lat": 43.316205,
+      "lon": -8.368442
+    },
+    {
+      "direccion": "Areal, 17",
+      "concello": "Oleiros",
+      "telefono": "981 305 417",
+      "lat": 43.330188,
+      "lon": -8.371134
+    },
+    {
+      "direccion": "Camilo Diaz Baliño, 1",
+      "concello": "Oleiros",
+      "telefono": "981 610 027",
+      "lat": 43.332737,
+      "lon": -8.318335
+    },
+    {
+      "direccion": "Das Mariñas, 54",
+      "concello": "Oleiros",
+      "telefono": "981 619 337",
+      "lat": 43.320681,
+      "lon": -8.315561
+    },
+    {
+      "direccion": "Ernesto Che Guevara, 16,",
+      "concello": "Oleiros",
+      "telefono": "881 963 932",
+      "lat": 43.3349,
+      "lon": -8.377454
+    },
+    {
+      "direccion": "Francisco Comesaña, 4 - 6",
+      "concello": "Oleiros",
+      "telefono": "981 614 503",
+      "lat": 43.34722,
+      "lon": -8.3448
+    },
+    {
+      "direccion": "Golfiño, 117, a",
+      "concello": "Oleiros",
+      "telefono": "981 628 165",
+      "lat": 43.387517,
+      "lon": -8.304462
+    },
+    {
+      "direccion": "Isaac Diaz Pardo, 4",
+      "concello": "Oleiros",
+      "telefono": "981 614 184",
+      "lat": 43.336099,
+      "lon": -8.336435
+    },
+    {
+      "direccion": "Mariñas, 247",
+      "concello": "Oleiros",
+      "telefono": "981 663 890",
+      "lat": 43.321007,
+      "lon": -8.35142
+    },
+    {
+      "direccion": "Miramar, 4",
+      "concello": "Oleiros",
+      "telefono": "981 617 937",
+      "lat": 43.382283,
+      "lon": -8.33644
+    },
+    {
+      "direccion": "Republica Argentina, 106",
+      "concello": "Oleiros",
+      "telefono": "981 648 440",
+      "lat": 43.356996,
+      "lon": -8.323758
+    },
+    {
+      "direccion": "Rosalia de Castro, 247",
+      "concello": "Oleiros",
+      "telefono": "981 635 024",
+      "lat": 43.332773,
+      "lon": -8.377098
+    },
+    {
+      "direccion": "Viñas de Babilonia, 10",
+      "concello": "Oleiros",
+      "telefono": "981 923 845",
+      "lat": 43.349201,
+      "lon": -8.344949
+    },
+    {
+      "direccion": "Da Mariña, 42,",
+      "concello": "Sada",
+      "telefono": "981 620 117",
+      "lat": 43.35291,
+      "lon": -8.254124
+    },
+    {
+      "direccion": "España, 2,",
+      "concello": "Sada",
+      "telefono": "981 623 756",
+      "lat": 43.35114,
+      "lon": -8.254011
+    },
+    {
+      "direccion": "Iglesia Nueva, 13,",
+      "concello": "Sada",
+      "telefono": "981 621 749",
+      "lat": 43.35055,
+      "lon": -8.25604
+    },
+    {
+      "direccion": "Mariña, 4",
+      "concello": "Sada",
+      "telefono": "981 620 020",
+      "lat": 43.350147,
+      "lon": -8.252409
+    },
+    {
+      "direccion": "Osedo, 75",
+      "concello": "Sada",
+      "telefono": "981 624 762",
+      "lat": 43.338722,
+      "lon": -8.287521
+    },
+    {
+      "direccion": "Piñeiro, 5, B",
+      "concello": "Sada",
+      "telefono": "981 463 757",
+      "lat": 43.360714,
+      "lon": -8.294559
+    }
+  ]
+}

@@ -1,0 +1,1769 @@
+{
+  "sources": {
+    "tpgal": {
+      "attribution": "Xunta de Galicia · Transporte Público de Galicia",
+      "url": "https://abertos.xunta.gal/es/catalogo/territorio-vivienda-transporte/-/dataset/0557/servicios-transporte-publico-regular-por-carretera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "operators": "https://tpgal-ws-externos.xunta.gal/tpgal_ws/rest/operators/contracts"
+    },
+    "gtfs": {
+      "attribution": "Xunta de Galicia y ALSA · Powered by MITRAMS",
+      "attribution_url": "https://www.transportes.gob.es/",
+      "license": "Licencia de datos abiertos del Ministerio de Transportes y Movilidad Sostenible (NAP)",
+      "license_url": "https://nap.transportes.gob.es/licencia-datos",
+      "xunta": {
+        "url": "https://files.mobilitydatabase.org/mdb-2821/latest.zip",
+        "routes_date": "2026-11-13"
+      },
+      "alsa": {
+        "url": "https://files.mobilitydatabase.org/mdb-2825/latest.zip",
+        "routes_date": "2026-11-18"
+      }
+    }
+  },
+  "municipalities": {
+    "15030": "A Coruña",
+    "15005": "Arteixo",
+    "15058": "Oleiros",
+    "15031": "Culleredo",
+    "15017": "Cambre",
+    "15075": "Sada",
+    "15009": "Betanzos",
+    "15001": "Abegondo",
+    "15008": "Bergondo",
+    "15021": "Carral",
+    "15041": "A Laracha"
+  },
+  "lines": {
+    "E1505002": {
+      "short": null,
+      "long": "Cruce Xenarde - CEIP de Caión"
+    },
+    "E1505014": {
+      "short": null,
+      "long": "Xermaña - IES Agra de Leborís"
+    },
+    "E1505015": {
+      "short": null,
+      "long": "Millarada - IES Agra de Leborís"
+    },
+    "E1509001": {
+      "short": null,
+      "long": "Sta. María de Vigo - IES de Carral"
+    },
+    "E1509002": {
+      "short": null,
+      "long": "Cascaxeiras - IES de Carral"
+    },
+    "E1509003": {
+      "short": null,
+      "long": "Cabancas - IES de Carral"
+    },
+    "E1509004": {
+      "short": null,
+      "long": "A Cabra - IES de Carral"
+    },
+    "E1509005": {
+      "short": null,
+      "long": "O Xalo (granxa) - IES de Carral"
+    },
+    "E1509006": {
+      "short": null,
+      "long": "A Martela - IES de Carral"
+    },
+    "E1509007": {
+      "short": null,
+      "long": "Cabancas - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509008": {
+      "short": null,
+      "long": "A Cabra - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509009": {
+      "short": null,
+      "long": "Sta. María de Vigo - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509010": {
+      "short": null,
+      "long": "Tabeaio - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509011": {
+      "short": null,
+      "long": "O Xalo (granxa) - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509012": {
+      "short": null,
+      "long": "Cascaxeiras - CEIP Plurilingüe Vicente Otero Valcárcel"
+    },
+    "E1509013": {
+      "short": null,
+      "long": "Tras Igrexa - CEIP San Marcos"
+    },
+    "E1517001": {
+      "short": null,
+      "long": "A Campanilla - CEIP San Xosé Obreiro"
+    },
+    "E1517002": {
+      "short": null,
+      "long": "Escola A Cachada - IES Manuel Murguía"
+    },
+    "E1517003": {
+      "short": null,
+      "long": "Santaia de Abaixo - CEIP Ponte dos Brozos"
+    },
+    "E1517004": {
+      "short": null,
+      "long": "Mirón-Monteagudo - CEIP Ponte dos Brozos"
+    },
+    "E1517005": {
+      "short": null,
+      "long": "A Seara - CEIP Ponte dos Brozos"
+    },
+    "E1517006": {
+      "short": null,
+      "long": "San Cristobo - CEIP de Arteixo"
+    },
+    "E1517007": {
+      "short": null,
+      "long": "Urbanización Espíritu Santo - IES de Pastoriza"
+    },
+    "E1517008": {
+      "short": null,
+      "long": "Fronte A Opel - IES de Pastoriza"
+    },
+    "E1517009": {
+      "short": null,
+      "long": "Seixeda III - IES de Pastoriza"
+    },
+    "E1517010": {
+      "short": null,
+      "long": "A Rocha (Nostián) - IES de Pastoriza"
+    },
+    "E1517011": {
+      "short": null,
+      "long": "O Porto Suevos - IES de Pastoriza"
+    },
+    "E1517012": {
+      "short": null,
+      "long": "Travesía de Meicende (As Antorchas) - IES de Pastoriza"
+    },
+    "E1517013": {
+      "short": null,
+      "long": "Santa Leocadia - CEIP de Arteixo"
+    },
+    "E1517014": {
+      "short": null,
+      "long": "A Folgueira - IES Manuel Murguía"
+    },
+    "E1517015": {
+      "short": null,
+      "long": "Monteagudo (zona Arteixo) - IES Manuel Murguía"
+    },
+    "E1517016": {
+      "short": null,
+      "long": "San Cristobo - IES Manuel Murguía"
+    },
+    "E1517017": {
+      "short": null,
+      "long": "Regocheo - IES Manuel Murguía"
+    },
+    "E1517018": {
+      "short": null,
+      "long": "Santa Leocadia - IES Manuel Murguía"
+    },
+    "E1517019": {
+      "short": null,
+      "long": "Alto de Arteixo - IES Manuel Murguía"
+    },
+    "E1517020": {
+      "short": null,
+      "long": "Alto de Arteixo - CEIP de Arteixo"
+    },
+    "E1517021": {
+      "short": null,
+      "long": "Uxes II - CEIP de Galán"
+    },
+    "E1517022": {
+      "short": null,
+      "long": "Galán - CEIP de Galán"
+    },
+    "E1517023": {
+      "short": null,
+      "long": "Quinto Pino - CEIP de Galán"
+    },
+    "E1517024": {
+      "short": null,
+      "long": "Cerv. Sampaio - CEIP de Galán"
+    },
+    "E1517025": {
+      "short": null,
+      "long": "Avenida Pastoriza 3 - CEIP de Galán"
+    },
+    "E1517026": {
+      "short": null,
+      "long": "Travesía de Oseiro - CEIP de Galán"
+    },
+    "E1517027": {
+      "short": null,
+      "long": "A Campanilla - CEIP de Galán"
+    },
+    "E1517028": {
+      "short": null,
+      "long": "Rañobre - CEIP de Galán"
+    },
+    "E1517029": {
+      "short": null,
+      "long": "Regocheo - CEIP de Arteixo"
+    },
+    "E1517030": {
+      "short": null,
+      "long": "Mirón - CEIP Ponte dos Brozos"
+    },
+    "XG632006": {
+      "short": null,
+      "long": "Carballo (centro médico)-Cerceda",
+      "operator": "UTE GALICIA"
+    },
+    "XG632007": {
+      "short": null,
+      "long": "Carballo (centro médico)-Troián de Abaixo",
+      "operator": "UTE GALICIA"
+    },
+    "XG632008": {
+      "short": null,
+      "long": "Carballo (centro médico)-Troián de Abaixo",
+      "operator": "UTE GALICIA"
+    },
+    "XG632009": {
+      "short": null,
+      "long": "Carballo (centro médico)-A Laracha",
+      "operator": "UTE GALICIA"
+    },
+    "XG635003": {
+      "short": null,
+      "long": "A Coruña E.I.-HULA-Lugo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635004": {
+      "short": null,
+      "long": "A Coruña E.I.-Guitiriz-Lugo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635005": {
+      "short": null,
+      "long": "A Coruña E.I.-Ribadeo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635006": {
+      "short": null,
+      "long": "A Coruña E.I.-Viveiro E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635013": {
+      "short": null,
+      "long": "Canzobre-A Coruña E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635021": {
+      "short": null,
+      "long": "A Coruña E.I.-Matogrande-HULA-Lugo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635022": {
+      "short": null,
+      "long": "Liña Conecta A Coruña-Lugo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG635023": {
+      "short": null,
+      "long": "Liña Conecta A Coruña (Marineda City)-Lugo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG639001": {
+      "short": null,
+      "long": "Betanzos (praza)-O Casal de Riba",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG639002": {
+      "short": null,
+      "long": "Betanzos (praza)-O Chao da Viña",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG639011": {
+      "short": null,
+      "long": "Betanzos (institutos)-O Casal de Riba",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG639012": {
+      "short": null,
+      "long": "Betanzos (institutos)-O Chao da Viña",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG639013": {
+      "short": null,
+      "long": "Betanzos (praza)-O Casal de Riba",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG709014": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Cortiñán (O Casal)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG800033": {
+      "short": null,
+      "long": "Cerceda (centro saúde)-O Xalo (interior)",
+      "operator": "UTE XG-800"
+    },
+    "XG800034": {
+      "short": null,
+      "long": "Cerceda (centro saúde)-Mantiñán",
+      "operator": "UTE XG-800"
+    },
+    "XG800043": {
+      "short": null,
+      "long": "Cerceda (centro saúde)-O Xalo (interior)",
+      "operator": "UTE XG-800"
+    },
+    "XG800076": {
+      "short": null,
+      "long": "IES Maruxa Mallo-Merelle",
+      "operator": "UTE XG-800"
+    },
+    "XG811008": {
+      "short": null,
+      "long": "A Laracha (concello)-Santiago E.I.",
+      "operator": "UTE GALICIA XG-811"
+    },
+    "XG817004": {
+      "short": null,
+      "long": "A Coruña-AP-9-Santiago-Noia-Muros (por Gándara)",
+      "operator": "UTE XG-817"
+    },
+    "XG817005": {
+      "short": null,
+      "long": "A Coruña-AP-9-Santiago-Bertamiráns-Noia-Muros",
+      "operator": "UTE XG-817"
+    },
+    "XG817006": {
+      "short": null,
+      "long": "A Coruña (por Alfonso Molina)-Santiago-Pontevedra-Vigo (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817007": {
+      "short": null,
+      "long": "A Coruña-Santiago-Pontevedra-Vigo (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817008": {
+      "short": null,
+      "long": "A Coruña (por Materno)-Santiago",
+      "operator": "UTE XG-817"
+    },
+    "XG817009": {
+      "short": null,
+      "long": "A Coruña (por Salesianos)-Santiago (por AP-9 e San Lázaro)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817010": {
+      "short": null,
+      "long": "A Coruña-Santiago (por AP-9 e San Lázaro directo)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817011": {
+      "short": null,
+      "long": "A Coruña (por Os Rosales)-Santiago (por AP-9 e San Lázaro)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817012": {
+      "short": null,
+      "long": "A Coruña-O Temple-Santiago (por AP-9)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817013": {
+      "short": null,
+      "long": "A Coruña (por Obelisco)-Santiago (por AP-9 e San Lázaro)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817014": {
+      "short": null,
+      "long": "A Coruña-Ordes-Sigüeiro-Santiago-Pontevedra-Vigo (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817019": {
+      "short": null,
+      "long": "Betanzos-O Mesón do Vento-Ordes-Santiago",
+      "operator": "UTE XG-817"
+    },
+    "XG817020": {
+      "short": null,
+      "long": "Betanzos-Santiago (por AP-9)(X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817025": {
+      "short": null,
+      "long": "A Coruña-Santiago-Bandeira-Silleda-Lalín-Ourense (por autoestrada)",
+      "operator": "UTE XG-817"
+    },
+    "XG817041": {
+      "short": null,
+      "long": "A Coruña-AP-9-Santiago-Padrón-Caldas de Reis-Pontevedra-AP-9-Vigo",
+      "operator": "UTE XG-817"
+    },
+    "XG817044": {
+      "short": null,
+      "long": "A Coruña-Ordes-Santiago-Padrón-Vilagarcía-Vilanova-Cambados-Vilalonga-O Grove-A Toxa",
+      "operator": "UTE XG-817"
+    },
+    "XG817051": {
+      "short": null,
+      "long": "A Coruña-Aeroporto da Lavacolla",
+      "operator": "UTE XG-817"
+    },
+    "XG817057": {
+      "short": null,
+      "long": "A Coruña-San Lázaro-Santiago (X)",
+      "operator": "UTE XG-817"
+    },
+    "XG817062": {
+      "short": null,
+      "long": "A Coruña-Ordes-Santiago",
+      "operator": "UTE XG-817"
+    },
+    "XG817063": {
+      "short": null,
+      "long": "A Coruña-Materno-Santiago-Pontevedra-Vigo (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817064": {
+      "short": null,
+      "long": "A Coruña-AP-9-O Burgo (área de servizo)",
+      "operator": "UTE XG-817"
+    },
+    "XG817066": {
+      "short": null,
+      "long": "Ferrol-O Burgo (área de servizo)-AP-9-Santiago-Figueirido (por N-550)",
+      "operator": "UTE XG-817"
+    },
+    "XG817079": {
+      "short": null,
+      "long": "A Coruña-Santiago-Pontevedra-Vigo (por AP-9 e San Caetano)",
+      "operator": "UTE XG-817"
+    },
+    "XG817085": {
+      "short": null,
+      "long": "A Coruña-Santiago (por San Lázaro)-Pontevedra-Vigo (por AP-9 e San Caetano)",
+      "operator": "UTE XG-817"
+    },
+    "XG817092": {
+      "short": null,
+      "long": "A Coruña-Ordes-Santiago",
+      "operator": "UTE XG-817"
+    },
+    "XG817093": {
+      "short": null,
+      "long": "Betanzos-O Mesón do Vento-Santiago (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817109": {
+      "short": null,
+      "long": "A Coruña-Aeroporto de Lavacolla-Pontevedra-Vigo (por San Lázaro)",
+      "operator": "UTE XG-817"
+    },
+    "XG817110": {
+      "short": null,
+      "long": "A Coruña-Aeroporto de Lavacolla-Pontevedra-Vigo",
+      "operator": "UTE XG-817"
+    },
+    "XG817114": {
+      "short": null,
+      "long": "A Coruña-Santiago (por San Lázaro)-Pontevedra-Vigo (por AP-9)",
+      "operator": "UTE XG-817"
+    },
+    "XG817123": {
+      "short": null,
+      "long": "A Coruña-AP9-H.Conxo-CHUS-Santiago-Lalín-Ourense-Verín",
+      "operator": "UTE XG-817"
+    },
+    "XG817128": {
+      "short": null,
+      "long": "Santiago-Ordes-A Coruña",
+      "operator": "UTE XG-817"
+    },
+    "XG843003": {
+      "short": null,
+      "long": "A Coruña E.I. - Ferrol E.A. - Viveiro E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843004": {
+      "short": null,
+      "long": "Ourense E.I.-A Coruña E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843005": {
+      "short": null,
+      "long": "A Coruña (Teatro Colón)-Ourense E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843006": {
+      "short": null,
+      "long": "A Coruña (Teatro Colón)-Ourense E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843007": {
+      "short": null,
+      "long": "Ourense E.I.-A Coruña E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843010": {
+      "short": null,
+      "long": "Viveiro E.A.-As Pontes-A Coruña E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843011": {
+      "short": null,
+      "long": "Oza dos Ríos (marquesiña)-Betanzos (praza)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843015": {
+      "short": null,
+      "long": "Lalín E.A.-Betanzos (praza)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG843016": {
+      "short": null,
+      "long": "As Pontes-A Coruña E.I.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG846001": {
+      "short": null,
+      "long": "Viós (instituto)-Betanzos (biblioteca)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846002": {
+      "short": null,
+      "long": "Tabeaio-Betanzos (praza)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846005": {
+      "short": null,
+      "long": "Betanzos (praza)-San Paio de Guísamo-Betanzos (praza)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846006": {
+      "short": null,
+      "long": "Betanzos (praza)-Betanzos (praza)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846007": {
+      "short": null,
+      "long": "A Coruña E.I.-Montouto",
+      "operator": "UTE HERCULES"
+    },
+    "XG846008": {
+      "short": null,
+      "long": "Betanzos (praza)-Rilo",
+      "operator": "UTE HERCULES"
+    },
+    "XG846009": {
+      "short": null,
+      "long": "Betanzos (praza)-Porzomillos",
+      "operator": "UTE HERCULES"
+    },
+    "XG846010": {
+      "short": null,
+      "long": "San Pedro de Presaras-A Coruña E.I.",
+      "operator": "UTE HERCULES"
+    },
+    "XG846011": {
+      "short": null,
+      "long": "A Coruña E.I.-San Pedro de Presaras",
+      "operator": "UTE HERCULES"
+    },
+    "XG846012": {
+      "short": null,
+      "long": "A Coruña E.I.-Boimorto (concello)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846014": {
+      "short": null,
+      "long": "A Coruña E.I.-Pravio-Montouto",
+      "operator": "UTE HERCULES"
+    },
+    "XG846015": {
+      "short": null,
+      "long": "IES de Viós-Meizoso",
+      "operator": "UTE HERCULES"
+    },
+    "XG846016": {
+      "short": null,
+      "long": "IES de Viós-San Román",
+      "operator": "UTE HERCULES"
+    },
+    "XG846017": {
+      "short": null,
+      "long": "IES de Viós-A Torre (casa Miguel)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846018": {
+      "short": null,
+      "long": "IES de Viós-Barrio",
+      "operator": "UTE HERCULES"
+    },
+    "XG846019": {
+      "short": null,
+      "long": "IES de Viós-Cancelada",
+      "operator": "UTE HERCULES"
+    },
+    "XG846020": {
+      "short": null,
+      "long": "IES de Viós-O Couto",
+      "operator": "UTE HERCULES"
+    },
+    "XG846035": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-O Freixo (Oza)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846036": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-A Regueira (Filgueira de Traba)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846037": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-Os Currás",
+      "operator": "UTE HERCULES"
+    },
+    "XG846038": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-O Forte (colexio)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846039": {
+      "short": null,
+      "long": "IES As Mariñas-Os Cousos",
+      "operator": "UTE HERCULES"
+    },
+    "XG846040": {
+      "short": null,
+      "long": "CEIP San Marcos-Vilacova (igrexa)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846041": {
+      "short": null,
+      "long": "Abegondo-Vilar (Meangos)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846042": {
+      "short": null,
+      "long": "Abegondo (centro saúde)-Ascarís (cruzamento)",
+      "operator": "UTE HERCULES"
+    },
+    "XG846043": {
+      "short": null,
+      "long": "CEIP San Marcos-Seixurra",
+      "operator": "UTE HERCULES"
+    },
+    "XG846044": {
+      "short": null,
+      "long": "Abegondo (centro saúde)-Beade",
+      "operator": "UTE HERCULES"
+    },
+    "XG846045": {
+      "short": null,
+      "long": "Abegondo (centro saúde)-Torrente",
+      "operator": "UTE HERCULES"
+    },
+    "XG846046": {
+      "short": null,
+      "long": "Abegondo (centro saúde)-Torrente",
+      "operator": "UTE HERCULES"
+    },
+    "XG846049": {
+      "short": null,
+      "long": "A Coruña E.I.-Pravio-Montouto-Mesía",
+      "operator": "UTE HERCULES"
+    },
+    "XG846050": {
+      "short": null,
+      "long": "A Tarroeira-Gosende",
+      "operator": "UTE HERCULES"
+    },
+    "XG848003": {
+      "short": null,
+      "long": "A Coruña E.I.-Rañobre-Boedo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848004": {
+      "short": null,
+      "long": "A Coruña E.I.-Boedo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848005": {
+      "short": null,
+      "long": "A Coruña E.I.-Pol. de Sabón I",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848006": {
+      "short": null,
+      "long": "A Coruña E.I.-Castrillón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848007": {
+      "short": null,
+      "long": "Caión-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848008": {
+      "short": null,
+      "long": "A Coruña E.I.-Caión",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848009": {
+      "short": null,
+      "long": "Castrillón-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848010": {
+      "short": null,
+      "long": "Teatro Colón-Caión",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848011": {
+      "short": null,
+      "long": "Teatro Colón-Fisterra",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848012": {
+      "short": null,
+      "long": "Teatro Colón-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848013": {
+      "short": null,
+      "long": "A Laracha (concello)-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848014": {
+      "short": null,
+      "long": "A Coruña E.I.-A Laracha (concello)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848015": {
+      "short": null,
+      "long": "Teatro Colón-Arteixo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848016": {
+      "short": null,
+      "long": "A Coruña E.I.-Ronda de Outeiro-Vimianzo-Muxía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848018": {
+      "short": null,
+      "long": "A Coruña E.I.-Laxe-Muxía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848021": {
+      "short": null,
+      "long": "A Coruña E.I.-Vimianzo-Muxía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848022": {
+      "short": null,
+      "long": "A Coruña E.I.-Faro Fisterra",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848023": {
+      "short": null,
+      "long": "A Coruña E.I.-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848024": {
+      "short": null,
+      "long": "A Coruña E.I.-Fisterra",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848025": {
+      "short": null,
+      "long": "A Coruña E.I.-Muros",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848027": {
+      "short": null,
+      "long": "A Coruña E.I.-Santa Comba",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848028": {
+      "short": null,
+      "long": "A Coruña E.I.-Ronda de Outeiro-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848029": {
+      "short": null,
+      "long": "Teatro Colón-Monteagudo (zona Arteixo)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848030": {
+      "short": null,
+      "long": "A Coruña E.I.-Ronda de Outeiro-Polígono de Sabón-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848031": {
+      "short": null,
+      "long": "A Laracha (concello)-Caión",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848032": {
+      "short": null,
+      "long": "O Ramallal (O Regueiro)-Caión",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848033": {
+      "short": null,
+      "long": "A Laracha (concello)-O Ramallal (O Regueiro)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848034": {
+      "short": null,
+      "long": "A Laracha (concello)-Cumiáns",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848036": {
+      "short": null,
+      "long": "A Coruña E.I.-Meicende-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848037": {
+      "short": null,
+      "long": "A Coruña E.I.-Corme-Muxía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848042": {
+      "short": null,
+      "long": "A Coruña E.I.-Meicende-Polígono de Sabón-Carballo E.A.",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848043": {
+      "short": null,
+      "long": "A Coruña E.I.-Arteixo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848044": {
+      "short": null,
+      "long": "A Coruña E.I.-Pol. de Sabón (Mercadona)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848049": {
+      "short": null,
+      "long": "A Coruña E.I.-Malpica-Muxía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848052": {
+      "short": null,
+      "long": "A Laracha (concello)-Cumiáns II",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848053": {
+      "short": null,
+      "long": "A Laracha (concello)-A Lagarteira",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848054": {
+      "short": null,
+      "long": "A Laracha (concello)-O Campo de Trixezo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848055": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-San Román (igrexa)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848056": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-A Xesteira (parrillada)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848057": {
+      "short": null,
+      "long": "A Laracha (concello)-Erboedo de Abaixo-Grixario",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848058": {
+      "short": null,
+      "long": "A Laracha (concello)-As Rañeiras (marxe contraria)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848059": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-Vilanova (cruzamento)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848060": {
+      "short": null,
+      "long": "CEIP Alfredo Brañas-Centulle",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848061": {
+      "short": null,
+      "long": "A Laracha (concello)-Freón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848062": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-Cumiáns II",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848063": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-A Calvela",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848064": {
+      "short": null,
+      "long": "A Laracha (concello)-A Gatuñeira",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848065": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-O Grixario",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848066": {
+      "short": null,
+      "long": "A Laracha (centro saúde)-Ribela",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848067": {
+      "short": null,
+      "long": "A Laracha (concello)-Boimir (Leira da Cruz)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848068": {
+      "short": null,
+      "long": "A Laracha (concello)-Bragunde",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848069": {
+      "short": null,
+      "long": "A Laracha (concello)-A Pedreira",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848070": {
+      "short": null,
+      "long": "A Laracha (concello)-Mirón (Monteagudo)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848071": {
+      "short": null,
+      "long": "A Laracha (concello)-A Laracha (praza)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848072": {
+      "short": null,
+      "long": "Teatro Colón-Caión (por O Seixo)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848073": {
+      "short": null,
+      "long": "A Coruña E.I.-Laxe",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848074": {
+      "short": null,
+      "long": "A Coruña E.I.-Muros",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848076": {
+      "short": null,
+      "long": "A Coruña E.I.-Carballo E.A.-Buño",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848077": {
+      "short": null,
+      "long": "Teatro Colón-Castrillon (por O Seixo)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848078": {
+      "short": null,
+      "long": "Caión-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848079": {
+      "short": null,
+      "long": "Carballo E.A.-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848080": {
+      "short": null,
+      "long": "Arteixo-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848081": {
+      "short": null,
+      "long": "Monteagudo (zona Arteixo)-Teatro Colón",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848082": {
+      "short": null,
+      "long": "Caión-Teatro Colón (por O Seixo)",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848090": {
+      "short": null,
+      "long": "Arteixo: Meicende-Meicende",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848091": {
+      "short": null,
+      "long": "Arteixo: Monte das Arcas-Institutos",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848093": {
+      "short": null,
+      "long": "Arteixo: Rañobre-Oficina Turismo",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848094": {
+      "short": null,
+      "long": "Arteixo: Centro Médico-Sorrizo-Barrañán-Centro Médico",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848096": {
+      "short": null,
+      "long": "Arteixo: Centro Médico-Larín-Monteagudo-Armentón-Centro Médico",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG848099": {
+      "short": null,
+      "long": "Arteixo: Institutos-Loureda-Fortesende-Morás-Santa Icía",
+      "operator": "Autos Carballo, S.L.U."
+    },
+    "XG871005": {
+      "short": null,
+      "long": "A Coruña E.I.-San Isidro-Ferrol E.A. (por Pedrido e Laraxe)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871006": {
+      "short": null,
+      "long": "Ferrol E.A.-A Coruña E.I. (directo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871007": {
+      "short": null,
+      "long": "Ferrol E.A.-CHUAC-A Coruña E.I. (directo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871009": {
+      "short": null,
+      "long": "Betanzos (institutos)-Ponte Aranga",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871010": {
+      "short": null,
+      "long": "Betanzos (institutos)-A Torre Lavandeira-Sobrado",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871011": {
+      "short": null,
+      "long": "Betanzos (institutos)-Montesalgueiro-Sobrado",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871013": {
+      "short": null,
+      "long": "Betanzos (institutos)-Monfero (concello)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871029": {
+      "short": null,
+      "long": "Pazo da Merced-Campus-A Coruña E.I.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871031": {
+      "short": null,
+      "long": "Pazo da Merced-Domus",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871035": {
+      "short": null,
+      "long": "A Coruña E.I.-Ferrol E.A.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871038": {
+      "short": null,
+      "long": "A Coruña E.I.-Ferrol E.A. (por Pedrido e Neda)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871040": {
+      "short": null,
+      "long": "Betanzos (praza)-Teatro Colón",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871041": {
+      "short": null,
+      "long": "Teatro Colón-Polígono Bergondo-Betanzos (praza)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871042": {
+      "short": null,
+      "long": "Betanzos (praza)-Polígono Bergondo-A Coruña E.I.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871043": {
+      "short": null,
+      "long": "Teatro Colón-Betanzos-Ferrol E.A.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871045": {
+      "short": null,
+      "long": "Teatro Colón-San Pedro de Nós-Betanzos (praza)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871048": {
+      "short": null,
+      "long": "Betanzos (praza)-Teatro Colón-Betanzos (praza)(circular)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871052": {
+      "short": null,
+      "long": "IES Isaac Díaz Pardo-Seixeda (gasolineira)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871056": {
+      "short": null,
+      "long": "CEIP Pedro Barrié de la Maza-O Castro",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871057": {
+      "short": null,
+      "long": "CEIP Pedro Barrié de la Maza-Avda. de Posse",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871060": {
+      "short": null,
+      "long": "Betanzos (praza)-A Carballeira (Vilarraso)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871061": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-Cerdelo",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871063": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-Vilamourel",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871064": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-As Poceiras",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871065": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-A Ponte do Porco-Miño II",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871066": {
+      "short": null,
+      "long": "CEIP Francisco Vales Villamarín-Caresma",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871067": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-Pedra Partida",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871068": {
+      "short": null,
+      "long": "Betanzos (centro saúde)-A Ponte Baxoi",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871069": {
+      "short": null,
+      "long": "Bergondo (centro saúde)-Ferreiros",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871070": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Restaurante Novo Varela",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871071": {
+      "short": null,
+      "long": "Bergondo (centro saúde)-Gandarío (bar Mallorca)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871072": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Restaurante Novo Varela",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871073": {
+      "short": null,
+      "long": "Bergondo (centro saúde)-Santa Marta (bar)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871074": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Guísamo",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871075": {
+      "short": null,
+      "long": "Bergondo (centro saúde)-Raxás",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871076": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Raxás",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871077": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Cortiñán (O Casal)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871078": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-Guísamo",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871079": {
+      "short": null,
+      "long": "CPI de Cruz do Sar-San Paio (Guísamo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871080": {
+      "short": null,
+      "long": "Ferrol E.A.-Betanzos-Teatro Colón (por AP-9 dende Betanzos)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871082": {
+      "short": null,
+      "long": "San Isidro-Ferrol E.A.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871083": {
+      "short": null,
+      "long": "Ferrol E.A.-A Coruña E.I. (directo por Campus)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871089": {
+      "short": null,
+      "long": "Ferrol E.A.-Campus de Riazor",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871090": {
+      "short": null,
+      "long": "Ronda de Nelle-Campus Riazor-Pazo da Merced",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871091": {
+      "short": null,
+      "long": "CHUAC-O Burgo (área de servizo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871094": {
+      "short": null,
+      "long": "Pazo da Merced - A Maestranza",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871095": {
+      "short": null,
+      "long": "O Burgo (área de servizo)-Orillamar 96 (xeriátrico)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871096": {
+      "short": null,
+      "long": "Betanzos praza-A Coruña E.I. (express)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871097": {
+      "short": null,
+      "long": "Ferrol E.A.-Betanzos-A Coruña E.I. (por AP-9 dende Betanzos)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871098": {
+      "short": null,
+      "long": "A Coruña E.I.-Ferrol E.A. (por Pedrido e Gallada)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871102": {
+      "short": null,
+      "long": "Ferrol E.A.-Alfonso Molina (E.A.)(directo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871107": {
+      "short": null,
+      "long": "Betanzos (praza)-Teixeiro (centro penal)(por A-6)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871111": {
+      "short": null,
+      "long": "Pontedeume-Miño-Betanzos-A Coruña E.I. (por AP-9 dende Betanzos)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871117": {
+      "short": null,
+      "long": "Betanzos (institutos)-Miño-Pontedeume-Ferrol E.A.",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG871118": {
+      "short": null,
+      "long": "Betanzos (praza)-A Coruña-Betanzos (praza)(por polígono de Bergondo)",
+      "operator": "UTE HÉRCULES NORTE"
+    },
+    "XG881001": {
+      "short": "B1",
+      "long": "San Pedro de Nós-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881002": {
+      "short": "B3",
+      "long": "IES Miraflores (piscina Piñeiro)-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881003": {
+      "short": null,
+      "long": "Sada (hotel Sada Palace)-Oleiros-San Pedro de Nós-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881004": {
+      "short": "B8",
+      "long": "Sada hotel Sada Palace-Santa Cruz-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881005": {
+      "short": "D7",
+      "long": "Sada (hotel Sada Palace)-Betanzos (praza)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881006": {
+      "short": "D7",
+      "long": "Betanzos (praza)-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881007": {
+      "short": "B9",
+      "long": "Lorbé-Mera-Rialta-Santa Cruz-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881008": {
+      "short": "B12",
+      "long": "Concello de Sada-Dexo-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881009": {
+      "short": "B13",
+      "long": "Sada (concello)-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881010": {
+      "short": "B14",
+      "long": "Concello de Sada-Carnoedo-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881012": {
+      "short": "A4",
+      "long": "Hospital Abente y Lago-Aeroporto de Alvedro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881014": {
+      "short": null,
+      "long": "Teatro Colón-Urbanizacion Monte Xalo",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881015": {
+      "short": "A8",
+      "long": "Urbanizacion Monte Xalo-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881016": {
+      "short": "C1",
+      "long": "Teatro Colón-A Silva",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881018": {
+      "short": "A1",
+      "long": "Teatro Colón-Univers. Laboral-Os Campons",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881019": {
+      "short": "D1",
+      "long": "Univ. Laboral-A Cabana-Os Campons-Carral Panteon-Tabeaio",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881021": {
+      "short": "B17",
+      "long": "Teatro Colón-Orro-Ledoño-Peiro Canteiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881022": {
+      "short": "B17",
+      "long": "Peiro Canteiro-Ledoño-Orro-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881023": {
+      "short": "B18",
+      "long": "Teatro Colón-Ledoño-Bregua-Peiro Canteiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881024": {
+      "short": "B18",
+      "long": "Peiro Canteiro-Bregua-Ledoño-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881026": {
+      "short": "B4",
+      "long": "Soñeiro-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881027": {
+      "short": "B5",
+      "long": "Pousada II-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881031": {
+      "short": null,
+      "long": "Sada (hotel Sada Palace)-Armuño-Pol. Ind. Esp. Santo-Soñeiro-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881032": {
+      "short": "B10",
+      "long": "Teatro Colón-Santa Cruz-Pousada (residencia)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881033": {
+      "short": "B11",
+      "long": "Soñeiro-Franzomel-Santa Cruz-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881034": {
+      "short": "A6",
+      "long": "Teatro Colón-Santa María de Vigo",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881035": {
+      "short": "A9",
+      "long": "Teatro Colón-Tarrío",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881037": {
+      "short": "A2",
+      "long": "Teatro Colón-Cambre-A Patiña",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881038": {
+      "short": "A3",
+      "long": "Teatro Colón-A Barcala-Cambre-Lema",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881039": {
+      "short": "B16",
+      "long": "Hospital Abente y Lago-Santa María de Vigo",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881040": {
+      "short": "B7",
+      "long": "Hospital Abente y Lago-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881041": {
+      "short": "B2",
+      "long": "Hospital Abente y Lago-Cambre-A Patiña II",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881042": {
+      "short": "D2",
+      "long": "A Barcala-Arteixo (por polígonos)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881043": {
+      "short": null,
+      "long": "Aeroporto de Alverdro-Aeroporto de Alvedro (circular polo Burgo)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881045": {
+      "short": "A7",
+      "long": "Teatro Colón-Carral (núcleo)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881047": {
+      "short": null,
+      "long": "Sada (hotel Sada Palace)-Sada (centro saúde)-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881048": {
+      "short": null,
+      "long": "Betanzos (praza)- Sada (centro saúde)-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881049": {
+      "short": null,
+      "long": "Teatro Colón-Univ.. Laboral-A Barcala-Cambre-A Patiña-Os Campons",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881050": {
+      "short": null,
+      "long": "Sada (hotel Sada Palace)-Aeroporto de Alvedro-UDC (por polígonos)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881051": {
+      "short": "B1",
+      "long": "Teatro Colón-San Pedro de Nós",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881052": {
+      "short": "B3",
+      "long": "Teatro Colón-IES Miraflores (piscina Piñeiro)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881053": {
+      "short": null,
+      "long": "Teatro Colón-San Pedro de Nós-Oleiros-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881054": {
+      "short": "B8",
+      "long": "Teatro Colón-Santa Cruz-Sada (hotel Sada Palace)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881055": {
+      "short": "B9",
+      "long": "Teatro Colón-Santa Cruz-Rialta-Mera-A Valexa",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881057": {
+      "short": "B13",
+      "long": "Teatro Colón-Sada (concello)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881058": {
+      "short": "B14",
+      "long": "Teatro Colón-Carnoedo-Sada (concello)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881061": {
+      "short": "C1",
+      "long": "A Silva-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881062": {
+      "short": "A1",
+      "long": "Os Campons-Univ. Laboral-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881063": {
+      "short": "B4",
+      "long": "Teatro Colón-Soñeiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881064": {
+      "short": "B5",
+      "long": "Teatro Colón-Pousada II",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881065": {
+      "short": "B10",
+      "long": "Pousada 4 Residencia-Santa Cruz-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881066": {
+      "short": "B11",
+      "long": "Teatro Colón-Santa Cruz-Franzomel-Soñeiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881067": {
+      "short": "A6",
+      "long": "Santa María de Vigo-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881068": {
+      "short": "A9",
+      "long": "Tarrío-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881069": {
+      "short": "A2",
+      "long": "A Patiña-Cambre-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881070": {
+      "short": "A3",
+      "long": "Lema-Cambre-A Barcala-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881071": {
+      "short": "B16",
+      "long": "Santa María de Vigo-Hospital Abente y Lago",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881072": {
+      "short": "B7",
+      "long": "Sada (hotel Sada Palace)-Hospital Abente y Lago",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881073": {
+      "short": "B2",
+      "long": "A PATIÑA II-CAMBRE-HOSPITAL ABENTE Y LAGO",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881074": {
+      "short": "A7",
+      "long": "Carral (núcleo)-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881076": {
+      "short": null,
+      "long": "Os Campons-A Patiña-Cambre-A Barcala-Univ. Laboral-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881077": {
+      "short": null,
+      "long": "UDC-Aeroporto de Alvedro-Sada (hotel Sada Palace)- (por polígonos)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881078": {
+      "short": "A10",
+      "long": "Teatro Colón-Carral Panteón-Cañás",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881079": {
+      "short": "A10",
+      "long": "Cañás-Carral Panteón-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881080": {
+      "short": null,
+      "long": "Teatro Colón-Oleiros (Concello)-Pol. de Iñás-IES Miraflores (piscina Piñeiro)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881084": {
+      "short": "B22",
+      "long": "Tarrío-Celas-Peiro-Orro-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881085": {
+      "short": "B23",
+      "long": "Teatro Colón-Orro-Peiro-Celas-Tarrío",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881086": {
+      "short": "B19",
+      "long": "Peiro Canteiro-Ledoño-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881087": {
+      "short": "B21",
+      "long": "Teatro Colón-Celas-Peiro Canteiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881088": {
+      "short": "B21",
+      "long": "Peiro Canteiro-Celas-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881089": {
+      "short": "B19",
+      "long": "Teatro Colón-Ledoño-Peiro Canteiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881091": {
+      "short": "175",
+      "long": "Cambre: Cambre-Anceis-Andeiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881092": {
+      "short": "176",
+      "long": "Cambre: Cambre-Espíritu Santo (polígono)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881093": {
+      "short": "177",
+      "long": "Cambre: Cambre-Cruce Meixigo-San Lourenzo",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881094": {
+      "short": null,
+      "long": "Culleredo: O Burgo Edificio usos múltiples-Peiro Canteiro",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881095": {
+      "short": "175",
+      "long": "CAMBRE: ANDEIRO-ALTAMIRA-CAMBRE",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881096": {
+      "short": "176",
+      "long": "Cambre: Espíritu Santo (polígono)-Cambre",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881097": {
+      "short": "177",
+      "long": "Cambre: San Lourenzo-Cruce Meixigo-Cambre",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881098": {
+      "short": "176",
+      "long": "Cambre: Cambre-Mota-Espíritu Santo (polígono)-Cambre",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881100": {
+      "short": "D5",
+      "long": "Aeroporto de A Coruña-Concello de Sada (por Polígonos)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881101": {
+      "short": null,
+      "long": "O Burgo (praza de Galicia)-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881102": {
+      "short": null,
+      "long": "A Barcala-Univ. Laboral-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881103": {
+      "short": null,
+      "long": "A Patiña-Cambre-A Barcala-Univ. Laboral-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881104": {
+      "short": null,
+      "long": "Sada (hotel Sada Palace)-Aeroporto de Alvedro (por polígonos)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881119": {
+      "short": "C1",
+      "long": "Teatro Colón-A Silva (por Parque acuático Cerceda)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881120": {
+      "short": "D10",
+      "long": "Sada (concello)-A Valexa",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881121": {
+      "short": "D10",
+      "long": "A Valexa-Sada (concello)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881122": {
+      "short": "B14",
+      "long": "Sada (concello)-Carnoedo-Teatro Colón (por Rialta)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881123": {
+      "short": null,
+      "long": "Univ. Laboral-A Cabana-Os Campons-Carral Panteon-Tabeaio (por Taramuño)",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    },
+    "XG881126": {
+      "short": null,
+      "long": "Teatro Colón-A Ponte Lago-Teatro Colón",
+      "operator": "UTE XG-881 LESTE DA COMARCA DA CORUÑA"
+    }
+  }
+}

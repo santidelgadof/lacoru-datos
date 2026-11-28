@@ -1,0 +1,59 @@
+{
+ "generated_at": "2026-11-23T15:52:47.456958+00:00",
+ "files": {
+  "coruna.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 18317331,
+   "sha256": "6ca30f859d1b0f4617140b51127cd6ad4bc5eb02cc0bde88884631c2194cf321",
+   "build": "20261123"
+  },
+  "volumenes.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 4994593,
+   "sha256": "31073aebeb056e34c0717bab7dab0a34212f8d6c9f5be2deecafe0ce3ab8ffb8"
+  },
+  "relieve.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 3272950,
+   "sha256": "12eeee15c5e578c337f9944843ba0da2b877176703119dc1dbc4caf90a716e3f"
+  },
+  "provincia.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 14412763,
+   "sha256": "53ed7eea4b823f6ecb182a1ec5e4d5de332eae44078a0054d4208efb900ced16",
+   "build": "20261123"
+  },
+  "norte.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 10403421,
+   "sha256": "31287a69f36ab7472903f1fe3dcf2c3a6ee89213443fb0b88c803ae1f6ca75c0",
+   "build": "20261123"
+  },
+  "oeste.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 19573902,
+   "sha256": "454d73aadc9a0d626b75cc390db15dbed92dd08b9adf888a9e744db901516e64",
+   "build": "20261123"
+  },
+  "sur.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 29049695,
+   "sha256": "1ef22ba8a66adfeab75e2229a9f0f0d7175d1f4c4a8952ebb73529a66549f538",
+   "build": "20261123"
+  },
+  "este.pmtiles": {
+   "v": "20261123",
+   "generated_at": "2026-11-23T15:52:47.456958+00:00",
+   "bytes": 5874955,
+   "sha256": "8b19a6c15889074ccb9ea49415d97695447f5dca6a875a658395818605922d0f",
+   "build": "20261123"
+  }
+ }
+}
